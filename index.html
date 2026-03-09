@@ -2,61 +2,185 @@
 <html lang="fr">
 
 <head>
+
 <meta charset="UTF-8">
 <title>ZORAN Corpus Archive</title>
+
+<meta name="description" content="Archives scientifiques du corpus ZORAN de Frédéric Tabary. Loi de la cohérence phénoménale, IA, systèmes complexes, conscience, physique.">
+<meta name="keywords" content="Zoran, cohérence phénoménale, IA, systèmes complexes, physique, conscience, Frédéric Tabary">
+<meta name="author" content="Frédéric Tabary">
+
 <link rel="stylesheet" href="style.css">
+
+<style>
+
+body{
+font-family:Arial,Helvetica,sans-serif;
+margin:0;
+background:#f2f4f8;
+}
+
+header{
+background:#0b2545;
+color:white;
+text-align:center;
+padding:60px 20px;
+}
+
+header img{
+width:110px;
+margin-bottom:15px;
+}
+
+header h1{
+margin:0;
+font-size:34px;
+}
+
+header p{
+opacity:0.8;
+margin-top:10px;
+}
+
+.container{
+max-width:1000px;
+margin:auto;
+padding:40px 20px;
+}
+
+.search{
+width:100%;
+padding:12px;
+font-size:16px;
+margin-bottom:20px;
+border-radius:6px;
+border:1px solid #ccc;
+}
+
+.filters{
+margin-bottom:20px;
+}
+
+.filters button{
+margin:4px;
+padding:6px 12px;
+border:none;
+border-radius:6px;
+background:#e0e4ea;
+cursor:pointer;
+}
+
+.filters button:hover{
+background:#cdd5df;
+}
+
+.archive{
+background:white;
+padding:14px;
+margin-bottom:8px;
+border-radius:6px;
+box-shadow:0 1px 3px rgba(0,0,0,0.1);
+}
+
+.archive a{
+text-decoration:none;
+color:#0b3d91;
+font-weight:bold;
+}
+
+footer{
+text-align:center;
+padding:30px;
+font-size:13px;
+color:#666;
+}
+
+</style>
+
 </head>
 
 <body>
 
 <header>
-<img src="logo-zoran.png" width="120">
+
+<img src="logo-zoran.png">
+
 <h1>Archives du corpus ZORAN</h1>
-<p>Archive miroir du corpus de recherche ZORAN — Frédéric Tabary</p>
+
+<p>Archive miroir du corpus scientifique ZORAN — Frédéric Tabary</p>
+
 </header>
 
 <div class="container">
 
 <h2>Recherche dans les archives</h2>
 
-<input id="search" type="text" placeholder="Recherche par numéro...">
+<input
+class="search"
+id="search"
+placeholder="Recherche par numéro, mot clé, titre…"
+/>
 
-<div id="results"></div>
+<div class="filters">
+
+<button onclick="filterTheme('all')">TOUT</button>
+<button onclick="filterTheme('coherence')">COHERENCE</button>
+<button onclick="filterTheme('ia')">IA</button>
+<button onclick="filterTheme('conscience')">CONSCIENCE</button>
+<button onclick="filterTheme('physique')">PHYSIQUE</button>
+<button onclick="filterTheme('biologie')">BIOLOGIE</button>
+<button onclick="filterTheme('systemes')">SYSTEMES</button>
+<button onclick="filterTheme('societe')">SOCIETE</button>
+<button onclick="filterTheme('education')">EDUCATION</button>
+<button onclick="filterTheme('technologie')">TECHNOLOGIE</button>
+<button onclick="filterTheme('livres')">LIVRES</button>
 
 </div>
 
+<h2>Archives</h2>
+
+<div id="archives"></div>
+
+</div>
+
+<footer>
+
+Corpus ZORAN — Frédéric Tabary  
+<br>
+Mirror GitHub des archives Zenodo
+
+</footer>
+
 <script>
 
+let allRecords = []
+
 fetch("records.json")
-.then(r => r.json())
+.then(res => res.json())
 .then(data => {
+
+allRecords = data
 
 display(data)
 
-document.getElementById("search").addEventListener("keyup", function(){
-
-let value = this.value.toLowerCase()
-
-let filtered = data.filter(r =>
-r.Nom.toLowerCase().includes(value)
-)
-
-display(filtered)
-
 })
 
-function display(list){
+function display(records){
 
-let container = document.getElementById("results")
+const container = document.getElementById("archives")
+
 container.innerHTML = ""
 
-list.forEach(item => {
+records.forEach(r => {
 
 let div = document.createElement("div")
 div.className = "archive"
 
-div.innerHTML =
-'<a href="https://github.com/Zoran-AGI-Coherence-Labs/zoran-corpus/tree/main/'+item.Nom+'" target="_blank">Archive '+item.Nom+'</a>'
+div.innerHTML = `
+<a href="https://doi.org/10.5281/zenodo.${r.Name}" target="_blank">
+Archive ${r.Name}
+</a>
+`
 
 container.appendChild(div)
 
@@ -64,7 +188,32 @@ container.appendChild(div)
 
 }
 
+document.getElementById("search").addEventListener("keyup", function(){
+
+let value = this.value.toLowerCase()
+
+let filtered = allRecords.filter(r =>
+r.Name.toLowerCase().includes(value)
+)
+
+display(filtered)
+
 })
+
+function filterTheme(theme){
+
+if(theme==="all"){
+display(allRecords)
+return
+}
+
+let filtered = allRecords.filter(r =>
+r.theme && r.theme.toLowerCase()==theme
+)
+
+display(filtered)
+
+}
 
 </script>
 
