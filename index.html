@@ -2,84 +2,43 @@
 <html lang="fr">
 <head>
 <meta charset="UTF-8">
-<title>ZORAN – Archive miroir</title>
-<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Cohérence phénoménale — Archives DOI</title>
 
 <style>
 
 body{
-font-family:Arial,Helvetica,sans-serif;
-margin:0;
-background:#f3f5f8;
-}
-
-header{
-background:#0b2344;
-color:white;
-text-align:center;
-padding:50px 20px;
-}
-
-header h1{
-margin:0;
-font-size:40px;
-}
-
-header p{
-margin-top:10px;
-opacity:0.85;
-}
-
-.container{
-max-width:1100px;
-margin:auto;
-padding:40px 20px;
-}
-
-.search{
-width:100%;
-padding:14px;
-font-size:16px;
-border-radius:6px;
-border:1px solid #ccc;
-margin-bottom:20px;
-}
-
-.filters{
-margin-bottom:30px;
-}
-
-.filters button{
-margin:5px;
-padding:8px 14px;
-border:none;
-border-radius:6px;
-background:#dfe6ef;
-cursor:pointer;
-}
-
-.filters button:hover{
-background:#cdd6e2;
-}
-
-.archive{
+font-family: Arial, Helvetica, sans-serif;
 background:white;
-padding:18px;
+color:#111;
+max-width:900px;
+margin:auto;
+padding:40px;
+}
+
+h1{
+font-size:32px;
 margin-bottom:10px;
-border-radius:6px;
-box-shadow:0 1px 4px rgba(0,0,0,0.1);
 }
 
-.archive a{
-text-decoration:none;
-color:#1b4dc1;
+.law{
+background:#f5f5f5;
+padding:20px;
+margin-bottom:40px;
+font-size:18px;
+}
+
+.record{
+padding:12px;
+border-bottom:1px solid #ddd;
+}
+
+.doi{
+font-family:monospace;
+color:#0033cc;
+}
+
+.title{
 font-weight:bold;
-}
-
-.meta{
-font-size:13px;
-color:#666;
-margin-top:5px;
 }
 
 </style>
@@ -88,91 +47,43 @@ margin-top:5px;
 
 <body>
 
-<header>
-<h1>Loi de la cohérence phénoménale</h1>
-<p>S = (β × ΔΦ) / (T × σ)</p>
-</header>
+<h1>Loi de la Cohérence Phénoménale</h1>
 
-<div class="container">
-
-<input id="search" class="search" placeholder="Recherche par numéro, titre, thème...">
-
-<div class="filters">
-
-<button onclick="filterTheme('all')">TOUT</button>
-<button onclick="filterTheme('COHERENCE')">COHERENCE</button>
-<button onclick="filterTheme('IA')">IA</button>
-<button onclick="filterTheme('CONSCIENCE')">CONSCIENCE</button>
-<button onclick="filterTheme('PHYSIQUE')">PHYSIQUE</button>
-
+<div class="law">
+S = (β × ΔΦ) / (T × σ)
 </div>
 
-<div id="archives"></div>
+<h2>Archives DOI</h2>
 
+<div class="record">
+<div class="title">Loi universelle de la cohérence — démonstration par l’absurde</div>
+<div class="doi">https://doi.org/10.5281/zenodo.17935650</div>
 </div>
 
-<script>
+<div class="record">
+<div class="title">Cohérence comme condition fondamentale de l’univers</div>
+<div class="doi">https://doi.org/10.5281/zenodo.17949089</div>
+</div>
 
-let allRecords=[]
+<div class="record">
+<div class="title">Fondement non démontré des lois scientifiques</div>
+<div class="doi">https://doi.org/10.5281/zenodo.17953766</div>
+</div>
 
-fetch("records.json")
-.then(r=>r.json())
-.then(data=>{
-allRecords=data
-display(data)
-})
+<div class="record">
+<div class="title">Loi universelle Zoran — moteur scientifique</div>
+<div class="doi">https://doi.org/10.5281/zenodo.17852766</div>
+</div>
 
-function display(records){
+<div class="record">
+<div class="title">Zoran Omega Engine — simulation civilisationnelle</div>
+<div class="doi">https://doi.org/10.5281/zenodo.17808377</div>
+</div>
 
-const container=document.getElementById("archives")
-container.innerHTML=""
-
-records.forEach(r=>{
-
-let div=document.createElement("div")
-div.className="archive"
-
-div.innerHTML=`
-<a href="${r.github}" target="_blank">${r.title}</a>
-<div class="meta">DOI : <a href="${r.doi}" target="_blank">${r.doi}</a></div>
-<div class="meta">ID archive : ${r.id}</div>
-<div class="meta">Thème : ${r.theme}</div>
-`
-
-container.appendChild(div)
-
-})
-
-}
-
-document.getElementById("search").addEventListener("keyup",function(){
-
-let value=this.value.toLowerCase()
-
-let filtered=allRecords.filter(r=>
-r.id.toLowerCase().includes(value)||
-r.title.toLowerCase().includes(value)||
-r.theme.toLowerCase().includes(value)
-)
-
-display(filtered)
-
-})
-
-function filterTheme(theme){
-
-if(theme==="all"){
-display(allRecords)
-return
-}
-
-let filtered=allRecords.filter(r=>r.theme===theme)
-
-display(filtered)
-
-}
-
-</script>
+<div class="record">
+<div class="title">Thermodynamique de la persistance structurelle</div>
+<div class="doi">https://doi.org/10.5281/zenodo.18093705</div>
+</div>
 
 </body>
 </html>
