@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="fr">
 
@@ -13,67 +12,51 @@
 <header>
 <img src="logo-zoran.png" width="120">
 <h1>Archives du corpus ZORAN</h1>
-<p>Archive miroir du corpus scientifique ZORAN — Frédéric Tabary</p>
+<p>Archive miroir du corpus de recherche ZORAN — Frédéric Tabary</p>
 </header>
 
 <div class="container">
 
 <h2>Recherche dans les archives</h2>
 
-<input type="text" id="search" placeholder="Recherche par numéro, mot clé, titre...">
+<input id="search" type="text" placeholder="Recherche par numéro...">
 
-<div class="filters">
-<button onclick="filterTheme('all')">TOUT</button>
-<button onclick="filterTheme('coherence')">COHERENCE</button>
-<button onclick="filterTheme('ia')">IA</button>
-<button onclick="filterTheme('conscience')">CONSCIENCE</button>
-<button onclick="filterTheme('physique')">PHYSIQUE</button>
-<button onclick="filterTheme('biologie')">BIOLOGIE</button>
-<button onclick="filterTheme('systemes')">SYSTEMES</button>
-<button onclick="filterTheme('societe')">SOCIETE</button>
-<button onclick="filterTheme('education')">EDUCATION</button>
-<button onclick="filterTheme('technologie')">TECHNOLOGIE</button>
-<button onclick="filterTheme('livres')">LIVRES</button>
-</div>
-
-<h2>Archives</h2>
-
-<div id="archives"></div>
+<div id="results"></div>
 
 </div>
-
-<footer>
-<p>Corpus ZORAN — Frédéric Tabary</p>
-<p>Miroir GitHub des archives Zenodo</p>
-</footer>
 
 <script>
 
-let allData = []
-
 fetch("records.json")
-.then(res => res.json())
+.then(r => r.json())
 .then(data => {
 
-allData = data
 display(data)
+
+document.getElementById("search").addEventListener("keyup", function(){
+
+let value = this.value.toLowerCase()
+
+let filtered = data.filter(r =>
+r.Nom.toLowerCase().includes(value)
+)
+
+display(filtered)
 
 })
 
-function display(data){
+function display(list){
 
-let container = document.getElementById("archives")
-container.innerHTML=""
+let container = document.getElementById("results")
+container.innerHTML = ""
 
-data.forEach(record=>{
+list.forEach(item => {
 
 let div = document.createElement("div")
-div.className="archive"
+div.className = "archive"
 
 div.innerHTML =
-"<a href='"+record.github_url+"' target='_blank'>" +
-record.title +
-"</a>"
+'<a href="https://github.com/Zoran-AGI-Coherence-Labs/zoran-corpus/tree/main/'+item.Nom+'" target="_blank">Archive '+item.Nom+'</a>'
 
 container.appendChild(div)
 
@@ -81,39 +64,9 @@ container.appendChild(div)
 
 }
 
-document.getElementById("search").addEventListener("keyup",function(){
-
-let value = this.value.toLowerCase()
-
-let filtered = allData.filter(r =>
-
-r.id.toLowerCase().includes(value) ||
-r.title.toLowerCase().includes(value) ||
-r.theme.toLowerCase().includes(value)
-
-)
-
-display(filtered)
-
 })
-
-function filterTheme(theme){
-
-if(theme==="all"){
-
-display(allData)
-return
-
-}
-
-let filtered = allData.filter(r => r.theme===theme)
-
-display(filtered)
-
-}
 
 </script>
 
 </body>
-
 </html>
