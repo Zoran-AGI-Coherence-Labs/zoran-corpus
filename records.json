@@ -1,50 +1,30 @@
 [
   {
     "id": "16940524",
-    "title": "Archives ZORAN 16940524",
-    "author": "Frédéric Tabary",
-    "year": "2025",
+    "doi": "https://doi.org/10.5281/zenodo.16940524",
+    "title": "Archive ZORAN 16940524",
     "theme": "COHERENCE",
-    "github_url": "https://github.com/Zoran-AGI-Coherence-Labs/zoran-corpus/tree/main/16940524"
+    "github": "https://github.com/Zoran-AGI-Coherence-Labs/zoran-corpus/tree/main/16940524"
   },
   {
     "id": "16941006",
-    "title": "Archives ZORAN 16941006",
-    "author": "Frédéric Tabary",
-    "year": "2025",
+    "doi": "https://doi.org/10.5281/zenodo.16941006",
+    "title": "Archive ZORAN 16941006",
     "theme": "IA",
-    "github_url": "https://github.com/Zoran-AGI-Coherence-Labs/zoran-corpus/tree/main/16941006"
+    "github": "https://github.com/Zoran-AGI-Coherence-Labs/zoran-corpus/tree/main/16941006"
   },
   {
     "id": "16991560",
-    "title": "Archives ZORAN 16991560",
-    "author": "Frédéric Tabary",
-    "year": "2025",
+    "doi": "https://doi.org/10.5281/zenodo.16991560",
+    "title": "Archive ZORAN 16991560",
     "theme": "CONSCIENCE",
-    "github_url": "https://github.com/Zoran-AGI-Coherence-Labs/zoran-corpus/tree/main/16991560"
+    "github": "https://github.com/Zoran-AGI-Coherence-Labs/zoran-corpus/tree/main/16991560"
   },
   {
     "id": "16991561",
-    "title": "Archives ZORAN 16991561",
-    "author": "Frédéric Tabary",
-    "year": "2025",
+    "doi": "https://doi.org/10.5281/zenodo.16991561",
+    "title": "Archive ZORAN 16991561",
     "theme": "PHYSIQUE",
-    "github_url": "https://github.com/Zoran-AGI-Coherence-Labs/zoran-corpus/tree/main/16991561"
-  },
-  {
-    "id": "16992964",
-    "title": "Archives ZORAN 16992964",
-    "author": "Frédéric Tabary",
-    "year": "2025",
-    "theme": "BIOLOGIE",
-    "github_url": "https://github.com/Zoran-AGI-Coherence-Labs/zoran-corpus/tree/main/16992964"
-  },
-  {
-    "id": "16992965",
-    "title": "Archives ZORAN 16992965",
-    "author": "Frédéric Tabary",
-    "year": "2025",
-    "theme": "SYSTEMES",
-    "github_url": "https://github.com/Zoran-AGI-Coherence-Labs/zoran-corpus/tree/main/16992965"
+    "github": "https://github.com/Zoran-AGI-Coherence-Labs/zoran-corpus/tree/main/16991561"
   }
 ]
