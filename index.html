@@ -1,37 +1,40 @@
+
 <!DOCTYPE html>
 <html lang="fr">
-<head>
 
+<head>
 <meta charset="UTF-8">
 <title>ZORAN Corpus Archive</title>
-
 <link rel="stylesheet" href="style.css">
-
 </head>
 
 <body>
 
 <header>
-
 <img src="logo-zoran.png" width="120">
-
 <h1>Archives du corpus ZORAN</h1>
-
-<p>
-Archive miroir du corpus de recherche ZORAN — Frédéric Tabary
-</p>
-
+<p>Archive miroir du corpus scientifique ZORAN — Frédéric Tabary</p>
 </header>
-
 
 <div class="container">
 
 <h2>Recherche dans les archives</h2>
 
-<div class="search">
 <input type="text" id="search" placeholder="Recherche par numéro, mot clé, titre...">
-</div>
 
+<div class="filters">
+<button onclick="filterTheme('all')">TOUT</button>
+<button onclick="filterTheme('coherence')">COHERENCE</button>
+<button onclick="filterTheme('ia')">IA</button>
+<button onclick="filterTheme('conscience')">CONSCIENCE</button>
+<button onclick="filterTheme('physique')">PHYSIQUE</button>
+<button onclick="filterTheme('biologie')">BIOLOGIE</button>
+<button onclick="filterTheme('systemes')">SYSTEMES</button>
+<button onclick="filterTheme('societe')">SOCIETE</button>
+<button onclick="filterTheme('education')">EDUCATION</button>
+<button onclick="filterTheme('technologie')">TECHNOLOGIE</button>
+<button onclick="filterTheme('livres')">LIVRES</button>
+</div>
 
 <h2>Archives</h2>
 
@@ -39,62 +42,78 @@ Archive miroir du corpus de recherche ZORAN — Frédéric Tabary
 
 </div>
 
-
 <footer>
-
-Corpus ZORAN — Frédéric Tabary  
-Mirror GitHub des archives Zenodo
-
+<p>Corpus ZORAN — Frédéric Tabary</p>
+<p>Miroir GitHub des archives Zenodo</p>
 </footer>
-
 
 <script>
 
+let allData = []
+
 fetch("records.json")
-.then(response => response.json())
+.then(res => res.json())
 .then(data => {
 
-let container = document.getElementById("archives");
+allData = data
+display(data)
 
-function display(records){
+})
 
-container.innerHTML = "";
+function display(data){
 
-records.forEach(record => {
+let container = document.getElementById("archives")
+container.innerHTML=""
 
-let div = document.createElement("div");
-div.className = "archive";
+data.forEach(record=>{
+
+let div = document.createElement("div")
+div.className="archive"
 
 div.innerHTML =
-"<a href='" + record.github_url + "' target='_blank'>Archive "
-+ record.id +
-"</a>";
+"<a href='"+record.github_url+"' target='_blank'>" +
+record.title +
+"</a>"
 
-container.appendChild(div);
+container.appendChild(div)
 
-});
+})
 
 }
 
-display(data);
+document.getElementById("search").addEventListener("keyup",function(){
 
-document.getElementById("search").addEventListener("keyup", function(){
+let value = this.value.toLowerCase()
 
-let value = this.value.toLowerCase();
+let filtered = allData.filter(r =>
 
-let filtered = data.filter(r =>
 r.id.toLowerCase().includes(value) ||
-r.title.toLowerCase().includes(value)
-);
+r.title.toLowerCase().includes(value) ||
+r.theme.toLowerCase().includes(value)
 
-display(filtered);
+)
 
-});
+display(filtered)
 
-});
+})
+
+function filterTheme(theme){
+
+if(theme==="all"){
+
+display(allData)
+return
+
+}
+
+let filtered = allData.filter(r => r.theme===theme)
+
+display(filtered)
+
+}
 
 </script>
 
-
 </body>
+
 </html>
