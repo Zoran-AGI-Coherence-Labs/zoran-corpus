@@ -1,27 +1,199 @@
 <!DOCTYPE html>
-<html>
+<html lang="fr">
+
 <head>
+
 <meta charset="utf-8">
-<title>ZORAN Corpus Archive</title>
+
+<title>Archives du corpus ZORAN — Frédéric Tabary</title>
+
+<meta name="description" content="Archives du corpus de recherche ZORAN par Frédéric Tabary. Miroir GitHub des publications relatives à la Loi de Cohérence Phénoménale et au Codex ZORAN.">
+
+<meta name="keywords" content="Zoran, cohérence phénoménale, Frédéric Tabary, systèmes complexes, IA, science des systèmes, Zenodo">
+
+<meta name="author" content="Frédéric Tabary">
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<style>
+
+body{
+font-family: Arial, sans-serif;
+max-width: 1000px;
+margin:auto;
+padding:40px;
+line-height:1.6;
+background:#ffffff;
+}
+
+h1{
+font-size:36px;
+margin-bottom:10px;
+}
+
+h2{
+margin-top:40px;
+}
+
+.search{
+margin:30px 0;
+}
+
+input{
+width:100%;
+padding:12px;
+font-size:16px;
+border:1px solid #ccc;
+border-radius:6px;
+}
+
+.archive{
+padding:8px 0;
+border-bottom:1px solid #eee;
+}
+
+a{
+color:#0366d6;
+text-decoration:none;
+}
+
+a:hover{
+text-decoration:underline;
+}
+
+.footer{
+margin-top:60px;
+font-size:14px;
+color:#555;
+}
+
+</style>
+
+<script>
+
+function searchArchive(){
+
+let input=document.getElementById("search").value.toLowerCase()
+
+let items=document.getElementsByClassName("archive")
+
+for(let i=0;i<items.length;i++){
+
+let txt=items[i].textContent.toLowerCase()
+
+if(txt.includes(input)){
+items[i].style.display="block"
+}else{
+items[i].style.display="none"
+}
+
+}
+
+}
+
+</script>
+
 </head>
 
 <body>
 
-<h1>ZORAN Corpus Archive</h1>
-
-<p>Mirror archive of the ZORAN research corpus by Frédéric Tabary.</p>
-
-<p>This repository contains archived Zenodo records related to the Law of Phenomenal Coherence and the ZORAN Codex.</p>
+<h1>Archives du corpus ZORAN</h1>
 
 <p>
-Open the repository here:
+Archive miroir du corpus de recherche ZORAN par <strong>Frédéric Tabary</strong>.
 </p>
 
 <p>
+Ce site donne accès aux archives issues de Zenodo concernant :
+</p>
+
+<ul>
+
+<li>Loi de Cohérence Phénoménale</li>
+<li>Codex ZORAN</li>
+<li>Systèmes complexes</li>
+<li>Intelligence artificielle</li>
+
+</ul>
+
+<h2>Recherche dans les archives</h2>
+
+<div class="search">
+
+<input
+id="search"
+onkeyup="searchArchive()"
+placeholder="Rechercher par titre, DOI ou mot-clé..."
+>
+
+</div>
+
+<h2>Archives</h2>
+
+<div class="archive">
+<a href="https://github.com/Zoran-AGI-Coherence-Labs/zoran-corpus/tree/main/16940524">Archive 16940524</a>
+</div>
+
+<div class="archive">
+<a href="https://github.com/Zoran-AGI-Coherence-Labs/zoran-corpus/tree/main/16941006">Archive 16941006</a>
+</div>
+
+<div class="archive">
+<a href="https://github.com/Zoran-AGI-Coherence-Labs/zoran-corpus/tree/main/16991560">Archive 16991560</a>
+</div>
+
+<div class="archive">
+<a href="https://github.com/Zoran-AGI-Coherence-Labs/zoran-corpus/tree/main/16991561">Archive 16991561</a>
+</div>
+
+<div class="archive">
+<a href="https://github.com/Zoran-AGI-Coherence-Labs/zoran-corpus/tree/main/16992964">Archive 16992964</a>
+</div>
+
+<div class="archive">
+<a href="https://github.com/Zoran-AGI-Coherence-Labs/zoran-corpus/tree/main/16992965">Archive 16992965</a>
+</div>
+
+<p>
+(les autres archives apparaîtront automatiquement en ajoutant les numéros restants)
+</p>
+
+<h2>Miroirs</h2>
+
+<ul>
+
+<li>
 <a href="https://github.com/Zoran-AGI-Coherence-Labs/zoran-corpus">
-GitHub Repository
+GitHub repository
 </a>
+</li>
+
+<li>
+Gamma mirror (à venir)
+</li>
+
+<li>
+Institut IA mirror (à venir)
+</li>
+
+</ul>
+
+<div class="footer">
+
+<p>
+
+Corpus ZORAN — Frédéric Tabary
+
 </p>
+
+<p>
+
+Miroir GitHub des archives Zenodo.
+
+</p>
+
+</div>
 
 </body>
+
 </html>
