@@ -1,173 +1,178 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-  <meta charset="UTF-8">
-  <title>Archives du corpus ZORAN</title>
-  <meta name="description" content="Archive miroir du corpus scientifique ZORAN de Frédéric Tabary.">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <style>
-    body{
-      margin:0;
-      font-family:Arial, Helvetica, sans-serif;
-      background:#f3f5f8;
-      color:#111;
-    }
-    header{
-      background:#0b2344;
-      color:#fff;
-      text-align:center;
-      padding:48px 20px;
-    }
-    header img{
-      width:110px;
-      height:auto;
-      display:block;
-      margin:0 auto 16px auto;
-    }
-    header h1{
-      margin:0 0 10px 0;
-      font-size:48px;
-      line-height:1.1;
-    }
-    header p{
-      margin:0;
-      font-size:20px;
-      opacity:.92;
-    }
-    main{
-      max-width:1100px;
-      margin:0 auto;
-      padding:40px 24px 60px 24px;
-    }
-    h2{
-      font-size:24px;
-      margin:0 0 18px 0;
-    }
-    #search{
-      width:100%;
-      box-sizing:border-box;
-      padding:14px 16px;
-      font-size:16px;
-      border:1px solid #c8d0da;
-      border-radius:8px;
-      margin:0 0 24px 0;
-      background:#fff;
-    }
-    .archives{
-      display:grid;
-      grid-template-columns:1fr;
-      gap:10px;
-    }
-    .archive{
-      background:#fff;
-      border:1px solid #dfe5ec;
-      border-radius:8px;
-      padding:14px 16px;
-    }
-    .archive a{
-      color:#1b5fc6;
-      text-decoration:none;
-      font-weight:700;
-      font-size:18px;
-    }
-    .archive a:hover{
-      text-decoration:underline;
-    }
-    .meta{
-      margin-top:6px;
-      color:#4b5563;
-      font-size:14px;
-    }
-    #count{
-      margin:0 0 18px 0;
-      color:#4b5563;
-      font-size:14px;
-    }
-    footer{
-      text-align:center;
-      color:#6b7280;
-      font-size:14px;
-      padding:24px 16px 40px 16px;
-    }
-  </style>
+<meta charset="UTF-8">
+<title>ZORAN – Archive miroir</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+
+<style>
+
+body{
+font-family:Arial,Helvetica,sans-serif;
+margin:0;
+background:#f3f5f8;
+}
+
+header{
+background:#0b2344;
+color:white;
+text-align:center;
+padding:50px 20px;
+}
+
+header h1{
+margin:0;
+font-size:40px;
+}
+
+header p{
+margin-top:10px;
+opacity:0.85;
+}
+
+.container{
+max-width:1100px;
+margin:auto;
+padding:40px 20px;
+}
+
+.search{
+width:100%;
+padding:14px;
+font-size:16px;
+border-radius:6px;
+border:1px solid #ccc;
+margin-bottom:20px;
+}
+
+.filters{
+margin-bottom:30px;
+}
+
+.filters button{
+margin:5px;
+padding:8px 14px;
+border:none;
+border-radius:6px;
+background:#dfe6ef;
+cursor:pointer;
+}
+
+.filters button:hover{
+background:#cdd6e2;
+}
+
+.archive{
+background:white;
+padding:18px;
+margin-bottom:10px;
+border-radius:6px;
+box-shadow:0 1px 4px rgba(0,0,0,0.1);
+}
+
+.archive a{
+text-decoration:none;
+color:#1b4dc1;
+font-weight:bold;
+}
+
+.meta{
+font-size:13px;
+color:#666;
+margin-top:5px;
+}
+
+</style>
+
 </head>
+
 <body>
-  <header>
-    <img src="logo-zoran.png" alt="Logo ZORAN">
-    <h1>Archives du corpus ZORAN</h1>
-    <p>Archive miroir du corpus de recherche ZORAN — Frédéric Tabary</p>
-  </header>
 
-  <main>
-    <h2>Recherche dans les archives</h2>
-    <input id="search" type="text" placeholder="Recherche par numéro...">
-    <div id="count"></div>
-    <div id="archives" class="archives"></div>
-  </main>
+<header>
+<h1>Loi de la cohérence phénoménale</h1>
+<p>S = (β × ΔΦ) / (T × σ)</p>
+</header>
 
-  <footer>
-    Corpus ZORAN — Frédéric Tabary<br>
-    Miroir GitHub des archives Zenodo
-  </footer>
+<div class="container">
 
-  <script>
-    let allRecords = [];
+<input id="search" class="search" placeholder="Recherche par numéro, titre, thème...">
 
-    function normalizeRecord(item){
-      const num = String(item.Nom || item.nom || item.Name || item.name || "").trim();
-      return {
-        num,
-        githubUrl: "https://github.com/Zoran-AGI-Coherence-Labs/zoran-corpus/tree/main/" + encodeURIComponent(num),
-        doiUrl: "https://doi.org/10.5281/zenodo." + encodeURIComponent(num)
-      };
-    }
+<div class="filters">
 
-    function render(records){
-      const box = document.getElementById("archives");
-      const count = document.getElementById("count");
-      box.innerHTML = "";
-      count.textContent = records.length + " archive(s)";
+<button onclick="filterTheme('all')">TOUT</button>
+<button onclick="filterTheme('COHERENCE')">COHERENCE</button>
+<button onclick="filterTheme('IA')">IA</button>
+<button onclick="filterTheme('CONSCIENCE')">CONSCIENCE</button>
+<button onclick="filterTheme('PHYSIQUE')">PHYSIQUE</button>
 
-      records.forEach(r => {
-        const div = document.createElement("div");
-        div.className = "archive";
+</div>
 
-        div.innerHTML = `
-          <a href="${r.githubUrl}" target="_blank" rel="noopener noreferrer">Archive ${r.num}</a>
-          <div class="meta">DOI théorique : <a href="${r.doiUrl}" target="_blank" rel="noopener noreferrer">${r.doiUrl}</a></div>
-        `;
+<div id="archives"></div>
 
-        box.appendChild(div);
-      });
-    }
+</div>
 
-    fetch("records.json")
-      .then(response => {
-        if (!response.ok) {
-          throw new Error("records.json introuvable");
-        }
-        return response.json();
-      })
-      .then(data => {
-        allRecords = data
-          .map(normalizeRecord)
-          .filter(r => r.num !== "");
+<script>
 
-        render(allRecords);
+let allRecords=[]
 
-        document.getElementById("search").addEventListener("input", function(){
-          const q = this.value.toLowerCase().trim();
-          const filtered = allRecords.filter(r =>
-            r.num.toLowerCase().includes(q)
-          );
-          render(filtered);
-        });
-      })
-      .catch(error => {
-        document.getElementById("count").textContent = "Erreur de chargement des archives";
-        document.getElementById("archives").innerHTML = "<div class='archive'>records.json n'a pas pu être lu.</div>";
-        console.error(error);
-      });
-  </script>
+fetch("records.json")
+.then(r=>r.json())
+.then(data=>{
+allRecords=data
+display(data)
+})
+
+function display(records){
+
+const container=document.getElementById("archives")
+container.innerHTML=""
+
+records.forEach(r=>{
+
+let div=document.createElement("div")
+div.className="archive"
+
+div.innerHTML=`
+<a href="${r.github}" target="_blank">${r.title}</a>
+<div class="meta">DOI : <a href="${r.doi}" target="_blank">${r.doi}</a></div>
+<div class="meta">ID archive : ${r.id}</div>
+<div class="meta">Thème : ${r.theme}</div>
+`
+
+container.appendChild(div)
+
+})
+
+}
+
+document.getElementById("search").addEventListener("keyup",function(){
+
+let value=this.value.toLowerCase()
+
+let filtered=allRecords.filter(r=>
+r.id.toLowerCase().includes(value)||
+r.title.toLowerCase().includes(value)||
+r.theme.toLowerCase().includes(value)
+)
+
+display(filtered)
+
+})
+
+function filterTheme(theme){
+
+if(theme==="all"){
+display(allRecords)
+return
+}
+
+let filtered=allRecords.filter(r=>r.theme===theme)
+
+display(filtered)
+
+}
+
+</script>
+
 </body>
 </html>
