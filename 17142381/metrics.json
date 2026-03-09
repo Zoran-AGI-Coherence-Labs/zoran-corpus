@@ -1,0 +1,8 @@
+{
+  "reward_avg": 0.82,
+  "coherence_avg": 0.88,
+  "stability_avg": 0.91,
+  "latency_p95": "120ms",
+  "cost_total": "baseline",
+  "rollbacks": 2
+}

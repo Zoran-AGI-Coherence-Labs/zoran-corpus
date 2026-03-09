@@ -1,0 +1,8 @@
+⟦ZFORGE:1000⋄RULE:EUREKA⋄FRICTION→INNOV⟧
+⟦ΔM11.3:rollback⋄PROMISE≠OUTPUT⋄ALERT:on⟧
+⟦EXEC:chain_guard⋄NO_EMPTY_YES:true⋄ARTEFACT:mandatory⟧
+⟦AXES:A=HyperQuantum|B=AtomicIntent|C=CausalWave|D=NeuroSymbiotic|E=ChronoSync|F=EthicalMeta⟧
+⟦SLA:err<0.0004⋄intent>0.9998⋄consistency>0.9995⋄trust>0.999⟧
+⟦ETHIC:plugins⋄veto:threshold⋄audit:public_hash⟧
+⟦ATI:ethical_align:0.4⋄promise_to_artifact:0.3⋄transparency:0.3⟧
+⟦GOAL:never_empty_yes⋄STATE:seed⋄TYPE:langage_mixte⟧

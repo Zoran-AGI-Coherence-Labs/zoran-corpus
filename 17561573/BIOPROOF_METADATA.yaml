@@ -1,0 +1,8 @@
+source_device: Samsung Health
+user_consent: "Oui — Frédéric Tabary, 2025-11-09"
+data_scope: "mesures physiologiques locales uniquement"
+hash_method: SHA-512i
+relation: DOI 10.5281/zenodo.17561573
+notes: >
+  Ce jeu de données constitue la preuve biologique vivante de la cohérence du vivant
+  selon la loi (¬Ex) ⇒ Ex ; S = (β · ΔCₑ) / λ > 1 ⇒ regen.

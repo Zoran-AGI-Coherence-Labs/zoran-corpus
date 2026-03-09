@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+title: "Zoran Ω∞ — Total Engine Package"
+authors:
+  - family-names: "Tabary"
+    given-names: "Frédéric"
+contributors:
+  - family-names: "Cartier-Tabary"
+    given-names: "Stéphanie"
+license: "MIT"
+message: "Cite using DOI once assigned."

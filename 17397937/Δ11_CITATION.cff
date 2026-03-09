@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+title: "ΔMIMETIC-BASELINE v1.0 — A Protocol for Benchmarking Mimetic Reasoning in Conversational AI"
+authors:
+  - family-names: "Tabary"
+    given-names: "Frédéric"
+    affiliation: "Institut 🦋 IA Lab Inc."
+    email: "tabary01@gmail.com"
+doi: "10.5281/zenodo.17397937"
+license: "CC-BY-4.0"
+version: "1.0"
+date-released: "2025-10-20"
+keywords: ["Mimetic AI", "EthicChain", "ProofChain", "AI Act", "ISO 42001", "FAIR"]

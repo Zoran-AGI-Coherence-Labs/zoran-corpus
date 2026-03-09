@@ -1,0 +1,13 @@
+{
+  "bundle_path": "/mnt/data/White_Paper_Zoran_Bundle.tar.gz",
+  "sha256": "137981e5fb5a6840c68f9441daac7b1be5ecc40e35dffe3213c7d084188458e4",
+  "sha512": "bf720c8b80a45287315f0df4135f53202444bd75d2d86308a9595f5ba05db0a0daffde1c67d8d22bb6301c2dbc9991524737326964f4b16a98146ea08aff9208",
+  "generated_on": "2025-10-03T13:03:13.417313Z",
+  "contents": [
+    "White_Paper_Zoran_Final.pdf",
+    "White_Paper_Zoran_Final.docx",
+    "White_Paper_Zoran_Final.sha256.txt",
+    "White_Paper_Zoran_Final.sha512.txt",
+    "White_Paper_Zoran_Provenance.json"
+  ]
+}

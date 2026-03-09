@@ -1,0 +1,16 @@
+{
+  "glyphnet_version": "1.0-public-specimen",
+  "description": "Specimen public du protocole GlyphNet.",
+  "glyphs": [
+    {
+      "id": "G-O1",
+      "value": "Symbol-A",
+      "meaning": "structure-coherence-node"
+    },
+    {
+      "id": "G-O2",
+      "value": "Symbol-B",
+      "meaning": "temporal-alignment-shift"
+    }
+  ]
+}

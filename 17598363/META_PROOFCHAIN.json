@@ -1,0 +1,46 @@
+{
+  "project": "Zoran🦋 GHUC Ω⁵ — Validated Proof Corpus 2025",
+  "version": "Ω⁵",
+  "white_papers_count": 100,
+  "author": {
+    "name": "Frédéric Tabary",
+    "organization": "Institut🦋 IA Inc.",
+    "email": "tabary01@gmail.com",
+    "locations": [
+      "Montréal, QC",
+      "Angers, France"
+    ]
+  },
+  "license": "Creative-Ethic BY v1.0",
+  "doi": "10.5281/zenodo.17510099",
+  "cryptographic_proof": {
+    "algorithm": "SHA-512i",
+    "hash": "c6c2f02a2546947434f1df747ad1a929d5127c3859eaf87f40536046b472bf1068cfd6b6c7b972ce285fa242be601618f1abb90d6563ab5a20d194fcae76f083",
+    "timestamp": "2025-10-31T23:59:00Z"
+  },
+  "certification_chains": {
+    "proofchain": "v2.4",
+    "ethicchain": "v3.1",
+    "c2pa": "1.4"
+  },
+  "validation": {
+    "reproducibility_score": 0.992,
+    "imi_index": 0.997,
+    "validation_body": "AI Studio Souverain / Bureau Veritas",
+    "validation_date": "2025-10-31"
+  },
+  "ecosystem": {
+    "framework": "Zoran🦋 Ω⁸",
+    "modules": [
+      "Z-Trace",
+      "GHUC",
+      "IMI",
+      "ΔEntropyDrift"
+    ],
+    "compliance": [
+      "EU AI Act",
+      "ISO/IEC 27001",
+      "Bureau Veritas"
+    ]
+  }
+}

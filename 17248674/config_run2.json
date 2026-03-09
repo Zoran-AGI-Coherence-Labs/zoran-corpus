@@ -1,0 +1,4 @@
+{
+  "rekor_base_url": "https://rekor.sigstore.dev",
+  "tsa_cert_path": "/etc/tsa.pem"
+}

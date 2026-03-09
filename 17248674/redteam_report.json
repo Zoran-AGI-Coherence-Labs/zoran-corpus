@@ -1,0 +1,5 @@
+{
+  "status": "placeholder",
+  "reason": "RedTeam tests non exécutés.",
+  "expected_content": "Rapport redteam incluant résultats immutabilité, RGPD, signatures, etc."
+}

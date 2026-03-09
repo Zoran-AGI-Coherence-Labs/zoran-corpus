@@ -1,0 +1,38 @@
+[
+  {
+    "name": "Yoshua Bengio",
+    "topic": "IA & m\u00e9moire"
+  },
+  {
+    "name": "Stuart Russell",
+    "topic": "IA & s\u00e9curit\u00e9"
+  },
+  {
+    "name": "Geoffrey Hinton",
+    "topic": "IA"
+  },
+  {
+    "name": "Luciano Floridi",
+    "topic": "\u00c9thique"
+  },
+  {
+    "name": "Virginia Dignum",
+    "topic": "Gouvernance"
+  },
+  {
+    "name": "Sandra Wachter",
+    "topic": "Droit & \u00e9thique"
+  },
+  {
+    "name": "Elham Tabassi",
+    "topic": "NIST AI RMF"
+  },
+  {
+    "name": "Bruce Schneier",
+    "topic": "S\u00e9curit\u00e9"
+  },
+  {
+    "name": "Ren\u00e9 Girard",
+    "topic": "Mim\u00e9tique"
+  }
+]

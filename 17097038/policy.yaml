@@ -1,0 +1,18 @@
+
+ethicchain:
+  ai_act: true
+  iso_42001: true
+  rgpd:
+    minimisation: true
+    ttl_days: 365
+    consent_logging: true
+  logging:
+    delta_m113: true
+    audit_level: full
+zdm:
+  hardcore_persistence: true
+  resonant_cache: true
+  holo_trace: "optional"
+thresholds:
+  stability_min: 0.80
+  holotrace_uncertainty_max: 0.15

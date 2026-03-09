@@ -1,0 +1,12 @@
+{
+  "engine": "Dual-Flux Law Engine Ω8",
+  "version": "8.0",
+  "description": "Moteur à double flux pour la génération et validation de lois universelles",
+  "parameters": {
+    "beta": 1.24,
+    "lambda": 0.89,
+    "delta_ce": 1.07
+  },
+  "regeneration_threshold": 1.0,
+  "status": "active"
+}

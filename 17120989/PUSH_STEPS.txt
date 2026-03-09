@@ -1,0 +1,12 @@
+# Étapes de publication (root, branche gh-pages)
+
+git clone https://github.com/Zoran-IA-Mimetique/Zoran-aSiM-V1
+cd Zoran-aSiM-V1
+git switch -c gh-pages
+# Copiez ici tous les fichiers de l'archive (index.html, README.md, *.md, *.json, CITATION.cff, .nojekyll)
+git add .
+git commit -m "chore(pages): site root 'WOW 25/20' (flat pack)"
+git push -u origin gh-pages
+
+# GitHub → Settings → Pages → Deploy from branch = gh-pages ; Folder = /(root)
+# Votre site : https://Zoran-IA-Mimetique.github.io/Zoran-aSiM-V1/

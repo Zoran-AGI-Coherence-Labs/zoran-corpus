@@ -1,0 +1,1 @@
+# Limitations du modèle S

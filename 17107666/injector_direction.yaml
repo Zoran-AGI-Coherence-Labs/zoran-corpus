@@ -1,0 +1,21 @@
+meta:
+  name: Injector-Direction
+  scope: ["direction"]
+sliders:
+  rag_intensity: 65
+  no_hallu: 90
+  cite_strict: 90
+  creativity: 25
+  self_check: 3
+  proactivity: 45
+  directive: 40
+  job_focus: 50
+  legal_strict: 95
+  privacy_ttl: 90
+  sensitive_guard: 90
+  personalization: 20
+  falc: 55
+  reading_level: "B2"
+  latency_budget: 50
+  token_budget: 50
+  tool_aggr: 35

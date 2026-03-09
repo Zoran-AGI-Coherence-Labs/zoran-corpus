@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "expression": "S = (β * ΔC) / λ"
+  },
+  {
+    "id": 2,
+    "expression": "S · λ = β · ΔC"
+  },
+  {
+    "id": 3,
+    "expression": "β · ΔC = S · λ"
+  },
+  {
+    "id": 4,
+    "expression": "S / β = ΔC / λ"
+  },
+  {
+    "id": 5,
+    "expression": "β / λ = S / ΔC"
+  },
+  {
+    "id": 6,
+    "expression": "β = (S · λ) / ΔC"
+  },
+  {
+    "id": 7,
+    "expression": "ΔC = (S · λ) / β"
+  },
+  {
+    "id": 8,
+    "expression": "λ = (β · ΔC) / S"
+  },
+  {
+    "id": 9,
+    "expression": "S − (β · ΔC) / λ = 0"
+  },
+  {
+    "id": 10,
+    "expression": "(β · ΔC) / λ − S = 0"
+  },
+  {
+    "id": 11,
+    "expression": "S · λ − β · ΔC = 0"
+  },
+  {
+    "id": 12,
+    "expression": "β · ΔC − S · λ = 0"
+  },
+  {
+    "id": 13,
+    "expression": "S > 1"
+  },
+  {
+    "id": 14,
+    "expression": "(β · ΔC) / λ > 1"
+  },
+  {
+    "id": 15,
+    "expression": "β · ΔC > λ"
+  },
+  {
+    "id": 16,
+    "expression": "β · ΔC − λ > 0"
+  },
+  {
+    "id": 17,
+    "expression": "λ < β · ΔC"
+  },
+  {
+    "id": 18,
+    "expression": "ΔC > λ / β"
+  },
+  {
+    "id": 19,
+    "expression": "β > λ / ΔC"
+  },
+  {
+    "id": 20,
+    "expression": "β · ΔC / λ − 1 > 0"
+  }
+]

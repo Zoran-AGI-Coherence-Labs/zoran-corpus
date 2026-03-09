@@ -1,0 +1,7 @@
+{
+  "version": "1.0",
+  "type": "C2PA manifest",
+  "description": "Manifeste d’authenticité pour la ProofChain.",
+  "hash_algorithm": "SHA-512",
+  "timestamp": "2025-11-06T00:00Z"
+}

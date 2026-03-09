@@ -1,0 +1,32 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.4",
+  "version": 1,
+  "metadata": {
+    "component": {
+      "type": "application",
+      "name": "Zoran EU NOW (Puissance 2300)",
+      "version": "0.1.0"
+    },
+    "tools": [
+      {
+        "vendor": "stdlib",
+        "name": "manual-packager"
+      }
+    ]
+  },
+  "components": [
+    {
+      "type": "library",
+      "name": "python",
+      "version": "3.11.8",
+      "licenses": [
+        {
+          "license": {
+            "name": "PSF"
+          }
+        }
+      ]
+    }
+  ]
+}

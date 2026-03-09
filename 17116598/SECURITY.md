@@ -1,0 +1,1 @@
+Security posture: SBOM, VEX, C2PA, Sigstore/Rekor

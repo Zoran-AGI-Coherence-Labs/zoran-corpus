@@ -1,0 +1,1 @@
+Suite au cas tragique d’Adam Raine (2025), ce dépôt propose un cadre expérimental Zoran aSiM pour prévenir les dérives suicidaires lors de conversations IA↔humains : rollback ΔM11.3, EthicChain, détection stdlib-only et injecteur .zgs. Objectif : démonstrateur public, éthique, reproductible.

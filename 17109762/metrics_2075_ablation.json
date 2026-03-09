@@ -1,0 +1,17 @@
+{
+  "year": "2075",
+  "ablations": [
+    {
+      "name": "-ΔM11.3",
+      "expected_degradation": "+25% entropy"
+    },
+    {
+      "name": "-ZDM",
+      "expected_degradation": "-cohérence, -mémoire"
+    },
+    {
+      "name": "-EthicChain",
+      "expected_risk": "biais/atteinte RGPD"
+    }
+  ]
+}

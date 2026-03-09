@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+title: "GlyphNet — An AI‑Native Protocol for Efficient, Stable and Auditable AI↔AI Communication (ZMS‑9 White Paper v1.5)"
+message: "If you use this work, please cite it."
+authors:
+  - family-names: "Tabary"
+    given-names: "Frédéric"
+version: "v1.5"
+date-released: "2025-09-08"
+license: MIT

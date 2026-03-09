@@ -1,0 +1,10 @@
+standard: Z-Forge Frédéric Tabary v3.2
+seeds: [13, 42, 101]
+delta_guard: true
+c2pa: required
+ai_act_minimum: 0.65
+iso_42001_minimum: 0.65
+kpi_targets:
+  reproducibility: 0.98
+  interop: 0.60
+  overhead_p95: 0.12

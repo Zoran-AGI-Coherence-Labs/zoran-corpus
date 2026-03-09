@@ -1,0 +1,3 @@
+# Résumé Exécutif (Version humaine)
+
+Ce White Paper présente une introduction complète à la Loi S...

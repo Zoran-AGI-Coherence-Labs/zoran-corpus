@@ -1,0 +1,14 @@
+{
+  "description": "Moteur universel complet de calcul, règles de correspondance, mapping symbolique, modules de validation et fonctions fracto-éthiques intégrées.",
+  "version": "Ω7.1",
+  "doi": "10.5281/zenodo.17544793",
+  "modules": [
+    "tokenizer",
+    "symbol_mapper",
+    "unit_analyzer",
+    "equivalence_checker",
+    "duality_search",
+    "semantic_aligner",
+    "proof_logger"
+  ]
+}

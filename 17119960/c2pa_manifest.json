@@ -1,0 +1,34 @@
+{
+  "schema": "http://c2pa.org/schema/1.3.0",
+  "claim_generator": "Zoran aSiM Packaging v2",
+  "title": "Zoran aSiM \u2013 White Paper Consolidation 2025 (\u00c9dition augment\u00e9e des White Papers fondateurs) \u2014 v2",
+  "assertions": [
+    {
+      "label": "org.opencontainers.image.created",
+      "value": "2025-09-15"
+    },
+    {
+      "label": "org.zoran.deltaM11_3",
+      "value": true
+    },
+    {
+      "label": "org.zoran.seeds",
+      "value": [
+        13,
+        42,
+        101
+      ]
+    }
+  ],
+  "ingredients": [
+    {
+      "path": "WHITEPAPER/Zoran_aSiM_WhitePaper_Consolidation_2025_v2.md"
+    },
+    {
+      "path": "WHITEPAPER/Zoran_aSiM_WhitePaper_Consolidation_2025_v2.pdf"
+    },
+    {
+      "path": "code/main.py"
+    }
+  ]
+}

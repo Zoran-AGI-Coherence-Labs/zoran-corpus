@@ -1,0 +1,9 @@
+Creative-Ethic BY v1.0 © 2025 Frédéric Tabary — Institut🦋 IA Inc.
+
+Usage libre pour la recherche, l’enseignement et la vulgarisation scientifique.
+Interdiction d’usage commercial, médical ou thérapeutique sans accord explicite
+de l’auteur. Toute réutilisation doit citer le DOI et conserver la traçabilité
+C2PA / ProofChain. Toute dérivation doit rester éthique et vérifiable.
+
+Citation obligatoire :
+Tabary F. (2025). Zoran🦋 ΔPOLYMORPH-ENGINE Ω⁸. Zenodo 10.5281/zenodo.17571503

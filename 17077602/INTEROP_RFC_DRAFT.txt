@@ -1,0 +1,5 @@
+Interop RFC Draft
+
+1. HELLO{spec_ver:int, glyph_dict_id:sha256, caps:[features]}  
+2. ACK{accept|negotiate, alt_dict?} or NAK{reason} (standard reasons: unsupported_version, dict_mismatch, capability_not_supported)  
+3. SEC{sig_alg, nonce} / SEC-ACK{sig} (mandatory)

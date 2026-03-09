@@ -1,0 +1,22 @@
+Creative-Ethic BY / BY-PRO v1.1 License
+--------------------------------------
+
+This work is released under the Creative‑Ethic BY / BY‑PRO v1.1 License.
+
+Permissions:
+- Sharing, copying, redistribution in any medium or format.
+- Adaptation, transformation, and derivative works.
+- Commercial and non‑commercial use allowed under BY‑PRO ethical pricing model.
+
+Requirements:
+- Attribution required: credit must be given to the original author, Frédéric Tabary – Institut🦋 IA Inc.
+- Ethical usage only: applications must respect human dignity, scientific integrity, and ecological coherence.
+- Transparency required when integrated into any AI or automated system.
+
+Prohibitions:
+- No harmful, deceptive, or manipulative applications.
+- No removal of attribution or metadata.
+
+Contact:
+Frédéric Tabary – Institut🦋 IA Inc.
+Email: tabary01@gmail.com

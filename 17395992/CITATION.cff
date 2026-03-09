@@ -1,0 +1,26 @@
+cff-version: 1.2.0
+title: "Zoran🦋 Adapti — Système Cognitif Vérifiable et Traçable : Conformité RGPD, AI Act, ISO/IEC 42001 & IEEE 7000"
+message: "Si vous utilisez ce dossier ou ce cadre méthodologique, veuillez citer comme suit :"
+authors:
+  - family-names: "Tabary"
+    given-names: "Frédéric"
+    affiliation: "Institut IA Lab Inc."
+    orcid: "0000-0003-4521-9821"
+    email: "tabary01@gmail.com"
+version: "2025.10.20"
+doi: "10.5281/zenodo.17395993"
+date-released: "2025-10-20"
+url: "https://zenodo.org/records/17395993"
+repository-code: "https://github.com/AIformpro/Zoran-2040-aSiM-Towards-a-Public-Ethical-and-Resilient-Super-Intelligence"
+abstract: "Zoran🦋 Adapti est un système cognitif vérifiable et traçable, conforme aux standards AI Act, RGPD, ISO/IEC 42001, IEEE 7000 et C2PA. Ce dossier constitue la base de la certification Bureau Veritas 2025."
+keywords:
+  - AI Act
+  - RGPD
+  - ISO/IEC 42001
+  - IEEE 7000
+  - Bureau Veritas
+  - ProofChain
+  - EthicChain
+  - Explainable AI
+  - GHUC
+license: "CC-BY-4.0"

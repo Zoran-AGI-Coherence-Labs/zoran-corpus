@@ -1,0 +1,1 @@
+Zoran Ω∞ — Universal Coherence Framework

@@ -1,0 +1,4 @@
+id,source,type,screened,included,notes
+1,EU AI Act,regulation,yes,yes,Baseline normative
+2,ISO/IEC 42001,standard,yes,yes,AIMS mapping
+3,OWASP ASVS,standard,yes,yes,Security controls

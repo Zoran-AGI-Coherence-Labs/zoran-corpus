@@ -1,0 +1,39 @@
+meta:
+  name: FT-Policy-Unifiee
+  version: 1.3
+  owner: FranceTravail
+  scope: ["direction","demandeur_emploi","salarie","partenaire"]
+  signer: C2PA
+  timestamp: NOW
+ai_act:
+  risk_class: "high-risk (public employment services)"
+  human_oversight: "required"
+  post_market_monitoring: "on"
+rgpd:
+  legal_base: ["Art6(1)(e) mission d'intérêt public", "Consentement pour personnalisation"]
+  dpia_required: true
+  dsar_sla_days: 30
+security:
+  owasp_asvs_target: "L2/L3"
+  owasp_llm_top10: "covered"
+  mitre_atlas: "mapped"
+  enisa_tl: "considered"
+pqc:
+  suite: ["ML-KEM (Kyber)","Classic McEliece","NTRU"]
+  tls_hybrid: "X25519 + ML-KEM"
+  tvla_ci: "on"
+  kill_switch_hours: 48
+environment:
+  sci_target_12m_reduction_pct: 30
+  pue_required: "<=1.3 (data center cible)"
+  carbon_aware_scheduling: "on"
+fairness:
+  metrics: ["SPD","DeltaTPR","DeltaFPR","ECE"]
+  slo:
+    SPD_abs_max: 0.1
+    DeltaTPR_max_pts: 5
+    DeltaFPR_max_pts: 5
+    ECE_max_pct: 2
+observability:
+  kpis: ["employment_return_rate","median_time_to_job","exactitude_sourcée","abstention_pertinente","latency_p95","cost_per_ticket","satisfaction","fairness_gap"]
+  c2pa_on_outputs: true

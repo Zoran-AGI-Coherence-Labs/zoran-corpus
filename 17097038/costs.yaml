@@ -1,0 +1,26 @@
+
+fleet:
+  machines: 10
+  sensors_per_machine: 4
+  sampling_hz: 2000
+  window_sec: 2
+  analysis_per_min: 6
+zdm:
+  resonant_cache_ratio: 0.85
+  hardcore_write_policy: "events_only"
+provenance:
+  c2pa_batching: true
+  sign_artifacts: ["pdf","json","csv","png"]
+observability:
+  metrics_granularity_sec: 30
+  retention_days: 30
+storage:
+  class: "S3-standard"
+  avg_event_size_kb: 64
+  monthly_events_per_machine: 5000
+costs_eur_month:
+  c2pa_ci: 12
+  sbom_vex: 8
+  storage: 6
+  orchestration_compute: 20
+  observability: 10

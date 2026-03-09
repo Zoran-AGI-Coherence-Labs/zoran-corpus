@@ -1,0 +1,1 @@
+# Déclaration Universelle — GHUC Ω7.3

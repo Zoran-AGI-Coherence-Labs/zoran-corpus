@@ -1,0 +1,43 @@
+Creative-Ethic BY v1.0 License
+
+Copyright © 2025 Frédéric Tabary - Institut🦋 IA Inc.
+
+═══════════════════════════════════════════════════════════════════════════
+PERMISSIONS
+═══════════════════════════════════════════════════════════════════════════
+
+Vous êtes libre de :
+✓ Partager — copier et redistribuer le matériel
+✓ Adapter — remixer, transformer et créer à partir du matériel
+✓ Utiliser commercialement sous conditions
+
+═══════════════════════════════════════════════════════════════════════════
+CONDITIONS
+═══════════════════════════════════════════════════════════════════════════
+
+Vous devez :
+• Attribution — Créditer l'œuvre, fournir un lien vers la licence
+• Ethical Use — Ne pas utiliser à des fins malveillantes ou nuisibles
+• Integrity — Maintenir l'intégrité des chaînes ProofChain/EthicChain
+• Transparency — Documenter toute modification substantielle
+
+═══════════════════════════════════════════════════════════════════════════
+RESTRICTIONS
+═══════════════════════════════════════════════════════════════════════════
+
+Vous ne pouvez pas :
+✗ Utiliser à des fins de surveillance non consentie
+✗ Créer des systèmes discriminatoires ou biaisés
+✗ Violer les droits fondamentaux ou la vie privée
+✗ Contourner les mécanismes de traçabilité éthique
+
+═══════════════════════════════════════════════════════════════════════════
+GARANTIES
+═══════════════════════════════════════════════════════════════════════════
+
+Cette œuvre est fournie "telle quelle", sans garantie d'aucune sorte.
+L'auteur ne saurait être tenu responsable des dommages résultant de l'usage.
+
+Pour usage responsable et questions : tabary01@gmail.com
+
+DOI : 10.5281/zenodo.17510099

@@ -1,0 +1,101 @@
+{
+  "date": "2025-09-10",
+  "model": "POC Ressenti computationnel mimétique",
+  "seeds": [
+    13,
+    42,
+    101
+  ],
+  "timesteps": 1500,
+  "entropy_threshold": 0.2,
+  "coherence_baseline_mean": 0.28139840366118635,
+  "coherence_baseline_std": 0.02160071517893626,
+  "coherence_guard_mean": 0.1790900170027484,
+  "coherence_guard_std": 0.03216437520351134,
+  "rollback_rate_mean": 0.9511111111111111,
+  "rollback_rate_std": 0.02360372433471327,
+  "overhead_p95": 0.16955908927459612,
+  "runs": [
+    {
+      "seed": 13,
+      "baseline": {
+        "seed": 13,
+        "use_guard": false,
+        "runtime_s": 0.08962827799999928,
+        "rollbacks": 0,
+        "rollback_rate": 0.0,
+        "coherence_avg": 0.31193943877384056,
+        "entropy_avg": 0.6880605612261594,
+        "entropy_std": 0.26081870723702233,
+        "timesteps": 1500,
+        "threshold_entropy": 0.2
+      },
+      "guard": {
+        "seed": 13,
+        "use_guard": true,
+        "runtime_s": 0.09072541500000142,
+        "rollbacks": 1377,
+        "rollback_rate": 0.918,
+        "coherence_avg": 0.2244197766479138,
+        "entropy_avg": 0.7755802233520862,
+        "entropy_std": 0.26821864710043497,
+        "timesteps": 1500,
+        "threshold_entropy": 0.2
+      }
+    },
+    {
+      "seed": 42,
+      "baseline": {
+        "seed": 42,
+        "use_guard": false,
+        "runtime_s": 0.06526155599999584,
+        "rollbacks": 0,
+        "rollback_rate": 0.0,
+        "coherence_avg": 0.26669377041106235,
+        "entropy_avg": 0.7333062295889377,
+        "entropy_std": 0.22327882758949924,
+        "timesteps": 1500,
+        "threshold_entropy": 0.2
+      },
+      "guard": {
+        "seed": 42,
+        "use_guard": true,
+        "runtime_s": 0.07632724599999818,
+        "rollbacks": 1446,
+        "rollback_rate": 0.964,
+        "coherence_avg": 0.15970083805662472,
+        "entropy_avg": 0.8402991619433753,
+        "entropy_std": 0.1969252648112628,
+        "timesteps": 1500,
+        "threshold_entropy": 0.2
+      }
+    },
+    {
+      "seed": 101,
+      "baseline": {
+        "seed": 101,
+        "use_guard": false,
+        "runtime_s": 0.0757271669999966,
+        "rollbacks": 0,
+        "rollback_rate": 0.0,
+        "coherence_avg": 0.2655620017986561,
+        "entropy_avg": 0.7344379982013439,
+        "entropy_std": 0.217981209425537,
+        "timesteps": 1500,
+        "threshold_entropy": 0.2
+      },
+      "guard": {
+        "seed": 101,
+        "use_guard": true,
+        "runtime_s": 0.0736531749999969,
+        "rollbacks": 1457,
+        "rollback_rate": 0.9713333333333334,
+        "coherence_avg": 0.1531494363037067,
+        "entropy_avg": 0.8468505636962933,
+        "entropy_std": 0.17810642040595379,
+        "timesteps": 1500,
+        "threshold_entropy": 0.2
+      }
+    }
+  ]
+}

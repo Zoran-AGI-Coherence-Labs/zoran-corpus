@@ -1,0 +1,22 @@
+{
+  "invariants": [
+    "I0_LCCR",
+    "I1_BoundedDissipation",
+    "I2_MinimalTraceability",
+    "I3_OperationalNonSingularity"
+  ],
+  "laws": {
+    "L1": "MeasurablePersistence_Cphi>0",
+    "L2": "CoherenceSelection_non_decreasing_Cphi",
+    "L3": "OrientedDissipation_TimeArrow",
+    "L4": "ForcedRegularization_Pik",
+    "L5": "ExistenceTraceEquivalence"
+  },
+  "domains": [
+    "A_singularities",
+    "B_time_arrow",
+    "C_living",
+    "D_ai"
+  ],
+  "falsification_rule": "single_repeatable_counterexample_suffices"
+}

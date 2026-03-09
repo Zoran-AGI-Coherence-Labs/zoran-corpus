@@ -1,0 +1,22 @@
+{
+  "title": "GHUC \u03a94 Veritas 2025",
+  "upload_type": "dataset",
+  "description": "Pre-verification dataset package for the GHUC \u03a94 Veritas 2025 release.",
+  "creators": [
+    {
+      "name": "ZORAN_VERITAS_ENGINE",
+      "affiliation": "GHUC Research Unit"
+    }
+  ],
+  "keywords": [
+    "GHUC",
+    "Veritas",
+    "C2PA",
+    "Integrity",
+    "Verification"
+  ],
+  "license": "CC-BY-4.0",
+  "doi": "DOI_PLACEHOLDER",
+  "publication_date": "2025-10-20",
+  "version": "1.0-pre-verif"
+}

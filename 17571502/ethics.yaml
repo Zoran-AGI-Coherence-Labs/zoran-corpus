@@ -1,0 +1,9 @@
+ethics:
+  enable_fairness: true
+  enable_privacy: true
+  audit_trail: ProofChain
+  compliance:
+    - AIAct2024
+    - GDPR
+  notes: |
+    Ce fichier définit les paramètres d’éthique et de conformité appliqués par le moteur.

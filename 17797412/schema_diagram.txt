@@ -1,0 +1,9 @@
+User
+  ↓
+GlyphNet (Encode)
+  ↓
+External LLM (Compute Only)
+  ↓
+Zoran Codex (Decode + Intelligence)
+  ↓
+Output

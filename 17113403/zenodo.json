@@ -1,0 +1,48 @@
+{
+  "title": "Zoran EU \u2014 D\u00e9claration NOW (Puissance 2300)",
+  "upload_type": "publication",
+  "publication_type": "report",
+  "description": "White Paper IMRaD + d\u00e9mo stdlib (ZDM, \u0394M11.3), mappings AI Act & ISO 42001, SBOM, plans C2PA/Sigstore.",
+  "creators": [
+    {
+      "name": "Tabary, Fr\u00e9d\u00e9ric",
+      "affiliation": "Zoran EU"
+    }
+  ],
+  "related_identifiers": [
+    {
+      "relation": "isSupplementTo",
+      "identifier": "10.5281/zenodo.16940525"
+    },
+    {
+      "relation": "isSupplementTo",
+      "identifier": "10.5281/zenodo.16941007"
+    },
+    {
+      "relation": "isSupplementTo",
+      "identifier": "10.5281/zenodo.16940299"
+    },
+    {
+      "relation": "isSupplementTo",
+      "identifier": "10.5281/zenodo.16995014"
+    },
+    {
+      "relation": "isSupplementTo",
+      "identifier": "10.5281/zenodo.16995226"
+    },
+    {
+      "relation": "isSupplementTo",
+      "identifier": "10.5281/zenodo.16997156"
+    }
+  ],
+  "keywords": [
+    "Zoran EU",
+    "ZDM",
+    "\u0394M11.3",
+    "EthicChain",
+    "AI Act",
+    "ISO 42001",
+    "sovereignty",
+    "cognitive bitcoin"
+  ]
+}

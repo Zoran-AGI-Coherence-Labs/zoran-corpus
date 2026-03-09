@@ -1,0 +1,6 @@
+Security Model
+
+STRIDE threat analysis.  
+Sandbox with Least Privilege.  
+Quotas: ≤2KB/message, ≤100 req/min, ≤3 rollbacks/session.  
+Deny-list macros (non-exhaustive): exec_shell, net.post_http, access_fs.

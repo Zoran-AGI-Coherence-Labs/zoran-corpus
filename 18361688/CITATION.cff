@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite it as below."
+title: "La cohérence dans le management"
+authors:
+  - family-names: "Tabary"
+    given-names: "Frédéric"
+version: "1.0.0"
+date-released: "2026-01-24"
+doi: "10.5281/zenodo.18361689"
+license: "CC-BY-4.0"
+preferred-citation:
+  type: report
+  authors:
+    - family-names: "Tabary"
+      given-names: "Frédéric"
+  title: "La cohérence dans le management — Vers une formalisation structurelle au-delà des approches critiques contemporaines"
+  year: 2026
+  publisher: "Zenodo"
+  doi: "10.5281/zenodo.18361689"

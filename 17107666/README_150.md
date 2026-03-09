@@ -1,0 +1,1 @@
+Zoran aSiM × France Travail — Pack v1.3 (audit‑ready) : livre blanc IMRaD, DPIA/DPA, PQC runbook, fairness, sandbox, policy.yaml unifié, AI System Card, Makefile et scripts injecteur. Souverain, conforme, traçable, prêt pour pilote.

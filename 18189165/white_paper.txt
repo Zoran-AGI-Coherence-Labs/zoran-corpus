@@ -1,0 +1,33 @@
+ZORAN Law Engine v1.0
+White Paper — Urgent Foundational Laws
+
+Abstract
+This paper formalizes the complete set of urgent foundational laws required for physical operability under four invariants of possibility. The framework is closed at the foundational level and open only to local implementations.
+
+Invariants (I0–I3)
+I0 Continuity of the Real (non-contradictory trajectories)
+I1 Bounded Dissipation
+I2 Minimal Traceability
+I3 Operational Non-Singularity
+
+Urgent Laws (L1–L5)
+L1 Measurable Persistence
+A system persists iff Cφ = D_KL(P||Q) > 0.
+
+L2 Coherence Selection Principle
+Among admissible transitions, the realized transition does not decrease Cφ in a persistent regime.
+
+L3 Oriented Dissipation of Time
+Any macroscopic time inversion with ΔI>0 requires strictly positive dissipation.
+
+L4 Forced Regularization (Πk)
+If admissibility collapses, a re-description Πk must restore operability.
+
+L5 Existence–Trace Equivalence
+Existence is equivalent to a non-null, coherent trace.
+
+Falsification
+One repeatable, traceable counterexample suffices to falsify any law.
+
+Status
+Foundationally closed. Open to local equations and constants only.

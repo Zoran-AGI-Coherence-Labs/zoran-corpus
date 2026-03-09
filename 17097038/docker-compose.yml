@@ -1,0 +1,7 @@
+
+services:
+  zoran-asim-ses10:
+    image: python:3.11-slim
+    working_dir: /app
+    volumes: [ ".:/app" ]
+    command: bash -lc "pip install matplotlib cyclonedx-bom && make reproduce_all sbom prisma && python3 plot_metrics.py && python3 roi_calc.py"

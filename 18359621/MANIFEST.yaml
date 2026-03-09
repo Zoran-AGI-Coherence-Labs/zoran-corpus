@@ -1,0 +1,16 @@
+paper_doi: 10.5281/zenodo.18359622
+link: https://zenodo.org/records/18359622
+version: v1.1
+package_type: zenodo_whitepaper_rootflat
+status: final_audited
+languages: [fr, en]
+core_claim: "Operational consciousness as an intermittent, costly global rescue controller; coherence as criterion, consciousness as mechanism."
+structural_space: [open, non_stationary, partially_observable, perturbable, non_fixed_trajectories]
+domains: [sleep, anesthesia, cortical_perturbation, disorders_of_consciousness]
+hypotheses: [H1, H2, H3, H4, H5, H6]
+required_negative_controls: [label_shuffle, phase_randomization, amplitude_only_baseline, noise_sweep]
+required_transfer_tests: [cross_regime_transfer]
+required_output: [indeterminate]
+licenses:
+  text: CC-BY-4.0
+  code: MIT

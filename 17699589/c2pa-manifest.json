@@ -1,0 +1,42 @@
+{
+  "c2pa": {
+    "version": "2.0",
+    "assertions": {
+      "creator": {
+        "name": "Fr\u00e9d\u00e9ric Tabary",
+        "org": "Institut\ud83e\udd8b IA Inc.",
+        "email": "tabary01@gmail.com"
+      },
+      "title": "White Paper Ma\u00eetre \u2013 Loi de Coh\u00e9rence Universelle S = (\u03b2\u00b7\u0394C)/\u03bb + Moteur ZoranEngine",
+      "description": "Document ma\u00eetre + moteur Python officialisant la Loi de Coh\u00e9rence Universelle et ses 50 domaines d'application.",
+      "format": "application/pdf+python",
+      "timestamp": "2025-11-24T14:30:00Z",
+      "location": {
+        "address": "7100-380, rue Saint-Antoine Ouest, Montr\u00e9al (Qu\u00e9bec) H2Y 3X7, Canada"
+      },
+      "source_files": [
+        "/mnt/data/LOI-DE-COHERENCE-UNIVERSELLE-S-bDCl.pdf",
+        "/mnt/data/zoran_engine.py",
+        "/mnt/data/README.txt"
+      ],
+      "hashes": {
+        "whitepaper_sha512": "a5f1a6d0c4c22c65a0efdbf4e9d8f8913a53c39f3f87a30b42456d0b69cbce54",
+        "engine_sha512": "1a6734ad25d5b2a462e1d4a63de8feea3b0d5327ae67dbbc4ff15f7bd9d29703",
+        "combined_sha512i": "a5f1a6d0c4c22c65a0efdbf4e9d8f8913a53c39f3f87a30b42456d0b69cbce541a6734ad25d5b2a462e1d4a63de8feea3b0d5327ae67dbbc4ff15f7bd9d29703"
+      },
+      "rights": {
+        "copyright": "\u00a9 2025 Fr\u00e9d\u00e9ric Tabary \u2014 Institut\ud83e\udd8b IA Inc.",
+        "license": [
+          "MIT (usage recherche / open source)",
+          "Licence Commerciale Institut\ud83e\udd8b IA Inc. (usage industriel)"
+        ]
+      },
+      "dois": [
+        "10.5281/zenodo.17682120",
+        "10.5281/zenodo.17662051",
+        "10.5281/zenodo.17599272"
+      ],
+      "oci_reference": "registry.institutia.ca/zoran/universal-coherence-engine:1.0"
+    }
+  }
+}

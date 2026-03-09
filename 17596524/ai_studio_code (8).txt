@@ -1,0 +1,14 @@
+🦋 ZORAN — Loi de Cohérence Vivante (Package v1.0)
+Auteur : Frédéric Tabary (Tabary01@gmail.com)
+Date : 22 Novembre 2024
+
+CONTENU DU DOSSIER :
+1. Le PDF (Théorie Scientifique) : C'est le document que vous avez déjà.
+2. zoran_calculator.py : Le code informatique pour calculer S.
+3. LICENSE.txt : Les droits d'utilisation (Gratuit vs Payant).
+
+COMMENT UTILISER :
+- Pour lire la théorie : Ouvrez le PDF.
+- Pour utiliser le code : Installez Python et lancez "python zoran_calculator.py".
+
+CONTACT : Tabary01@gmail.com

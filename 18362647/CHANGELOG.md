@@ -1,0 +1,1 @@
+v3.0 (2026-01-24): reviewer fixes applied.

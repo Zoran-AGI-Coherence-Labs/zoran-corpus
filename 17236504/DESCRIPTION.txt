@@ -1,0 +1,3 @@
+The Zoran aSiM Injector-Engine AllLabs introduces a polymorphic mechanism capable of generating injectors specialized for France’s major research institutes: INSERM, CEA, INRIA, INRAE, and IRD. 
+It guarantees reproducibility, auditability, and compliance by design (GDPR, AI Act, ISO/IEC 42001), while producing multi-format Trust Reports (JSON, PDF, LaTeX) signed by KeyGuardian. 
+This release includes architecture, demonstrators, and examples of injectors across biomedical, HPC, AI, agro-climate, and epidemiology domains.

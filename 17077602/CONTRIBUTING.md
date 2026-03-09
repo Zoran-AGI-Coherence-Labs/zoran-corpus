@@ -1,0 +1,1 @@
+Contributing: propose new glyphs via PR with definition, example, justification. Agree to MIT license.

@@ -1,0 +1,31 @@
+{
+  "date": "2025-09-11",
+  "files": [
+    "ANNEXE_H_Analyse_Critique.md",
+    "BUSINESS_CASE.md",
+    "CITATION.cff",
+    "EVIDENCES.md",
+    "GLOSSAIRE.md",
+    "LICENSE",
+    "Makefile",
+    "README_EN.md",
+    "README_FR.md",
+    "README_global.md",
+    "SBOM.cyclonedx.json",
+    "WP.html",
+    "WP.md",
+    "ZGS_fragments.zgs",
+    "c2pa.json",
+    "delta_guard.py",
+    "eureka.py",
+    "gen_sbom.py",
+    "glyphnet.py",
+    "logging_utils.py",
+    "main.py",
+    "metrics.json",
+    "metrics_summary.md",
+    "policy.yaml",
+    "stats_welch.py",
+    "zdm.py"
+  ]
+}

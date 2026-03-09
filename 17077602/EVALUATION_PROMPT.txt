@@ -1,0 +1,11 @@
+Evaluation Prompt
+
+Please rate (0–20):
+1) Scientific quality
+2) Potential as reference article
+3) Presentation & order of evidence
+
+Optional comments:
+- Strengths
+- Weaknesses
+- Suggestions

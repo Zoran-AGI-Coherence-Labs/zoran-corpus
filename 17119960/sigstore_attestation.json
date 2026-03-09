@@ -1,0 +1,19 @@
+{
+  "tool": "sigstore-attest (template)",
+  "subject": {
+    "name": "Zoran aSiM \u2013 White Paper Consolidation 2025 (\u00c9dition augment\u00e9e des White Papers fondateurs) \u2014 v2",
+    "digest": {
+      "sha256": "TBD-after-signing"
+    }
+  },
+  "predicateType": "https://slsa.dev/provenance/v1",
+  "predicate": {
+    "builder": "Zoran aSiM v2",
+    "repro": true,
+    "seeds": [
+      13,
+      42,
+      101
+    ]
+  }
+}

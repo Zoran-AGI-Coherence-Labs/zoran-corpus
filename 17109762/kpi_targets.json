@@ -1,0 +1,7 @@
+{
+  "reproductibility": 0.98,
+  "interop": 0.6,
+  "overhead_p95": 0.12,
+  "ai_act": 0.65,
+  "iso_42001": 0.65
+}

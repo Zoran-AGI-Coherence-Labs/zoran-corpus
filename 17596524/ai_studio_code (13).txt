@@ -1,0 +1,9 @@
+PACKAGE ZORAN — LOI DE COHÉRENCE VIVANTE
+Auteur : Frédéric Tabary
+
+CE DOSSIER CONTIENT :
+1. Le White Paper (PDF) : La théorie scientifique complète.
+2. zoran_calculator.py : Le code de calcul de S.
+3. LICENSE.txt : Les droits d'usage.
+
+CONTACT : Tabary01@gmail.com

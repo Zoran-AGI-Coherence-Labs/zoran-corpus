@@ -1,0 +1,42 @@
+═══════════════════════════════════════════════════════════════════════════
+LIENS ET RÉFÉRENCES — GHUC Ω⁵
+═══════════════════════════════════════════════════════════════════════════
+
+📚 PUBLICATION SCIENTIFIQUE
+───────────────────────────────────────────────────────────────────────────
+Zenodo DOI : https://doi.org/10.5281/zenodo.17510099
+ArXiv : [À publier]
+PLOS ONE : [En review]
+
+🔬 REPOSITORIES
+───────────────────────────────────────────────────────────────────────────
+GitHub Principal : https://github.com/AIformpro/Zoran-2040-aSiM
+GitHub Institut IA : https://github.com/institutiainc
+Documentation : https://zoran-docs.institutia.ca
+
+🏢 ORGANISATION
+───────────────────────────────────────────────────────────────────────────
+Institut IA Inc. : https://institutia.ca
+LinkedIn : https://linkedin.com/company/institut-ia
+Medium : https://medium.com/@institutia
+
+🤝 PARTENAIRES
+───────────────────────────────────────────────────────────────────────────
+Bureau Veritas : Certification et validation
+Mott MacDonald : Conseil technique
+CNRS : Collaboration recherche
+Gouvernement FR : Programmes d'innovation
+
+📞 CONTACT
+───────────────────────────────────────────────────────────────────────────
+Email : tabary01@gmail.com
+LinkedIn : Frédéric Tabary
+Location : Montréal (QC) / Angers (France)
+
+🎓 FORMATIONS
+───────────────────────────────────────────────────────────────────────────
+Forest GPT : IA pour la construction (2800+ professionnels formés)
+Programmes B2B : Solutions IA sur mesure
+Certifications : Conformité EU AI Act
+
+═══════════════════════════════════════════════════════════════════════════

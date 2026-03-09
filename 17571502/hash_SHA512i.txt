@@ -1,0 +1,2 @@
+# À calculer après génération de l’archive
+Z_POLYMORPH_ENGINE_v1_2025.zip  <empreinte_SHA512>

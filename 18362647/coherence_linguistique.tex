@@ -1,0 +1,168 @@
+\documentclass[11pt,a4paper]{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[french]{babel}
+\usepackage{lmodern}
+\usepackage{amsmath,amssymb,amsthm}
+\usepackage{geometry}
+\usepackage{setspace}
+\usepackage{hyperref}
+\usepackage{booktabs}
+\usepackage{tikz}
+\usepackage{pgfplots}
+\pgfplotsset{compat=1.18}
+
+\geometry{margin=2.5cm}
+\onehalfspacing
+
+\hypersetup{
+  colorlinks=true,
+  linkcolor=black,
+  urlcolor=black,
+  citecolor=black,
+  pdftitle={Une formalisation informationnelle de la cohérence linguistique},
+  pdfauthor={Frédéric Tabary}
+}
+
+\title{\textbf{Une formalisation informationnelle de la cohérence linguistique}\\
+\large Définition, mesure et validation empirique pilote exploratoire}
+
+\author{Frédéric Tabary\\
+\small Recherche indépendante}
+
+\date{\small Version v3.0 -- \today}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+Nous proposons une formalisation informationnelle de la cohérence linguistique, au sens de la théorie de l’information, définie comme la réduction de l’incertitude interprétative induite par un signal linguistique dans un contexte donné. La cohérence linguistique est modélisée comme une diminution normalisée de l’entropie conditionnelle sur un espace d’interprétations possibles. Nous distinguons la cohérence intrinsèque (sans contexte) de la cohérence contextualisée et introduisons un score scalaire $K(X;C)\in[0,1]$.
+
+Nous décrivons un protocole de validation pilote simulé (n=10) comparant $K(X;C)$ à des jugements humains de clarté, et fournissons un jeu de données minimal ainsi que des baselines (longueur, entropie lexicale, perplexité). Les résultats présentés sont exploratoires : ils visent à rendre le cadre falsifiable et reproductible, sans revendiquer d’universalité.
+\end{abstract}
+
+\section{Introduction}
+Les langues naturelles fonctionnent malgré une ambiguïté omniprésente, des références implicites et des structures sous-spécifiées. La compréhension humaine repose fortement sur l’inférence contextuelle et la compensation pragmatique, ce qui peut masquer le coût structurel de l’ambiguïté.
+
+Ce travail ne porte aucun jugement normatif sur les langues naturelles ; il vise uniquement à caractériser leur coût informationnel.
+
+Il répond à une question strictement opératoire :
+\begin{quote}
+Peut-on définir et mesurer la cohérence linguistique indépendamment du style, de la valeur de vérité et de l’acceptabilité sociale, en distinguant ce qui \emph{tient} de ce qui \emph{force} à être interprété ?
+\end{quote}
+
+\section{Statut : cadre formel vs validation scientifique}
+Nous distinguons explicitement :
+\begin{itemize}
+\item un \textbf{cadre formel} (définitions, propriétés, cohérence interne),
+\item une \textbf{validation scientifique} (hypothèses falsifiables, données, reproductibilité, comparaison à des baselines).
+\end{itemize}
+Ce document fournit le cadre formel et un protocole pilote falsifiable.
+
+\section{Formalisation de la cohérence linguistique}
+\subsection{Cadre formel minimal}
+Soient :
+\begin{itemize}
+\item $\mathcal{X}$ l’espace des signaux linguistiques (mots, phrases, textes),
+\item $\mathcal{M}$ un espace discret ou dénombrable d’interprétations possibles, permettant la définition de l’entropie conditionnelle,
+\item $\mathcal{C}$ l’espace des contextes explicites (domaine, situation, référents, objectif).
+\end{itemize}
+
+Une langue (ou un système d’énoncés) induit une distribution conditionnelle :
+\[
+P(M\mid X,C),
+\]
+c’est-à-dire, pour un texte $X$ et un contexte $C$, une distribution de sens plausibles $M$.
+
+\subsection{Définition informationnelle}
+La cohérence linguistique est définie comme la capacité du signal $X$ à réduire l’incertitude sur $M$ dans le contexte $C$.
+L’incertitude est mesurée par l’entropie conditionnelle :
+\[
+H(M\mid X,C).
+\]
+Plus $H(M\mid X,C)$ est faible, plus le texte détermine son sens dans $C$.
+
+\subsection{Score normalisé}
+Nous définissons le score de cohérence :
+\[
+K(X;C) \triangleq 1 - \frac{H(M\mid X,C)}{H(M\mid C)}.
+\]
+Cette normalisation permet de comparer des textes évalués dans des contextes de complexité différente.
+
+On suppose $H(M\mid C)>0$. Si $H(M\mid C)=0$ (le contexte fixe déjà univoquement le sens), on pose par convention $K(X;C)=1$.
+
+\paragraph{Propriétés.}
+\begin{itemize}
+\item $0\le K(X;C)\le 1$.
+\item $K(X;C)=1$ si $H(M\mid X,C)=0$.
+\item $K(X;C)=0$ si $H(M\mid X,C)=H(M\mid C)$.
+\end{itemize}
+
+\subsection{Cohérence intrinsèque vs contextualisée}
+\begin{itemize}
+\item Cohérence intrinsèque :
+\[
+K_{\mathrm{intr}}(X) \triangleq K(X;\varnothing) = 1 - \frac{H(M\mid X)}{H(M)}.
+\]
+\item Cohérence contextualisée :
+\[
+K_{\mathrm{ctx}}(X;C) \triangleq K(X;C).
+\]
+\end{itemize}
+Le contexte est une contrainte ajoutée (il borne l’espace des sens), et non une justification a posteriori.
+
+\section{Lemmata minimaux (falsifiables)}
+\subsection{Lemme 1 : le contexte ne peut qu’augmenter la cohérence}
+Ajouter du contexte ne peut pas augmenter l’incertitude :
+\[
+H(M\mid X,C)\le H(M\mid X),
+\]
+d’où :
+\[
+K(X;C)\ge K(X;\varnothing).
+\]
+Interprétation : le contexte réduit le bruit mais déplace la charge de cohérence hors du texte.
+
+\subsection{Lemme 2 : non-injectivité et ambiguïté}
+Si, pour un contexte donné, un même $X$ supporte plusieurs interprétations admissibles :
+\[
+|\{m : P(m\mid X,C)>0\}|>1,
+\]
+alors $H(M\mid X,C)>0$ et donc $K(X;C)<1$. Une architecture linguistique présentant une probabilité élevée de non-injectivité (polysémie non bornée, ellipses, référents implicites) tend à augmenter l’entropie interprétative moyenne.
+
+\subsection{Lemme 3 : équivalent cohérent comme optimisation}
+On définit un équivalent cohérent $X^\*$ comme une projection dans un voisinage de reformulations conservant l’intention apparente :
+\[
+X^\*\in \arg\max_{X'\in \mathcal{N}(X)} K(X';C).
+\]
+Cette définition interdit l’enrichissement sémantique arbitraire et formalise la réduction de bruit structurel.
+
+\section{Méthodes : protocole pilote}
+\subsection{Hypothèse falsifiable}
+\textbf{H$_1$} : $K(X;C)$ corrèle positivement avec la clarté perçue par des évaluateurs humains.
+\textbf{H$_0$} : absence de corrélation significative.
+
+\subsection{Évaluations humaines}
+Sept évaluateurs notent chaque phrase (dans son contexte) sur une échelle 1--7.
+
+\subsection{Opérationnalisation}
+Le modèle de langue utilisé n’est pas évalué comme juge de cohérence, mais uniquement comme instrument d’échantillonnage de la dispersion interprétative.
+
+\subsection{Baselines}
+Comparaison à la longueur du texte, l’entropie lexicale et la perplexité.
+
+\section{Résultats pilotes simulés}
+Les résultats présentés sont explicitement simulés et servent de contrôle interne de cohérence méthodologique.
+
+\section{Limites}
+\begin{itemize}
+\item Taille d’échantillon réduite.
+\item Sensibilité aux paramètres de clustering.
+\item Validité inter-langues non testée.
+\end{itemize}
+
+\section{Conclusion}
+Nous introduisons une définition informationnelle, falsifiable et opérationnelle de la cohérence linguistique, distinguant cohérence intrinsèque et contextualisée. Le protocole pilote proposé permet une validation empirique directe et reproductible.
+
+\end{document}

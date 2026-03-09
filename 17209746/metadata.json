@@ -1,0 +1,37 @@
+{
+  "title": "Zoran🦋 aSiM — Benchmarks académiques : Preuve de pertinence mimétique et conformité AI Act/ISO 42001",
+  "authors": [
+    {
+      "name": "Frédéric Tabary",
+      "affiliation": "Institut IA Lab / AIformpro / Zoran InstituteIA",
+      "email": "tabary01@gmail.com"
+    }
+  ],
+  "doi": "10.5281/zenodo.17209747",
+  "license": "MIT",
+  "keywords": [
+    "Zoran",
+    "aSiM",
+    "Artificial Super-Intelligence Mimétique",
+    "Benchmarks",
+    "ARC",
+    "AI Act",
+    "ISO/IEC 42001",
+    "C2PA",
+    "CycloneDX",
+    "EthicChain",
+    "ΔM11.3",
+    "ZDM",
+    "PolyResonator",
+    "GlyphNet",
+    "Reproductibilité",
+    "White Paper",
+    "Linux de l'intelligence mimétique"
+  ],
+  "date-released": "2025-09-26",
+  "resources": {
+    "gamma": "https://zoran-2040-asim-swxr6lh.gamma.site/",
+    "github": "https://github.com/AIformpro/Zoran-2040-aSiM-Towards-a-Public-Ethical-and-Resilient-Super-Intelligence",
+    "zenodo": "https://doi.org/10.5281/zenodo.17209747"
+  }
+}

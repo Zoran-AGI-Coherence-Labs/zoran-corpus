@@ -1,0 +1,5 @@
+{
+  "status": "placeholder",
+  "reason": "KRL (Key Revocation List) non disponible dans l'environnement sandbox.",
+  "expected_content": "KRL signé listant clés révoquées; fail-closed behaviour."
+}

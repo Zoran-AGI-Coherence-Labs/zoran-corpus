@@ -1,0 +1,27 @@
+
+name: Zoran-aSiM-WhitePaper
+version: "1.0.0"
+date: 2025-08-31
+license: MIT
+contact: tabary01@gmail.com
+dois:
+  - 10.5281/zenodo.16940525
+  - 10.5281/zenodo.16941007
+  - 10.5281/zenodo.16940299
+  - 10.5281/zenodo.16995014
+  - 10.5281/zenodo.16995226
+  - 10.5281/zenodo.16997156
+components:
+  - README.md
+  - meta/project.yaml
+  - CITATIONS.bib
+  - zoran_block.zgs
+  - code/demo_mimesis.py
+  - code/run_experiment.py
+  - code/analyze.py
+  - code/plot.py
+  - datasets/nodes.csv
+  - datasets/edges.csv
+  - datasets/exposures.csv
+  - datasets/params.yaml
+  - datasets/consent.md

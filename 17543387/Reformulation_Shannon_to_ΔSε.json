@@ -1,0 +1,17 @@
+{
+  "reformulation_id": "REF-SHANNON-\u0394S\u03b5",
+  "input_law_id": "external",
+  "canonical_forms": [
+    "H = E[-log p(X)]",
+    "\u0394S\u03b5 \u2248 H - I_context"
+  ],
+  "dualities": [
+    "information \u2194 sens utile",
+    "bruit \u2194 \u03bb"
+  ],
+  "limits": [
+    "\u03bb\u21920 \u21d2 \u0394S\u03b5 \u2248 H",
+    "\u0394C\u03b5\u21920 \u21d2 \u0394S\u03b5 d\u00e9cro\u00eet"
+  ],
+  "dimensional_check": "ok"
+}

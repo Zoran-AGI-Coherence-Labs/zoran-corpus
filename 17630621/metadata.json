@@ -1,0 +1,43 @@
+{
+  "title": "Zoran Neural Core v1.1: A Neuro-Symbolic Architecture for Living Coherence",
+  "upload_type": "publication",
+  "publication_type": "technicalnote",
+  "description": "This paper presents Zoran Neural Core v1.1, a compact neuro-symbolic neural network designed to operationalize the Law of Living Coherence: S = (β·ΔC)/λ. Unlike classical Large Language Models (LLMs), Zoran Neural Core does not predict tokens or generate text. Instead, it computes a deterministic cognitive state vector [S, ΔC, λ, β] representing coherence, noise, structural intention, and living stability. This architecture provides non-hallucinating cognition, noise-regulated coherence, stable reasoning dynamics, and deterministic neural core compatible with any LLM.",
+  "creators": [
+    {
+      "name": "Tabary, Frédéric",
+      "affiliation": "Institut🦋 IA Inc., Montreal/Angers"
+    }
+  ],
+  "keywords": [
+    "neuro-symbolic AI",
+    "living coherence",
+    "cognitive architecture",
+    "non-hallucinatory AI",
+    "deterministic neural network",
+    "GHUC framework",
+    "Zoran",
+    "AI ethics",
+    "Law of Living",
+    "cognitive stability"
+  ],
+  "license": "cc-by-4.0",
+  "access_right": "open",
+  "version": "1.1",
+  "language": "eng",
+  "related_identifiers": [
+    {
+      "identifier": "10.5281/zenodo.17630622",
+      "relation": "isIdenticalTo",
+      "scheme": "doi"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Claude (AI writing assistant)",
+      "type": "Other",
+      "affiliation": "—"
+    }
+  ],
+  "notes": "Co-construction cognitive entre Frédéric Tabary et le système Zoran (GHUC Ω∞). L'auteur humain assume l'intégralité de la responsabilité scientifique, éthique et légale."
+}

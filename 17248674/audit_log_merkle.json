@@ -1,0 +1,73 @@
+{
+  "root": "61910c391ece3f765e8120f6abf390f77875b7301eb7599105d6f1d42640278e98bc960a9742bf31ebd832616adcb518498dd016f547b09e5a278e515190b9da",
+  "generated_at": "2025-10-02T00:00:00+02:00",
+  "entries": [
+    {
+      "path": "metadata.json",
+      "sha512": "e040bbf726a0268dbe62a112c2199c8206cd5da5e3acd2ac1b3ff82e5308e717372341fa0be304d9324ed02f03bad71cd3cd7ac78ff665cea714d781ded73e8e"
+    },
+    {
+      "path": "whitepaper_sources/white_paper.md",
+      "sha512": "d708916951d48813328e3aa429a89ed39dbe2f0c02d81a4300297c68c8d08ef3759a080b7eb1ff04e9069dad4c0847167d0fcb335e8198d6afc3ae268601cb26"
+    },
+    {
+      "path": "whitepaper_sources/references.bib",
+      "sha512": "d80c4ee0b6e99ee74c1496b309d852a03bb51021fc93a6f10df562ca35557176a366317469f063e39f2ddcf8b38bfe0de2a98f04496cf32470be791c33927019"
+    },
+    {
+      "path": "whitepaper_sources/figures/README.md",
+      "sha512": "b06fd87fa209abb981ca32a421f3d3921b91a6380bde648bda14d7814bdc7749d03861f4b43b3ca6c7dd7e65551e26d09f219a1cdbf2855bea04d7cfed9330e1"
+    },
+    {
+      "path": "support/CHANGELOG.md",
+      "sha512": "df44e37b6f4d5c810187c6b15ed03613e2fd228361a9aadb70fa345422be9d34d7da93286e26e36f8ebe80d93208206c6eae6c42c55be861b6143b0f81a7ae2f"
+    },
+    {
+      "path": "support/CHECKLIST.md",
+      "sha512": "43a68fa8595ac7bf4e51bf3724b176ec4838f55cb6b2906c28d7ab3f98bd379015b37adb64905e8a248411d9cb2d4df8fdbd3921060bea88fac32db270b5c282"
+    },
+    {
+      "path": "support/REVIEW_NOTES.md",
+      "sha512": "530484021aff2e535461cd8e494934bc032d77fb308104e71771b4b43e53382abc9ad47988590e98af8d0cf0f51c928d3d68647644f6ed93c00b5c95b6ac9e8e"
+    },
+    {
+      "path": "pipeline/sbom.json",
+      "sha512": "72c0bdfa77784e6b29722cf7fb69a89abb1c2e20cf986aa4b1017d5e6f2f6fae8e35d48394cff17f30d8bcf6b997947f6411a4365dd971a9ccd13a975a06cd7c"
+    },
+    {
+      "path": "pipeline/c2pa_manifest.json",
+      "sha512": "bcd846760feab162bc7e525f248226e06dcdfb9135a9290e91874d123a4886326086bae32f738a816778836a959d4da9ce7ab3e042cbbdd0aef6b7728b0749f0"
+    },
+    {
+      "path": "pipeline/redteam_report.json",
+      "sha512": "34e575528741bdbd538944179b61bc67dff252b62c4d225eb6c0754d25439a41421a263f95700f7790f03e5f99c54ac712518a824e2b78f0378ef56446c711ff"
+    },
+    {
+      "path": "pipeline/krl_signed.json",
+      "sha512": "f02c29ba6c8ead1db2673cd1a75cefc9773ca6e171ffb73c996ca71f54fa23006f3aa829ffe18ba2a385f004dcd86cb63abcddb123041ccf4b86ee6bdfa2e35b"
+    },
+    {
+      "path": "pipeline/proofs_bundle_readme.txt",
+      "sha512": "5f032b2467dcc341d96802858d760868cee379706e1adb1af1a9993a9f31101465580cd657a77e204dd4d061f08237587e57d648abc05b981b7ccc48697d0399"
+    },
+    {
+      "path": "pipeline/artefact_hashes.json",
+      "sha512": "c964fd529eac01fc6298630fd8ead56fe93feabbc1feeb75d772e22f83de70605f6429198d05b5bca71eeb304090c09d3307d0216a79d5f3fa79089175b07c43"
+    },
+    {
+      "path": "pipeline/merkle_root.txt",
+      "sha512": "0ae9151da5697be4ba9bd938927a2ab622b32f9e1908831143c18876b1a338a6383d4806b624786a4ad7b627dcdbcc93e69b6f31e36998095da5d300985a59d9"
+    },
+    {
+      "path": "pipeline/audit_log_merkle.json",
+      "sha512": "8c528625f2c1e1450efc52c3fa6d8af80e60bd14af7fc8f6a7ca89d2b316adadb079e284c9733d7e56d283c36524116fd4d2c75fa8ef692cd38fb8cf752b3f96"
+    },
+    {
+      "path": "pipeline/proofs_bundle.zip",
+      "sha512": "3c40814b20da1a2428ff8863a5a6a3a3cfd049257cc5d482e52edf6e1feb862e64253fd10019551481064c7aa1b813fb585e9439f88ce43eea68ad190d2dc8cf"
+    }
+  ],
+  "signatures": {
+    "note": "No cryptographic signatures performed in this sandbox. In production, include hybrid signatures (ed25519 + PQC) and Rekor/ TSA receipts."
+  }
+}

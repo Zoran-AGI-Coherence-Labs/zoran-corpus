@@ -1,0 +1,11 @@
+[project]
+name = "zoran-coherence"
+version = "0.1.0"
+description = "Explicit, falsifiable coherence evaluation engine"
+authors = [{name = "Frédéric Tabary"}]
+license = {text = "MIT"}
+requires-python = ">=3.10"
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"

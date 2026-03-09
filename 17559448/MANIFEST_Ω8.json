@@ -1,0 +1,15 @@
+{
+  "package": "ZORAN_ΔSPECIALIS_ENGINE_Ω8_FULL_v2",
+  "doi": "10.5281/zenodo.17572000",
+  "author": "Frédéric Tabary — Institut🦋 IA Inc.",
+  "license": "Creative-Ethic BY-PRO v1.1",
+  "files": [
+    "engine/specialis_engine.py",
+    "docs/WHITEPAPER_ΔSPECIALIS_ENGINE.md",
+    "docs/ZENODO_METADATA_Ω8.yaml",
+    "proof/hash_SHA512i.txt"
+  ],
+  "metadata_file": "docs/ZENODO_METADATA_Ω8.yaml",
+  "sha512i": "7852750eadaccedf9e2a0f2ff1be5f4c66e7c6754e43da13fd2b79dd2e7f91547604722c8faed08832652f92f36eeef6051b3268fab24cc1a3d5867c38311725",
+  "timestamp": "2025-11-08T14:06:14Z"
+}

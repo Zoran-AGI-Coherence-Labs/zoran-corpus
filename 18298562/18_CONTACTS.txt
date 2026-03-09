@@ -1,0 +1,4 @@
+Contacts
+
+Author: Frédéric Tabary
+Project: ZORAN — Coherence Framework

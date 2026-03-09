@@ -1,0 +1,10 @@
+{
+  "context": "VEX",
+  "statements": [
+    {
+      "component": "zoran_core",
+      "vulnerability": "NONE",
+      "status": "not_affected"
+    }
+  ]
+}

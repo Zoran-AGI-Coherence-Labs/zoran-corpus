@@ -1,0 +1,3 @@
+# Glossary (EN)
+
+Coherence — The ability of a system...

@@ -1,0 +1,1 @@
+Description complète du protocole Titan et de la méthodologie Symetria_Strict_Hardened.

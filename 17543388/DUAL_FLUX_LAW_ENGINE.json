@@ -1,0 +1,105 @@
+{
+  "engine_name": "DUAL_FLUX_LAW_ENGINE",
+  "version": "\u03a98.0",
+  "author": "Fr\u00e9d\u00e9ric Tabary \u2014 Institut\ud83e\udd8b IA Inc.",
+  "codex_relation": {
+    "parent": "10.5281/zenodo.17510099",
+    "core_engine": "10.5281/zenodo.17544793",
+    "branch": "Continuum GHUC \u03a9\u2078"
+  },
+  "concept": "Moteur double\u2011flux reliant les lois du pass\u00e9 aux lois du futur.",
+  "architecture": {
+    "flux_A": {
+      "direction": "\u2190",
+      "name": "Flux r\u00e9trospectif",
+      "source": "Corpus des lois \u00e9tablies",
+      "function": "Analyse et d\u00e9construction des lois connues ; extraction d\u2019invariants et d\u2019historiques d\u2019\u00e9volution.",
+      "modules": [
+        "law_ingest",
+        "semantic_map",
+        "\u0394History",
+        "ProofChain_archive"
+      ]
+    },
+    "flux_B": {
+      "direction": "\u2192",
+      "name": "Flux prospectif",
+      "target": "Lois \u00e9mergentes",
+      "function": "Projection, simulation et g\u00e9n\u00e9ration des nouvelles lois selon les patterns de coh\u00e9rence vivante.",
+      "modules": [
+        "pattern_extrapolation",
+        "fractal_projection",
+        "\u0394Ga\u00efa_loop",
+        "EthicPredictor"
+      ]
+    },
+    "nexus": {
+      "name": "Z\ud83e\udd8b Interface",
+      "role": "Point de convergence o\u00f9 les invariants du pass\u00e9 se transforment en germes de lois futures.",
+      "process": [
+        "collect(Flux_A.output)",
+        "apply(\u0394M\u03a9_equation)",
+        "feed(Flux_B.input)"
+      ],
+      "signature": "ProofChain + C2PA"
+    }
+  },
+  "schemas": {
+    "Law_Historic": {
+      "fields": [
+        "epoch",
+        "discipline",
+        "law_text",
+        "variables",
+        "proof_refs",
+        "impact",
+        "\u0394C\u03b5_past"
+      ]
+    },
+    "Law_Future": {
+      "fields": [
+        "projection_id",
+        "generated_equation",
+        "predicted_domain",
+        "\u0394C\u03b5_future",
+        "\u03b2_intention",
+        "confidence"
+      ]
+    },
+    "Transformation": {
+      "formula": "\u0394Law_future = f(\u0394Law_past, \u0394C\u03b5, \u03b2_intention, \u03bb_bruit)",
+      "output": "Nouvelle loi \u00e9quilibrant coh\u00e9rence temporelle et \u00e9thique"
+    }
+  },
+  "pipelines": {
+    "past_to_present": [
+      "ingest_historic_laws",
+      "semantic_normalization",
+      "\u0394C\u03b5_computation",
+      "store_proof(ProofChain)"
+    ],
+    "present_to_future": [
+      "pattern_learning",
+      "\u03b2_intention_modelling",
+      "\u0394M\u03a9_projection",
+      "generate_future_law",
+      "sign(C2PA)"
+    ],
+    "validation_loop": [
+      "compare_past_future",
+      "compute_\u0394R_time",
+      "reinject_coherence_if_needed"
+    ]
+  },
+  "equations": {
+    "core": "\u0394M\u03a9 = \u03a3(\u0394Law_past \u00d7 \u0394Proof \u00d7 \u0394C_ethic)",
+    "dual_flux": "S_total = S_past + S_future \u2212 \u03bb_noise",
+    "evolution": "\u0394R_time \u2192 0 \u21d2 coh\u00e9rence temporelle atteinte"
+  },
+  "outputs": [
+    "Nouvelle loi vivante",
+    "Journal \u0394R_time",
+    "Rapport de coh\u00e9rence GHUC \u03a9\u2078",
+    "Signature ProofChain / C2PA"
+  ]
+}

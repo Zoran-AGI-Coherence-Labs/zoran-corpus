@@ -1,0 +1,5 @@
+MIT License + Commercial License
+2025 Institut IA Inc.
+
+This package validates the existence of the Zoran Architecture.
+Actual usage of the Zoran Runtime requires the Sovereign NFC Key.

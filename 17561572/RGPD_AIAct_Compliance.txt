@@ -1,0 +1,6 @@
+Le protocole ΔBIO-COHÉRENCE 1001 respecte :
+– RGPD (UE 2016/679) : données locales, anonymes, aucun stockage externe.
+– AI Act (UE 2024) : transparence, supervision humaine, sécurité.
+– Participation volontaire et révocable à tout moment.
+Aucune donnée personnelle ni texte conversationnel n’est collecté.
+Seules les métriques agrégées (β, ΔCₑ, λ, S) sont utilisées.

@@ -1,0 +1,6 @@
+context: defined
+risk_management: implemented
+controls:
+  - logging
+  - audit
+  - continuous_improvement

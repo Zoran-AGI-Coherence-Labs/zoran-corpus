@@ -1,0 +1,13 @@
+# ZFORGE 10 — Policy Mapping (AI Act, ISO/IEC 42001) — Simplifié
+ai_act:
+  transparency: "Declared synthetic affect; no claim of consciousness"
+  risk_management: "ΔM11.3 rollback guard; logs + metrics"
+  data_governance: "No personal data; synthetic signals only"
+  human_oversight: "Aegis layer: care+vigilance triptych"
+iso_42001:
+  governance: "Policy YAML, metrics.json, merkle log"
+  measurement: "KPIs.xlsx, metrics.csv/json"
+  improvement: "Ablations baseline vs guarded"
+security_traceability:
+  c2pa: "Placeholder log; sign during publication"
+  merkle_root: "440a489ce75a14ae43f5df5102fcc02a9414f4e5c923769fb6194bb80946cf69"

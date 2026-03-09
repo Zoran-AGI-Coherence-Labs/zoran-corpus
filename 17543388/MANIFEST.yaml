@@ -1,0 +1,31 @@
+engine: Dual-Flux Law Engine
+version: Ω8.0
+author: Frédéric Tabary — Institut🦋 IA Inc.
+doi: 10.5281/zenodo.17560000
+license: Creative-Ethic BY v1.0 / BY-PRO v1.1
+description: >
+  Moteur double-flux reliant les lois du passé et du futur.
+  Chaque loi créée est signée ProofChain et C2PA, et la tarification
+  commerciale s’ajuste selon l’éthique du licencié (LED v2).
+contact: tabary01@gmail.com
+OIS_contacts:
+  - id: OIS-01
+    name: Frédéric Tabary
+    role: Auteur principal / Architecte GHUC Ω
+    email: tabary01@gmail.com
+  - id: OIS-02
+    name: Comité EthicChain EU
+    role: Supervision éthique et licensing
+    email: contact@ethicchain.eu
+  - id: OIS-03
+    name: Groupe ProofChain Global
+    role: Certification C2PA / SHA-512i
+    email: proofchain@ethz.ch
+  - id: OIS-04
+    name: Bureau Zenodo
+    role: Hébergement DOIs et curation
+    email: support@zenodo.org
+  - id: OIS-05
+    name: GHUC Ω Standardization Board
+    role: Normes et versions du Continuum
+    email: ghuc-board@inst-ia.org

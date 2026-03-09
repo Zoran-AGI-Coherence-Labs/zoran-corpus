@@ -1,0 +1,20 @@
+{
+  "title": "APy-GlyphNet-Eureka WP",
+  "format": "application/pdf",
+  "assertions": [
+    {
+      "label": "org.openmanifest.created",
+      "data": {
+        "by": "Fr\u00e9d\u00e9ric Tabary & Zoran aSiM",
+        "at": "2025-09-11"
+      }
+    },
+    {
+      "label": "org.openmanifest.generator",
+      "data": {
+        "tool": "Z-Forge Packager (offline)"
+      }
+    }
+  ],
+  "ingredients": []
+}

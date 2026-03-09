@@ -1,0 +1,6 @@
+risk_class: high
+human_oversight:
+  override: required
+record_keeping:
+  c2pa: true
+sbom: cyclonedx

@@ -1,0 +1,23 @@
+otel:
+  traces: true
+  metrics:
+    - name: latency_p95_ms
+      target: "<= 1200"
+      window: "7d"
+    - name: error_rate
+      target: "<= 0.01"
+      window: "7d"
+    - name: drift_index
+      target: "<= 0.1"
+      window: "7d"
+  fairness:
+    spd_max: 0.05
+    delta_tpr_max: 0.03
+    delta_fpr_max: 0.02
+    ece_max: 0.02
+alerts:
+  burn_rates:
+    - horizon: "2h"
+      factor: 2.0
+    - horizon: "24h"
+      factor: 1.0

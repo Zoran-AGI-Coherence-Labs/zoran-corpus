@@ -1,0 +1,33 @@
+Title:
+Cohérence cognitive distribuée — Pourquoi certaines capacités humaines n’existent qu’en interaction
+
+Creators:
+Frédéric Tabary
+
+Affiliation:
+ZORAN🦋CφΩ
+
+Description:
+This white paper introduces a falsifiable, non-circular framework for distributed cognition based on phenomenological coherence.
+Starting from a minimal, universal phenomenon (shared singing), it demonstrates across multiple domains that functional accessibility
+depends on the maintenance of a coherent temporal trajectory beyond individual capacity.
+
+DOI (reference):
+10.5281/zenodo.18495748
+
+Keywords:
+distributed cognition
+phenomenological coherence
+functional accessibility
+temporal trajectory
+collective cognition
+human-AI systems
+
+License:
+CC-BY-4.0
+
+Version:
+v3 (Excellence)
+
+Language:
+French

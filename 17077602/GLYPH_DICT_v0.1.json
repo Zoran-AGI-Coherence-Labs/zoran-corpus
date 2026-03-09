@@ -1,0 +1,16 @@
+{
+  "version": "0.1",
+  "stable": [
+    "NEG",
+    "PLAN",
+    "ACT",
+    "EVAL",
+    "PHASE",
+    "SYNC",
+    "LOG",
+    "HALT",
+    "MERGE",
+    "DROP"
+  ],
+  "experimental": []
+}

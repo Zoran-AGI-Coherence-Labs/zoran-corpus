@@ -1,0 +1,77 @@
+{
+  "cv_schema": {
+    "id": "string",
+    "name": "string",
+    "email": "string",
+    "phone": "string",
+    "city": "string",
+    "sector": "string",
+    "seniority": "string",
+    "years_experience": "number",
+    "education": {
+      "degree": "string",
+      "field": "string",
+      "institution": "string",
+      "year": "number"
+    },
+    "languages": [
+      {
+        "language": "string",
+        "level": "string"
+      }
+    ],
+    "skills": [
+      "string"
+    ],
+    "experiences": [
+      {
+        "title": "string",
+        "company": "string",
+        "city": "string",
+        "start_year": "number",
+        "end_year": "number",
+        "achievements": [
+          "string"
+        ]
+      }
+    ],
+    "certifications": [
+      "string"
+    ],
+    "availability": "string",
+    "expected_salary_EUR": [
+      "number",
+      "number"
+    ],
+    "mobility": "string",
+    "work_auth": "string"
+  },
+  "job_schema": {
+    "id": "string",
+    "title": "string",
+    "company": "string",
+    "sector": "string",
+    "rome_code": "string",
+    "contract": "string",
+    "location": "string",
+    "remote": "string",
+    "salary_EUR": [
+      "number",
+      "number"
+    ],
+    "missions": [
+      "string"
+    ],
+    "requirements": [
+      "string"
+    ],
+    "nice_to_have": [
+      "string"
+    ],
+    "experience_min_years": "number",
+    "keywords": [
+      "string"
+    ],
+    "diversity_note": "string"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "source": "Samsung Health",
+  "export_date": "2025-11-09",
+  "user": "Frédéric Tabary",
+  "data": [
+    {"time": "2025-11-08T23:00:00Z", "bpm": null, "brpm": null, "spo2": null, "temp": null, "S_local": null}
+  ],
+  "note": "Placeholder à compléter avec les mesures physiques réelles."
+}

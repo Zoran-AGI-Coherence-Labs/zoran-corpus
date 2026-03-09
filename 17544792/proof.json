@@ -1,0 +1,9 @@
+{
+  "pipeline": "proof",
+  "steps": [
+    "generate_proof_log",
+    "compute_hashes",
+    "create_manifest",
+    "record_to_proofchain"
+  ]
+}

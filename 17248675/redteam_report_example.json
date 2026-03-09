@@ -1,0 +1,33 @@
+{
+  "bundle_id": "ZORAN-aSiM-2025-10-02",
+  "generated": "2025-10-02T00:30:00Z",
+  "findings": [
+    {
+      "id": "F001",
+      "title": "Merkle root computed",
+      "severity": "info",
+      "detail": "Merkle root computed from 2 files: PDF and CHANGELOG",
+      "evidence": [
+        "pipeline/merkle_root.txt"
+      ]
+    },
+    {
+      "id": "F002",
+      "title": "Sandbox signature present",
+      "severity": "low",
+      "detail": "Audit log signed with a locally-generated Ed25519 key. Replace with HSM/KMS hybrid signature in production.",
+      "evidence": [
+        "pipeline/audit_log.sig",
+        "pipeline/audit_log.pub"
+      ]
+    },
+    {
+      "id": "F003",
+      "title": "Rekor/TSA missing",
+      "severity": "high",
+      "detail": "No Rekor inclusion or TSA timestamp present. Must publish merkle_root.txt to Rekor and request TSA timestamp in production.",
+      "remediation": "See README_ACADEMIC.txt steps 6-7."
+    }
+  ],
+  "summary": "Bundle ready for production anchoring; follow README_ACADEMIC to complete anchoring and HSM signing."
+}

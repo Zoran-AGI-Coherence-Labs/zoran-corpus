@@ -1,0 +1,14 @@
+{
+  "_type": "https://slsa.dev/provenance/v1",
+  "buildType": "manual-stdlib",
+  "builder": {
+    "id": "Z-Forge offline packager"
+  },
+  "invocation": {
+    "parameters": {
+      "date": "2025-09-11",
+      "python": "stdlib"
+    }
+  },
+  "materials": []
+}

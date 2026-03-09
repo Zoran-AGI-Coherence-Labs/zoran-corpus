@@ -1,0 +1,4 @@
+risk_classification: dynamic
+dpia_required: true
+register_public: true
+human_oversight: Aegis

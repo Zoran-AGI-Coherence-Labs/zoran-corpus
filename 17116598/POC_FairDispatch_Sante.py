@@ -1,0 +1,1 @@
+print('FairDispatch demo')

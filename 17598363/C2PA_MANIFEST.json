@@ -1,0 +1,55 @@
+{
+  "claim_generator": "Institut🦋 IA Inc.",
+  "claim_generator_info": [
+    {
+      "name": "Frédéric Tabary",
+      "version": "GHUC Ω⁵"
+    }
+  ],
+  "title": "GHUC Ω⁵ Validated Proof Corpus",
+  "format": "application/zip",
+  "instance_id": "xmp.iid:ghuc-omega5-2025-10-31",
+  "assertions": [
+    {
+      "label": "c2pa.hash.data",
+      "data": {
+        "alg": "sha512",
+        "hash": "c6c2f02a2546947434f1df747ad1a929d5127c3859eaf87f40536046b472bf10",
+        "name": "GHUC_OMEGA5_CORPUS"
+      }
+    },
+    {
+      "label": "c2pa.actions",
+      "data": {
+        "actions": [
+          {
+            "action": "c2pa.created",
+            "when": "2025-10-31T23:59:00Z",
+            "softwareAgent": "Zoran🦋 GHUC Engine v5.0"
+          }
+        ]
+      }
+    },
+    {
+      "label": "stds.schema-org.CreativeWork",
+      "data": {
+        "@context": "https://schema.org",
+        "@type": "CreativeWork",
+        "author": [
+          {
+            "@type": "Person",
+            "name": "Frédéric Tabary",
+            "affiliation": "Institut🦋 IA Inc."
+          }
+        ],
+        "datePublished": "2025-10-31",
+        "license": "Creative-Ethic BY v1.0",
+        "identifier": "10.5281/zenodo.17510099"
+      }
+    }
+  ],
+  "signature_info": {
+    "alg": "ps512",
+    "issuer": "Institut IA Inc. Certification Authority"
+  }
+}

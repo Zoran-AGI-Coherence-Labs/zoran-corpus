@@ -1,0 +1,12 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.6",
+  "version": 1,
+  "components": [
+    {
+      "name": "Zoran_aSiM_V3",
+      "type": "application",
+      "version": "3.0"
+    }
+  ]
+}

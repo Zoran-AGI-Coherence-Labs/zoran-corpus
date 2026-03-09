@@ -1,0 +1,71 @@
+project: zoran-transversal-consciousness
+version: 2.0
+date: 2026-01-24
+pivot_doi: 10.5281/zenodo.18360840
+
+datasets:
+  - id: sleep_edf_expanded
+    name: Sleep-EDF Database Expanded
+    domain: sleep
+    modality: PSG (EEG/EOG/EMG)
+    labels: hypnogram (R&K)
+    access: open
+    url: https://physionet.org/content/sleep-edfx/1.0.0/
+    license: Open Data Commons Attribution License v1.0 (ODC-By)
+    notes: 197 full-night PSG recordings with expert hypnograms
+
+  - id: propofol_eeg_cambridge
+    name: Research data supporting "Brain connectivity during propofol sedation"
+    domain: anesthesia
+    modality: EEG
+    labels: sedation condition (baseline/mild/moderate/recovery as provided)
+    access: open
+    url: https://www.repository.cam.ac.uk/items/b7817912-50b5-423b-882e-978fb39a49df
+    doi: 10.17863/CAM.68959
+    license: as stated on the repository item page (verify at download time)
+    notes: large zip archive; confirm local file availability and any per-file license notes
+
+  - id: propofol_fmri_openneuro
+    name: Michigan Human Anesthesia fMRI Dataset-1
+    domain: anesthesia
+    modality: fMRI (BIDS)
+    labels: sedation level / conditions per dataset
+    access: open
+    url: https://openneuro.org/datasets/ds006623
+    doi: 10.18112/openneuro.ds006623.v1.0.0
+    license: CC0
+    notes: open BIDS dataset; no usage restrictions under CC0
+
+  - id: pcist_library
+    name: PCIst reference implementation (Python/Matlab)
+    domain: perturbation
+    modality: code
+    access: open
+    url: https://github.com/renzocom/PCIst
+    license: GPL-3.0
+    notes: used as external reference implementation; do not reimplement PCIst
+
+  - id: doc_tmseeg_ebrains
+    name: EBRAINS KG — TMS-EEG perturbation in DOC (v1)
+    domain: DOC
+    modality: TMS-EEG + multimodal
+    labels: clinical diagnosis when available
+    access: controlled
+    url: https://search.kg.ebrains.eu/instances/ab2d4db0-4c97-442c-82f9-a3dade301e9f
+    license: EBRAINS controlled access
+    notes: if access not granted → INDETERMINATE by rule
+
+optional:
+  - id: cogitate_ieeg
+    name: Cogitate iEEG open dataset (see associated paper)
+    domain: high_resolution
+    modality: iEEG/ECoG
+    access: open
+    url: https://www.nature.com/articles/s41597-025-04833-z
+    license: confirm on the dataset landing page
+    notes: optional extension for high-resolution causal tests
+
+reproducibility:
+  fixed_seeds: required
+  environment_lock: ENV.lock
+  artifact_hashes: required

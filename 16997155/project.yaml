@@ -1,0 +1,13 @@
+name: Zoran-IA-Suicide-Prevention-EthicChain
+license: MIT
+contact: tabary01@gmail.com
+created: 2025-08-29
+language: Python 3 (stdlib only)
+goals:
+  - detect_suicidal_signals
+  - trigger_deltaM11_3_rollback
+  - activate_ethic_chain_redirect
+ethic:
+  emergency_numbers:
+    eu: "112"
+    us: "988"

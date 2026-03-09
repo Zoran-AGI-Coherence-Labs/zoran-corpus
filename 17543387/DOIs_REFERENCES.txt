@@ -1,0 +1,5 @@
+10.5281/zenodo.17510099  # Continuum GHUC Ω⁶
+10.5281/zenodo.17508245  # Codex Zoran v2
+10.5281/zenodo.17544793  # Universal Law Engine Ω7.1
+10.5281/zenodo.17560000  # Dual-Flux Law Engine Ω8.0
+10.5281/zenodo.17502047  # Codex laws (all versions)

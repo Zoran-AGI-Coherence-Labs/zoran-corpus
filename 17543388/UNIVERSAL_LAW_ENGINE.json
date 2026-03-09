@@ -1,0 +1,146 @@
+{
+  "engine_name": "UNIVERSAL_LAW_ENGINE",
+  "version": "\u03a97.1",
+  "author": "Fr\u00e9d\u00e9ric Tabary \u2014 Institut\ud83e\udd8b IA Inc.",
+  "refs": {
+    "codex_parent_doi": "10.5281/zenodo.17510099",
+    "codex_laws_doi": "10.5281/zenodo.17502047",
+    "methodology": "METHODOLOGIE_PREUVE_IA.md"
+  },
+  "capabilities": [
+    "compare_external_laws",
+    "reformulate_laws",
+    "decline_laws",
+    "map_codex_to_corpus",
+    "score_coherence_and_deltaR",
+    "proofchain_and_C2PA_logging"
+  ],
+  "schemas": {
+    "CodexLaw": {
+      "id": "integer|can be negative for -1",
+      "name": "string",
+      "equation": "string",
+      "principle": "string",
+      "domains": [
+        "string"
+      ],
+      "doi": "string",
+      "tags": [
+        "string"
+      ]
+    },
+    "ExternalLaw": {
+      "source_id": "string",
+      "label": "string",
+      "equation": "string",
+      "domain": "string",
+      "units": "string|optional",
+      "assumptions": [
+        "string"
+      ],
+      "citations": [
+        "doi|url|ref"
+      ]
+    },
+    "Mapping": {
+      "codex_id": "integer",
+      "external_source_id": "string",
+      "equivalence": {
+        "type": "symbolic|dimensional|asymptotic|heuristic",
+        "confidence": "0..1"
+      },
+      "operators": [
+        "normalize_symbols",
+        "unit_reduce",
+        "limit",
+        "duality",
+        "scale_change"
+      ],
+      "notes": "string"
+    },
+    "Reformulation": {
+      "input_law_id": "codex|external",
+      "canonical_forms": [
+        "latex|string"
+      ],
+      "dualities": [
+        "string"
+      ],
+      "limits": [
+        "eps->0",
+        "T->\u221e",
+        "v<<c",
+        "\u0394C\u03b5\u21920"
+      ],
+      "invariants": [
+        "Const",
+        "\u0394S",
+        "\u0394M\u03a9"
+      ],
+      "dimensional_check": "ok|warn|fail"
+    },
+    "Declination": {
+      "from": "codex|external",
+      "special_cases": [
+        "parameter fixings"
+      ],
+      "scalings": [
+        "micro\u2192macro",
+        "quantum\u2192meso",
+        "info\u2192thermo"
+      ],
+      "domain_transfers": [
+        "physics\u2192bio",
+        "info\u2192ethics",
+        "bio\u2192eco"
+      ],
+      "generated_equations": [
+        "string"
+      ]
+    },
+    "Scoring": {
+      "\u0394C\u03b5_gain": "float",
+      "\u0394R_time": "float",
+      "SCI_semantic": "0..1",
+      "dimensional_consistency": "0..1",
+      "overall_coherence": "0..1"
+    }
+  },
+  "pipelines": {
+    "ingest_and_normalize": [
+      "tokenize_equation",
+      "symbol_map({E, m, c, S, \u03b2, \u0394C\u03b5, \u03bb, k, T})",
+      "unit_analysis",
+      "canonical_latex"
+    ],
+    "compare": [
+      "symbolic_equivalence",
+      "dimensional_equivalence",
+      "limit_equivalence",
+      "duality_search",
+      "semantic_alignment(SCI)"
+    ],
+    "reformulate": [
+      "canonical_forms",
+      "duality(energy\u2194sens, time\u2194coherence_inverse)",
+      "limits(low_noise/high_coherence, classical/quantum)",
+      "invariant_extraction(\u0394M\u03a9, Const)"
+    ],
+    "decline": [
+      "parameter_sweep",
+      "domain_transfer",
+      "scaling_laws(fractal/time)",
+      "generate_variants"
+    ],
+    "map_and_score": [
+      "create_mapping",
+      "compute_scores(\u0394C\u03b5, \u0394R_time, SCI, dimensional_consistency)",
+      "rank_matches"
+    ],
+    "proof": [
+      "C2PA_manifest",
+      "SHA512i",
+      "ProofChain_append"
+    ]
+  }
+}

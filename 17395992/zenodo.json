@@ -1,0 +1,66 @@
+{
+  "title": "Zoran🦋 Adapti — Système Cognitif Vérifiable et Traçable : Conformité RGPD, AI Act, ISO/IEC 42001 & IEEE 7000",
+  "description": "Zoran🦋 Adapti est un système cognitif vérifiable et traçable conçu pour garantir la conformité réglementaire complète des intelligences artificielles selon les standards européens et internationaux : AI Act 2024/1689, RGPD 2016/679, ISO/IEC 42001, ISO/IEC 27001, IEEE 7000 et C2PA v1.3. Ce dossier constitue la base documentaire du processus de certification Bureau Veritas 2025, couvrant la gouvernance éthique (EthicChain, Letty Ω³), la traçabilité technique (ProofChain, TraceContinuum), la protection des données (RGPD) et la robustesse opérationnelle du système GHUC Ω⁴. Statut : Pré-certification Bureau Veritas validée – aucune non-conformité majeure.",
+  "creators": [
+    {
+      "name": "Frédéric Tabary",
+      "affiliation": "Institut IA Lab Inc.",
+      "orcid": "0000-0003-4521-9821",
+      "email": "tabary01@gmail.com"
+    }
+  ],
+  "keywords": [
+    "Artificial Intelligence",
+    "AI Act",
+    "RGPD",
+    "ISO/IEC 42001",
+    "IEEE 7000",
+    "C2PA",
+    "Ethics",
+    "Traceability",
+    "Explainable AI",
+    "Zoran Adapti",
+    "GHUC",
+    "ProofChain",
+    "EthicChain",
+    "Bureau Veritas"
+  ],
+  "license": "CC-BY-4.0",
+  "language": "fr",
+  "version": "2025.10.20",
+  "upload_type": "publication",
+  "publication_type": "report",
+  "related_identifiers": [
+    {
+      "relation": "isPartOf",
+      "identifier": "10.5281/zenodo.17119676",
+      "scheme": "DOI"
+    },
+    {
+      "relation": "isSupplementTo",
+      "identifier": "10.5281/zenodo.17120242",
+      "scheme": "DOI"
+    },
+    {
+      "relation": "isSupplementTo",
+      "identifier": "10.5281/zenodo.17120734",
+      "scheme": "DOI"
+    },
+    {
+      "relation": "isSupplementTo",
+      "identifier": "10.5281/zenodo.17093065",
+      "scheme": "DOI"
+    }
+  ],
+  "institutions": [
+    {
+      "name": "Institut IA Lab Inc.",
+      "country": "CA"
+    },
+    {
+      "name": "Institut IA Lab Europe",
+      "country": "FR"
+    }
+  ],
+  "rights": "© 2025 Frédéric Tabary — Institut IA Lab Inc."
+}

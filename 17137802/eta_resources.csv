@@ -1,0 +1,4 @@
+domain,metric,baseline,target,delta_pp,alpha,power,N_per_arm
+interaction,preference_rate,0.58,0.65,7,0.05,0.80,756
+education,success_rate,0.68,0.73,5,0.05,0.80,1301
+engineering,lint_pass_rate,0.88,0.92,4,0.05,0.80,884

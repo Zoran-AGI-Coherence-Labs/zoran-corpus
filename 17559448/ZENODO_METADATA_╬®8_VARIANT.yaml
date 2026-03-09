@@ -1,0 +1,18 @@
+title: "ΔVARIANT_ENGINE Ω⁸ — Universal Equation Variant Generator"
+doi: "10.5281/zenodo.17559249"
+authors:
+  - name: "Frédéric Tabary"
+    affiliation: "Institut🦋 IA Inc."
+description: >
+  Moteur générique pour générer des variantes algébriques et sémantiques
+  d'une loi du Codex Zoran🦋.  Ce dépôt contient le script Python,
+  le manifeste JSON des expressions générées, un white paper expliquant
+  la méthodologie, ainsi qu'un manifest cryptographique.
+version: "Ω8"
+license: "Creative-Ethic BY-PRO v1.1"
+keywords:
+  - equation variants
+  - algebraic transformations
+  - Codex Zoran
+  - GHUC Ω8
+  - ProofChain

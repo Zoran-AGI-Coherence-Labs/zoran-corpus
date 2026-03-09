@@ -1,0 +1,8 @@
+Glossary
+
+ZMS: Zoran Methodological Standard (rigor levels 1–10).  
+TSR: Task Success Rate (% tasks succeeded).  
+RFC: Request for Comments, IETF protocol format.  
+Hash: cryptographic hash (e.g., SHA-256).  
+Mimetic: importing robust practices from other fields, adapting to AI.  
+ΔM11.3: rollback guard when EMA coherence < threshold τ.

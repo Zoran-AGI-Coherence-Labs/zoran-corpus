@@ -1,0 +1,8 @@
+{
+  "version": "1.0",
+  "stability": ">=0.85",
+  "overhead_p95": "<=+12%",
+  "errors_reduction_protocol": "-30% to -50%",
+  "errors_reduction_sensors": "-25% to -40%",
+  "c2pa": "100%"
+}

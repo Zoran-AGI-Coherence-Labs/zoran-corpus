@@ -1,0 +1,36 @@
+{
+  "version": "1.3",
+  "kpis": [
+    "employment_return_rate",
+    "median_time_to_job",
+    "exactitude_sourcée",
+    "abstention_pertinente",
+    "latency_p95",
+    "cost_per_ticket",
+    "satisfaction",
+    "fairness_gap"
+  ],
+  "fairness": {
+    "metrics": [
+      "SPD",
+      "DeltaTPR",
+      "DeltaFPR",
+      "ECE"
+    ],
+    "targets": {
+      "SPD_abs_max": 0.1,
+      "DeltaTPR_max_pts": 5,
+      "DeltaFPR_max_pts": 5,
+      "ECE_max_pct": 2
+    }
+  },
+  "security": {
+    "asvs_target_pct": 95,
+    "mttd_hours_max": 24,
+    "mttr_hours_max": 72
+  },
+  "environment": {
+    "sci_reduction_12m_min_pct": 30,
+    "pue_target": "<=1.3"
+  }
+}

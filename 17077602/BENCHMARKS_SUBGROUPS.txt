@@ -1,0 +1,5 @@
+Subgroup Results
+
+Planning: TSR 79% GlyphNet vs 61% JSON  
+RAG: TSR 82% GlyphNet vs 62% JSON  
+Tool-use: TSR 83% GlyphNet vs 61% JSON

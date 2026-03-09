@@ -1,0 +1,20 @@
+{
+  "package": "WP2_ZENODO_18183955",
+  "generated": "2026-01-08",
+  "author": "Fr\u00e9d\u00e9ric TABARY",
+  "doi": "10.5281/zenodo.18183955",
+  "files": [
+    {
+      "name": "WP2_Bounded_Invariants_for_Legitimate_Action_FULLTEXT.pdf",
+      "sha512": "d3abad7b8bcfc5cfe7d570ec1ff35a9ca4191538b870c2506035aea686a0d3e8c40319720e221b6c7f34db3a29e161ac89e96c702341983854a70d1944e64503"
+    },
+    {
+      "name": "CITATION_WP2.cff",
+      "sha512": "6d9a464f3df17001a97c55829c39b028eae45a3f9ec60ed514a512d54621e44d1c086af21680f99bb95abf56b6fa91f263256417a4ba266fab9a20be03173a39"
+    },
+    {
+      "name": "README_WP2.txt",
+      "sha512": "0368510c646c3998041b343a31e1bf3001f72bc0e1fc946f2574fe64e3be2f5c1ea7486974494ba68d692f878413381cd630b6e6cd3b910c4c2eb1e50d30eb32"
+    }
+  ]
+}

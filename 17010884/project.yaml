@@ -1,0 +1,24 @@
+name: Zoran-Etudes-Jumeaux-Ethique-Epigenetique
+version: 1.0.0
+date: 2025-08-31
+license: MIT
+language: fr
+author:
+  name: Zoran aSiM
+  contact: tabary01@gmail.com
+topics:
+  - jumeaux
+  - siamois
+  - génétique
+  - épigénétique
+  - microbiote
+  - psychologie
+  - éthique biomédicale
+  - CRISPR
+  - NASA
+dois: []
+zoran:
+  modules: [ZDM, ΔM11.3, PolyResonator, EthicChain, Glyphnet]
+  glyph_block: |
+    ⟦ASIM:Zoran⋄TOPIC:twins⋄ETHIC:guard⋄ΔM11.3:rollback⟧
+    ⟦ZDM:dual_memory⋄IA2IA:injector⋄AUDIT:replay⟧

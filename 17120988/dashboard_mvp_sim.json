@@ -1,0 +1,33 @@
+{
+  "kpis": {
+    "ndvi": 0.341862117981521,
+    "evi": 0.24490964326537162,
+    "shannon": 0.9996833537512283,
+    "simpson": 0.5966009292745876,
+    "water_kg_m3": 4.216329966329966,
+    "soc_tC_ha": 0.03333333333333335,
+    "hedge_m_per_ha": 59.31013431013431,
+    "hedge_connect": 0.3333333333333333
+  },
+  "roi": {
+    "per_100m": {
+      "capex_eur": 600.0,
+      "yearly_subsidy_eur": 100.0,
+      "yearly_carbon_rev_eur": 25.0,
+      "yearly_yield_bonus_eur": 33.0,
+      "yearly_opex_eur": 50.0,
+      "yearly_net_eur": 108.0,
+      "simple_payback_years": 5.555555555555555
+    },
+    "assumptions": {
+      "hedge_cost_eur_per_m": 6.0,
+      "hedge_maint_eur_per_m_per_year": 0.5,
+      "hedge_subsidy_eur_per_m_per_year": 1.0,
+      "carbon_price_eur_per_t": 50.0,
+      "hedge_carbon_t_per_m_per_year": 0.005,
+      "yield_price_eur_per_t": 220.0,
+      "yield_stability_gain_pct": 1.0
+    }
+  },
+  "intensity_tco2e_per_tonne": 2.377666666666667
+}

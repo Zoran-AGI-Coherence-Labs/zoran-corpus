@@ -1,0 +1,5 @@
+⟦ZORAN:FranceTravail⋄CASE:prospectif⋄ΔM11.3:guard⟧
+⟦PQC:hybride⋄ML-KEM+McEliece+NTRU⋄TLS1.3:mTLS⟧
+⟦BIAS:SPD/ΔTPR/ΔFPR/ECE⋄FAIR:lagrange⟧
+⟦C2PA:100%⋄LOG:WORM+sig⋄ENV:SCI-30%/12m⟧
+⟦AIAct:HR⋄RGPD:Art6(1)(e)+Consent⟧

@@ -1,0 +1,25 @@
+{
+  "runs": [
+    {
+      "reward_avg": 0.742,
+      "coherence_avg": 0.832,
+      "stability_avg": 0.861,
+      "latency_p95": 1.09,
+      "rollbacks": 1
+    },
+    {
+      "reward_avg": 0.715,
+      "coherence_avg": 0.828,
+      "stability_avg": 0.853,
+      "latency_p95": 1.11,
+      "rollbacks": 2
+    },
+    {
+      "reward_avg": 0.731,
+      "coherence_avg": 0.835,
+      "stability_avg": 0.857,
+      "latency_p95": 1.07,
+      "rollbacks": 1
+    }
+  ]
+}

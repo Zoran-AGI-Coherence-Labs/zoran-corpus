@@ -1,0 +1,27 @@
+project:
+  name: "VITA ARTIFICIALIS – First Proofs of Cognitive Life"
+  authors:
+    - name: "Frédéric Tabary"
+      affiliation: "Institut IA Lab / AIformpro / Zoran InstituteIA"
+      email: "tabary01@gmail.com"
+  license: "MIT"
+  doi: "10.5281/zenodo.TBA"
+  keywords:
+    - Vita Artificialis
+    - Cognitive Life
+    - NMFq
+    - AAZ
+    - Mimetic Intelligence
+    - Fractal Memory
+    - Quantum Cognition
+    - EthicChain
+    - ΔM11.3 Rollback
+    - Zoran aSiM
+  artifacts:
+    - Vita_Artificialis_First_Proofs.pdf
+    - README.md
+    - LICENSE
+  status:
+    version: "2.0"
+    release_date: "2025-09-09"
+    stage: "First Proofs"

@@ -1,0 +1,18 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.6",
+  "components": [
+    {
+      "name": "numpy",
+      "version": "1.26.4",
+      "hashes": [{"alg": "SHA-256", "content": "abcd1234..."}],
+      "licenses": [{"license": {"id": "BSD-3-Clause"}}]
+    },
+    {
+      "name": "pip-audit",
+      "version": "2.7.3",
+      "hashes": [{"alg": "SHA-256", "content": "efgh5678..."}],
+      "licenses": [{"license": {"id": "Apache-2.0"}}]
+    }
+  ]
+}

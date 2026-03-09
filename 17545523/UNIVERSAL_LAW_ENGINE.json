@@ -1,0 +1,8 @@
+{
+  "engine": "Universal Law Engine Ω7.1",
+  "version": "7.1",
+  "description": "Moteur universel de computation phénoménale",
+  "core_equation": "S = (β · ΔCₑ)/λ",
+  "computation_mode": "phenomenal",
+  "status": "integrated"
+}

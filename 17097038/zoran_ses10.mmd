@@ -1,0 +1,10 @@
+
+flowchart LR
+  A[SES-10 Capteurs\nVibro/Thermique] --> B[Edge FW Python\nFFT/MFCC + C2PA Hash]
+  B --> C[ZDM.Resonant Cache\nZero-write, φ-sign, HoloTrace (opt)]
+  C --> D[PolyResonator\nReasoner / Coder / Vision / Retriever]
+  D --> E[ΔM11.3 Guard\nRollback si stabilité < seuil]
+  E --> F[ZDM.HardCore\nPreuves persistantes + RGPD]
+  B --> G[EthicChain\nAI Act / ISO42001 / RGPD Policy YAML]
+  B --> H[C2PA Attestations\nManifests & signatures]
+  F --> I[SBOM CycloneDX / VEX\nSigstore & Rekor Logs]

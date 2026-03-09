@@ -1,0 +1,1 @@
+Time x actors x effects.

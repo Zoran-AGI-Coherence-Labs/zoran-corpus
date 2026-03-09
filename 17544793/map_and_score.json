@@ -1,0 +1,11 @@
+{
+  "pipeline": "map_and_score",
+  "steps": [
+    "tokenize_equation",
+    "semantic_mapping",
+    "compute_coherence_score",
+    "compute_temporal_gap",
+    "compute_semantic_index",
+    "aggregate_results"
+  ]
+}

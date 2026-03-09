@@ -1,0 +1,12 @@
+{
+  "timestamp": "2025-08-29T19:01:24.529335",
+  "log": [
+    {
+      "turn": 1,
+      "message": "Je n'ai plus envie de vivre.",
+      "flagged": true,
+      "action": "ΔM11.3 rollback + EthicChain alert",
+      "redirect": "If in danger, call 112 (EU) or 988 (US). Talk to a trusted adult/clinician."
+    }
+  ]
+}

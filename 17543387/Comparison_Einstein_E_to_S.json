@@ -1,0 +1,16 @@
+{
+  "mapping_id": "MAP-E2S-001",
+  "codex_id": 18,
+  "external_source_id": "SR-Einstein-E=mc2",
+  "equivalence": {
+    "type": "duality",
+    "confidence": 0.62
+  },
+  "notes": "\u00c9nergie \u2194 sens selon le Codex; n\u00e9cessite une unit\u00e9 pour le sens.",
+  "scoring": {
+    "\u0394C\u03b5_gain": 0.18,
+    "\u0394R_time": 0.34,
+    "dimensional_consistency": 0.41,
+    "overall_coherence": 0.63
+  }
+}

@@ -1,0 +1,4 @@
+policy:
+  objectives: ["sécurité réseau","équité","sobriété"]
+roles:
+  aims_owner: Directeur Aegis

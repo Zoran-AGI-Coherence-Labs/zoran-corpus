@@ -1,0 +1,1 @@
+Ce dépôt explore l’anticatastase, figure rhétorique consistant à retourner un mot en son contraire, et son usage politique contemporain. Intégré à Zoran aSiM, il sert d’outil stratégique et mimétique pour analyser et manier le retournement sémantique, avec un white paper, un bloc ZGS et une démo Python.

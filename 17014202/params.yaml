@@ -1,0 +1,8 @@
+
+seed: 42
+k_threshold: 2
+boosters_fraction: 0.02
+booster_weight: 2.0
+tau_instability: 20
+steps: 60
+scenario: C

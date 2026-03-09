@@ -1,0 +1,36 @@
+paper_doi: 10.5281/zenodo.18359622
+title: Operational Consciousness as a Global Rescue Controller
+version: v1.1
+package_type: zenodo_wakeup_rootflat
+status: locked_text
+reproducibility: documentary
+scope:
+  definition: "Consciousness operationally defined as an intermittent, costly global rescue controller."
+domains:
+  - sleep
+  - anesthesia
+  - perturbation
+  - disorders_of_consciousness
+datasets_public_sources:
+  - "Sleep-EDF Expanded (PhysioNet)"
+  - "Propofol anesthesia datasets (OpenNeuro)"
+  - "TMS–EEG (PCI/PCIst families; public cohorts where available)"
+  - "HCP resting-state (baseline control)"
+  - "Public DOC cohorts (when available)"
+hypotheses:
+  H1: "Functional intermittence at transitions"
+  H2: "Operational cost of global control"
+  H3: "Transversal invariance across domains"
+  H4: "Perturbational priority over observation"
+  H5: "Critical boundary signatures"
+  H6: "Partial independence from reportability"
+negative_controls_required:
+  - leakage_tests
+  - label_shuffle
+  - phase_randomization
+  - amplitude_only_baseline
+  - noise_sweep
+transfer_tests_required:
+  - train_sleep_test_anesthesia
+  - train_anesthesia_test_sleep
+  - domain_id_control_if_used

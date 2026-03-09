@@ -1,0 +1,23 @@
+{
+  "claim_generator": "GHUC_\u03a94_Veritas2025_Verifier",
+  "created": "2025-10-20T09:22:18.773634Z",
+  "chain": [
+    {
+      "file": "meta/metadata.yaml",
+      "hash": "SHA512_PLACEHOLDER"
+    },
+    {
+      "file": "meta/zenodo.json",
+      "hash": "SHA512_PLACEHOLDER"
+    },
+    {
+      "file": "manifests/SHA512SUMS.txt",
+      "hash": "SHA512_PLACEHOLDER"
+    }
+  ],
+  "proof": {
+    "status": "unsigned",
+    "reference": "manifest.sig",
+    "c2pa_proof_placeholder": true
+  }
+}

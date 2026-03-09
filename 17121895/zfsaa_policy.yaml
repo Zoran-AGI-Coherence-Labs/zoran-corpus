@@ -1,0 +1,19 @@
+thresholds:
+  r_phase_min: 0.70
+  confidence_min: 0.68
+  criticality_overrides:
+    lab: {r_phase_min: 0.80}
+    eco_agri: {r_phase_min: 0.75}
+    health_non_dx: {r_phase_min: 0.85}
+
+clarify:
+  max_options: 3
+  counterexample: true
+
+privacy:
+  pii_masking: true
+  no_clinical_diagnosis: true
+
+logs:
+  c2pa_sign: true
+  sbom_emit: true

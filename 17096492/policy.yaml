@@ -1,0 +1,14 @@
+version: 1
+stability:
+  entropy_threshold: 0.22
+  rollback_on_breach: true
+logging:
+  format: jsonl
+  sign: false
+  c2pa: true
+resilience:
+  retries: 3
+  backoff: exponential
+ethics:
+  aegis: [ethics, vigilance, care]
+  pii_minimization: true

@@ -1,0 +1,12 @@
+{
+  "vexVersion": "1.0",
+  "author": "Fr\u00e9d\u00e9ric Tabary",
+  "timestamp": "2025-09-15T08:19:43.130715Z",
+  "statements": [
+    {
+      "vulnerability": "NONE_KNOWN",
+      "status": "not_affected",
+      "justification": "stdlib only"
+    }
+  ]
+}

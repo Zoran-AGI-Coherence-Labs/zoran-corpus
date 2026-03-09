@@ -1,0 +1,12 @@
+{
+  "pipeline": "reformulate",
+  "steps": [
+    "canonical_form",
+    "normalize_units",
+    "simplify_equation",
+    "universal_transformation",
+    "ethical_adjustment",
+    "semantic_alignment",
+    "output_generation"
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2025-09-15T08:19:43.130295Z"
+  },
+  "components": [
+    {
+      "name": "code/main.py",
+      "version": "v2",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "3c77e39a3bf1dfdbfff6c0701c2bb3305f4de6e22e129351c6c3d658e2049f88"
+        }
+      ]
+    },
+    {
+      "name": "code/modules/delta_guard.py",
+      "version": "v2",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "f46ab780eeb8aec0c13a838a417be3f3db0bc6fb82b57039d5b264535a27436e"
+        }
+      ]
+    },
+    {
+      "name": "code/modules/polyresonator.py",
+      "version": "v2",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "8c9e27a9ec31ff1dbe63a561346f59e415ff49e1c2005c193456a52aafb2014c"
+        }
+      ]
+    },
+    {
+      "name": "code/modules/zdm.py",
+      "version": "v2",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "06be0558dbf8dc9fae7526e0b3e9ec3ca582b66bdf790ca3b8164e5467dc73fd"
+        }
+      ]
+    },
+    {
+      "name": "code/modules/glyphnet.py",
+      "version": "v2",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "57008db6c131792c7d62a777f3f961ddfa8d304db1e4b9432c076c619014483a"
+        }
+      ]
+    },
+    {
+      "name": "code/modules/evidences.py",
+      "version": "v2",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "9afafb171f4a0c8007ca23c72f9c3d21e702e93f611a90dc8eb8134e61644107"
+        }
+      ]
+    },
+    {
+      "name": "WHITEPAPER/Zoran_aSiM_WhitePaper_Consolidation_2025_v2.md",
+      "version": "v2",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "10c29cff88931c6ee1ff78693986f9bf897f6471f3881d6b7de2fd7199f81edd"
+        }
+      ]
+    },
+    {
+      "name": "WHITEPAPER/Zoran_aSiM_WhitePaper_Consolidation_2025_v2.pdf",
+      "version": "v2",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "6f557f9611a172410183a423742d0cf96707cfbed49349ac03641322375a00a9"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+personal_data:
+  lawful_basis: public_interest
+  pseudonymization: k-anon>=5
+  ttl_days: {scada:365, pmu:90}
+cloud_switching:
+  export_format: [parquet,csv,cdx]

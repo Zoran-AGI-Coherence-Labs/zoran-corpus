@@ -1,0 +1,21 @@
+name: build
+on: [push]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Reproduce
+        run: |
+          make reproduce_all
+      - name: Upload artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: whitepaper-v2
+          path: |
+            WHITEPAPER/Zoran_aSiM_WhitePaper_Consolidation_2025_v2.pdf
+            packaging/*.json
+            security/*.json

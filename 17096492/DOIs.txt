@@ -1,0 +1,7 @@
+Known Zoran aSiM DOIs (as of 2025-09-11):
+- 10.5281/zenodo.16940525 (White Papers V1)
+- 10.5281/zenodo.16941007 (White Papers V2)
+- 10.5281/zenodo.16940299 (Titre à confirmer / Version publique V1 probable)
+- 10.5281/zenodo.16995014 (Aegis Layer – Gouvernance vivante)
+- 10.5281/zenodo.16995226 (LinguaSynthèse)
+- 10.5281/zenodo.16997156 (Zoran – Études sur les jumeaux v2)

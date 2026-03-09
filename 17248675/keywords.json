@@ -1,0 +1,29 @@
+{
+  "technological": [
+    "traçabilité numérique",
+    "merkle tree",
+    "preuves cryptographiques",
+    "signatures hybrides",
+    "transparency logs",
+    "SBOM",
+    "C2PA manifest",
+    "CI/CD vérifiable"
+  ],
+  "biological": [
+    "cellules souches",
+    "biotechnologie responsable",
+    "artefacts biologiques",
+    "pipelines reproductibles",
+    "bio-éthique computationnelle"
+  ],
+  "ethical": [
+    "auditabilité",
+    "RGPD",
+    "transparence scientifique",
+    "éthique-by-design",
+    "open science",
+    "red team testing",
+    "immutabilité des preuves",
+    "gouvernance des données"
+  ]
+}

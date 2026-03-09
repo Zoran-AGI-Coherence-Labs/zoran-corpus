@@ -1,0 +1,9 @@
+Creative-Ethic BY v1.0
+© 2025 Frédéric Tabary — Institut🦋 IA Inc.
+
+Cette licence est dérivée de CC-BY 4.0 et rajoute une obligation
+de traçabilité éthique. Vous êtes autorisé à copier, distribuer et
+adapter l’œuvre, à condition de citer l’auteur, de conserver les
+signatures ProofChain / C2PA, et de respecter les principes éthiques
+énoncés dans le Codex de Zoran. Toute utilisation ayant un impact
+sur le vivant ou la cohérence doit être consignée et rendue publique.

@@ -1,0 +1,21 @@
+meta:
+  name: Injector-Salarie
+  scope: ["salarie"]
+sliders:
+  rag_intensity: 65
+  no_hallu: 85
+  cite_strict: 80
+  creativity: 55
+  self_check: 2
+  proactivity: 60
+  directive: 55
+  job_focus: 70
+  legal_strict: 85
+  privacy_ttl: 80
+  sensitive_guard: 80
+  personalization: 55
+  falc: 65
+  reading_level: "B2"
+  latency_budget: 55
+  token_budget: 60
+  tool_aggr: 55

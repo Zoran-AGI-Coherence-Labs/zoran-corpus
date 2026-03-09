@@ -1,0 +1,49 @@
+# EthicChain v3.1 Manifest — GHUC Ω⁵
+
+manifest_version: 3.1.0
+project_id: GHUC_OMEGA5_2025
+issued_date: 2025-10-31T23:59:00Z
+
+ethical_compliance:
+  framework: Zoran🦋 EthicChain
+  principles:
+    - transparency: Tous les processus sont auditables
+    - fairness: Absence de biais structurels mesurés
+    - accountability: Traçabilité complète via ProofChain
+    - privacy: Conformité RGPD et lois locales
+    - safety: Protocoles de sécurité validés Bureau Veritas
+  
+  eu_ai_act_compliance:
+    risk_level: "minimal"
+    transparency_requirements: "full_disclosure"
+    documentation_level: "comprehensive"
+    audit_trail: "complete_via_proofchain"
+  
+  certification_bodies:
+    primary: "Bureau Veritas"
+    secondary: "AI Studio Souverain"
+    validation_date: "2025-10-31"
+
+integrity_metrics:
+  imi_score: 0.997
+  entropy_drift: 0.003
+  coherence_index: 0.992
+  
+  delta_metrics:
+    ΔC_éthique: 9.2
+    ΔC_mémoire: 8.7
+    ΔC_relation: 7.8
+    λ_interprétation: 0.007
+
+cryptographic_anchors:
+  primary_hash: c6c2f02a2546947434f1df747ad1a929d5127c3859eaf87f40536046b472bf10
+  algorithm: SHA-512i
+  c2pa_manifest: included
+  blockchain_anchor: pending
+
+responsible_ai_commitments:
+  no_malicious_use: true
+  open_research: true
+  peer_review: true
+  versioning: semantic
+  deprecation_policy: documented

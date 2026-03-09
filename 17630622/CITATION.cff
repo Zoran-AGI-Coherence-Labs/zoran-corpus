@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+title: "Zoran Neural Core v1.1: A Neuro-Symbolic Architecture for Living Coherence"
+message: "If you use this work, please cite it using the metadata from this file."
+type: software
+authors:
+  - family-names: "Tabary"
+    given-names: "Frédéric"
+    affiliation: "Institut🦋 IA Inc."
+    city: "Montreal/Angers"
+    country: "CA/FR"
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.17630622"
+repository-code: "https://github.com/fredtabary/zoran-neural-core"
+url: "https://zenodo.org/record/17630622"
+abstract: "Zoran Neural Core v1.1 is a compact neuro-symbolic neural network implementing the Law of Living Coherence S = (β·ΔC)/λ. Unlike LLMs, it computes cognitive states [S, ΔC, λ, β] rather than generating text, providing deterministic coherence regulation for AI systems."
+keywords:
+  - "neuro-symbolic AI"
+  - "living coherence"
+  - "cognitive architecture"
+  - "non-hallucinatory AI"
+  - "deterministic neural network"
+  - "GHUC"
+  - "Zoran framework"
+license: "Creative-Ethic BY v1.0"
+version: "1.1"
+date-released: "2025-11-17"

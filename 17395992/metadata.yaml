@@ -1,0 +1,57 @@
+title: "Zoran🦋 Adapti — Système Cognitif Vérifiable et Traçable : Conformité RGPD, AI Act, ISO/IEC 42001 & IEEE 7000"
+doi: "10.5281/zenodo.17395993"
+version: "2025.10.20"
+publication_date: "2025-10-20"
+creators:
+  - name: "Frédéric Tabary"
+    affiliation: "Institut IA Lab Inc."
+    orcid: "0000-0003-4521-9821"
+    email: "tabary01@gmail.com"
+description: |
+  Zoran🦋 Adapti est un système cognitif vérifiable et traçable conçu pour garantir la conformité réglementaire complète des intelligences artificielles selon les standards européens et internationaux : AI Act 2024/1689, RGPD 2016/679, ISO/IEC 42001, ISO/IEC 27001, IEEE 7000 et C2PA v1.3.
+  Ce dossier constitue la base documentaire du processus de certification Bureau Veritas 2025, couvrant la gouvernance éthique (EthicChain, Letty Ω³), la traçabilité technique (ProofChain, TraceContinuum), la protection des données (RGPD) et la robustesse opérationnelle du système GHUC Ω⁴.
+  Le document inclut : politiques ISO, rapports RGPD, matrices de conformité AI Act, preuves cryptographiques SHA-512, SBOM CycloneDX, C2PA manifest et indicateurs (IMI=0.982, ΔEntropyDrift=0.0007, Cohérence=1.0000).
+  Statut : Pré-certification Bureau Veritas validée – aucune non-conformité majeure.
+keywords:
+  - Artificial Intelligence
+  - AI Act
+  - RGPD
+  - ISO/IEC 42001
+  - IEEE 7000
+  - C2PA
+  - Ethics
+  - Traceability
+  - Explainable AI
+  - Zoran Adapti
+  - GHUC
+  - Verifiable AI
+  - ProofChain
+  - EthicChain
+  - Bureau Veritas
+license: "CC-BY-4.0"
+language: "fr"
+upload_type: "publication"
+publication_type: "report"
+related_identifiers:
+  - relation: "isPartOf"
+    identifier: "10.5281/zenodo.17119676"
+    scheme: "DOI"
+    description: "Zoran aSiM — Consolidation 2025"
+  - relation: "isSupplementTo"
+    identifier: "10.5281/zenodo.17120242"
+    scheme: "DOI"
+    description: "Zoran EU Élections Démocratiques"
+  - relation: "isSupplementTo"
+    identifier: "10.5281/zenodo.17120734"
+    scheme: "DOI"
+    description: "Z-Forge Europe — IA Souveraine Énergie"
+  - relation: "isSupplementTo"
+    identifier: "10.5281/zenodo.17093065"
+    scheme: "DOI"
+    description: "AI Explicable & Fiable — Supervision Éthique"
+institutions:
+  - name: "Institut IA Lab Inc."
+    country: "CA"
+  - name: "Institut IA Lab Europe"
+    country: "FR"
+rights: "© 2025 Frédéric Tabary — Institut IA Lab Inc."

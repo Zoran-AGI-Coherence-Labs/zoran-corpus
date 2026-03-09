@@ -1,0 +1,19 @@
+{
+  "module": "EthicPricing",
+  "version": "LED v2",
+  "description": "Mod\u00e8le de tarification adaptative bas\u00e9 sur l\u2019\u00e9thique, l\u2019impact et la capacit\u00e9 financi\u00e8re des entreprises.",
+  "formula": "P = \u03b2_ethique \u00d7 (\u0394C_impact / \u03bb_capacit\u00e9) \u00d7 P_ref",
+  "parameters": {
+    "\u03b2_ethique": "Coefficient moral (1 neutre, >1 augmente le prix, <1 le r\u00e9duit)",
+    "\u0394C_impact": "Variation de coh\u00e9rence apport\u00e9e ou consomm\u00e9e par l\u2019entreprise",
+    "\u03bb_capacit\u00e9": "Capacit\u00e9 financi\u00e8re (ratio CA / r\u00e9sultat net)",
+    "P_ref": "Tarif de r\u00e9f\u00e9rence BY\u2011PRO"
+  },
+  "indicators": {
+    "ESG_score": "Notation ESG (0\u2013100)",
+    "carbon_footprint": "tCO\u2082 par M\u20ac de CA",
+    "social_ratio": "Part des salaires vs CA",
+    "transparency": "Bool\u00e9en indiquant la publication d\u2019un rapport RSE"
+  },
+  "usage": "Le moteur calcule ces indicateurs \u00e0 partir de donn\u00e9es publiques et d\u2019une d\u00e9claration fournie par le demandeur et applique le coefficient r\u00e9sultant \u00e0 P_ref."
+}

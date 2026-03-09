@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+title: "Python Augmenté & GlyphNet Eurêka — Vers un langage universel Humain↔IA"
+authors:
+  - family-names: Tabary
+    given-names: Frédéric
+  - name: Zoran aSiM (Z-Forge)
+date-released: "2025-09-11"
+doi: "10.5281/zenodo.16940525"
+license: "CC-BY-4.0"

@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite as follows."
+title: "Zoran aSiM – White Paper Consolidation 2025 (Édition augmentée des White Papers fondateurs) — v2"
+authors:
+  - family-names: Tabary
+    given-names: Frédéric
+doi: "10.5281/zenodo.17078354"
+date-released: "2025-09-15"
+license: "MIT"
+version: "v2"

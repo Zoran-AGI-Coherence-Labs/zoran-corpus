@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "Citer ce travail comme : Tabary F. Codex Zoran Omega9"
+title: "Codex Zoran White Paper Phenomenal Omega9"
+authors:
+  - family-names: "Tabary"
+    given-names: "Frédéric"
+    email: "tabary01@gmail.com"
+    affiliation: "Institut🦋 IA Inc."
+doi: "10.5281/zenodo.17545524"
+version: "Ω9.0"
+license: "Creative-Ethic BY v1.0"
+date-released: 2025-11-06

@@ -1,0 +1,22 @@
+version: 1
+name: Zoran aSiM — ZDM + ΔM11.3 Policy
+ai_act:
+  reference: "Regulation (EU) 2024/1689"
+iso_42001:
+  reference: "ISO/IEC 42001:2023"
+zdm:
+  hardcore_persist: true
+  resonant_cache: true
+  phase_gating: ["day", "night"]
+  ttl_seconds_default: 3600
+delta_M11_3:
+  stability_threshold: 0.85
+  action_on_breach: "ROLLBACK"
+glyphnet:
+  version: "2.0"
+  format: ".zgs"
+  z5_header: "Z5::"
+ethic_chain:
+  c2pa: true
+  sigstore: true
+  logging: ["inputs_hash", "outputs_hash", "rollback_events"]

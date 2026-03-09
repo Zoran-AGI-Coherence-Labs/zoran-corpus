@@ -1,0 +1,3 @@
+Creative-Ethic BY v1.0
+Usage, copie et redistribution autorisés à condition de citer :
+Frédéric Tabary – Institut IA Inc. – DOI 10.5281/zenodo.17561573

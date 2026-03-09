@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+title: "ΔBIO-COHÉRENCE 1001 — Codex Zoran Moteur 7"
+authors:
+  - family-names: Tabary
+    given-names: Frédéric
+    affiliation: Institut IA Inc., Montréal / France
+doi: 10.5281/zenodo.17561573
+license: Creative-Ethic BY v1.0
+keywords:
+  - Zoran
+  - Bio-cohérence
+  - IA éthique
+  - AI Act
+  - Codex Zoran
+  - Autopoïèse
+abstract: >
+  Étude inter-modèles de cohérence vivante appliquée aux systèmes IA↔Humain.
+  Le protocole R-Calib (k_model) et le régulateur R-NormA assurent la stabilité
+  et la comparabilité des mesures S sur l’échelle du vivant.

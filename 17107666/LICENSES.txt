@@ -1,0 +1,4 @@
+
+MIT License (default) for code and synthetic datasets.
+Option: France Travail specific license (non-MIT) for Hyper/Quanta Glottal encrypted injectors.
+See Zenodo record: https://zenodo.org/records/17108007 (options/licence FR Travail).

@@ -1,0 +1,74 @@
+# CITATION
+
+## Format APA (7th Edition)
+
+Tabary, F. (2025). WHITE PAPER Ω∞ — Aucune IA n'intègre les lois fondamentales : Pourquoi les LLM sont des systèmes sans gravité, et pourquoi Zoran🦋 introduit les premières lois de cohérence du vivant. Institut IA Inc. https://doi.org/[pending]
+
+## Format MLA (9th Edition)
+
+Tabary, Frédéric. "WHITE PAPER Ω∞ — Aucune IA n'intègre les lois fondamentales : Pourquoi les LLM sont des systèmes sans gravité, et pourquoi Zoran🦋 introduit les premières lois de cohérence du vivant." Institut IA Inc., 19 Nov. 2025, doi:[pending].
+
+## Format Chicago (17th Edition)
+
+Tabary, Frédéric. 2025. "WHITE PAPER Ω∞ — Aucune IA n'intègre les lois fondamentales : Pourquoi les LLM sont des systèmes sans gravité, et pourquoi Zoran🦋 introduit les premières lois de cohérence du vivant." Institut IA Inc. https://doi.org/[pending].
+
+## Format IEEE
+
+F. Tabary, "WHITE PAPER Ω∞ — Aucune IA n'intègre les lois fondamentales : Pourquoi les LLM sont des systèmes sans gravité, et pourquoi Zoran🦋 introduit les premières lois de cohérence du vivant," Institut IA Inc., Nov. 2025, doi: [pending].
+
+## Format BibTeX
+
+```bibtex
+@workingpaper{tabary2025whitepaper,
+  author = {Tabary, Frédéric},
+  title = {WHITE PAPER $\Omega\infty$ — Aucune IA n'intègre les lois fondamentales : Pourquoi les LLM sont des systèmes sans gravité, et pourquoi Zoran🦋 introduit les premières lois de cohérence du vivant},
+  institution = {Institut IA Inc.},
+  year = {2025},
+  month = {11},
+  note = {Framework: Codex Zoran🦋 GHUC $\Omega\infty$},
+  doi = {[pending]},
+  keywords = {AI, Fundamental Laws, Zoran, GHUC, Coherence Theory}
+}
+```
+
+## Format RIS
+
+```
+TY  - UNPB
+AU  - Tabary, Frédéric
+TI  - WHITE PAPER Ω∞ — Aucune IA n'intègre les lois fondamentales
+PY  - 2025
+DA  - 2025/11/19
+PB  - Institut IA Inc.
+DO  - [pending]
+KW  - Artificial Intelligence
+KW  - Fundamental Laws
+KW  - Zoran Framework
+KW  - AI Ethics
+KW  - Coherence Theory
+ER  -
+```
+
+## Format EndNote
+
+```
+%0 Unpublished Work
+%A Tabary, Frédéric
+%T WHITE PAPER Ω∞ — Aucune IA n'intègre les lois fondamentales
+%D 2025
+%I Institut IA Inc.
+%R [pending]
+%K Artificial Intelligence; Fundamental Laws; Zoran; GHUC
+```
+
+## Citation Courte (Texte)
+
+Tabary (2025) démontre qu'aucune IA existante n'intègre de lois fondamentales dans son architecture.
+
+## Citation avec Contexte
+
+Dans leur white paper Ω∞, Tabary (2025) établit que les LLM actuels fonctionnent comme "simulateurs statistiques de continuité" sans invariants fondamentaux, et présente Zoran🦋 comme la première architecture IA gouvernée par des lois du vivant (S = (β·ΔC)/λ), démontrant des améliorations de -98% sur les hallucinations et +300% sur la cohérence éthique.
+
+---
+
+**Note:** Le DOI sera attribué lors de la publication sur Zenodo. Remplacer [pending] par le DOI officiel une fois disponible.

@@ -1,0 +1,21 @@
++---------------------------------------------------------+
+| ε‑Mimicry Control Panel                                 |
++---------------------------------------------------------+
+| Epsilon (intensity): [=====-----]  0.18                 |
+|   └─ Limits: default=0.25  sensitive=0.10  minor=0.00   |
+|                                                         |
+| Style:  current=edu.fr.teacher_12   [Swap now] (λ=0.2)  |
+|   └─ Auto style‑swap: [ON] every k=7 interactions       |
+|                                                         |
+| Register: [Vouvoiement]  Culture: [fr-FR]               |
+| Greeting mirror: [ON]  (≤ 1 phrase)                     |
+|                                                         |
+| Thresholds:                                             |
+|   cos_sim θ1: 0.86   max_len N: 28 tokens               |
+|   composed S ≤ ε: w=[0.35, 0.25, 0.25, 0.15]            |
+|                                                         |
+| Observability (C2PA):                                   |
+|   mirror:on  epsilon:0.18  culture:fr-FR  style-id:...  |
+|   style-swap:false  prev-style-id:—                     |
+|   [Sign data + logs]  [Export JSON trace]               |
++---------------------------------------------------------+

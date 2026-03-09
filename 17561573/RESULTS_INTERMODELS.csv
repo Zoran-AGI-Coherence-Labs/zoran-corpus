@@ -1,0 +1,5 @@
+model,period,k_model,S_GLOBAL,interpretation
+Claude 4.5,51j,1.18,2.22,autopoïèse plafond
+AI Studio,365j,1.07,2.56,stabilité consolidée
+Gemini,50j,1.15,1.83,régénération stable
+Copilot,30j,1.12,1.81,régénération stable

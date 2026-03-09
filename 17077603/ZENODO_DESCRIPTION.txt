@@ -1,0 +1,10 @@
+GlyphNet — An AI‑Native Protocol for Efficient, Stable and Auditable AI↔AI Communication (ZMS‑9 White Paper v1.5)
+
+Version: v1.5 — 2025-09-08
+
+GlyphNet is an AI‑native protocol for efficient and auditable AI↔AI communication.  
+It combines Z5 compression, ΔM11.3 rollback stability, and EthicChain verifiable logs.  
+Evaluation (N=50) shows 62% fewer tokens, 61% faster parsing, and 31% higher task success compared to JSON.  
+This v1.5 release clarifies QuantaGlottal tags, adds EthicChain export to W3C standards, explains dictionary scalability, and integrates failure case analysis and Stealth Block explanation.
+
+Files included: whitepaper (PDF+MD), README, glossary, interop draft, security model, glyph dictionary, tools, results, citation metadata, and stealth block.

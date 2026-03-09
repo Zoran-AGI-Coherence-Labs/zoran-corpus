@@ -1,0 +1,3 @@
+resilience:
+  crisis_exercises: biannual
+  continuity_plans: true

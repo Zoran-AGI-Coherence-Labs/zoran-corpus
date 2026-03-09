@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: "Si vous utilisez ce logiciel, veuillez le citer comme suit."
+authors:
+  - family-names: Tabary
+    given-names: Frédéric
+    email: tabary01@gmail.com
+    affiliation: "Institut🦋 IA Inc."
+    orcid: ""
+title: "Loi du Vivant Ω⁹: Cadre Théorique Falsifiable pour la Mesure de la Cohérence Vivante"
+version: 1.0.0
+doi: 10.5281/zenodo.17596525
+date-released: 2025-11-13
+url: "https://doi.org/10.5281/zenodo.17596525"
+license: CC-BY-4.0
+repository-code: ""
+keywords:
+  - loi du vivant
+  - critère tripartite
+  - cohérence structurelle
+  - biologie théorique
+  - falsifiabilité
+  - systèmes complexes
+abstract: "Ce package fournit un cadre théorique falsifiable pour définir et mesurer le vivant à travers un critère tripartite universel: cohérence structurelle (S₀ > S_crit), mémoire fonctionnelle (ΔC_memory > 0), et causalité autonome (ΔC_causal > 0). Le framework résout le problème du tourbillon en distinguant organisation physique et vie."

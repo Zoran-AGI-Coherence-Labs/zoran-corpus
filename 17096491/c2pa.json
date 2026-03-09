@@ -1,0 +1,14 @@
+{
+  "title": "APy-GlyphNet-Eureka WP",
+  "format": "text/markdown",
+  "assertions": [
+    {
+      "label": "org.openmanifest.created",
+      "data": {
+        "by": "Fr\u00e9d\u00e9ric Tabary & Zoran aSiM",
+        "at": "2025-09-11"
+      }
+    }
+  ],
+  "ingredients": []
+}

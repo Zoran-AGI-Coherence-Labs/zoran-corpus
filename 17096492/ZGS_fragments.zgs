@@ -1,0 +1,6 @@
+⟦ZFORGE:1000⋄MODE:Eurêka⋄TYPE:généraliste⟧
+⟦CORE:Python_aug+GlyphNet⋄MEM:ZDM⋄ΔM11.3:guard⟧
+⟦TRACE:C2PA+Sigstore+SBOM⋄SLSA:L3⟧
+⟦KPIs:interop≥60%⋄conf≥65%⋄C2PA=100%⋄overhead_p95≤12%⟧
+⟦SEEDS:13|42|101⋄ABL:-ΔM11.3,-ZDM,-C2PA,-Glyph⟧
+⟦ETHIC:Aegis⋄AIAct+ISO42001⋄PROP:IA↔IA+SEO⟧

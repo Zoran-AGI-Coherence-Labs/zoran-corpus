@@ -1,0 +1,15 @@
+# SPECS/ETHICS_POLICY.yaml
+policy:
+  selection: "pluginized"
+  available_frameworks:
+    - "AIF360"
+    - "What-If-Tool"
+    - "Custom"
+guardrails:
+  stakeholder_veto: true
+  thresholds:
+    high_risk_action: 0.7
+    require_human_review: true
+audit:
+  public_hash_anchor: true
+  retro_audit_fast_lane: true

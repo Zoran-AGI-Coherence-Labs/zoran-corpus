@@ -1,0 +1,13 @@
+{
+  "version": "1.0",
+  "producer": "Institut\ud83e\udd8b IA Inc.",
+  "creation_date": "2025-11-06",
+  "description": "Manifestes C2PA pour le package Dual\u2011Flux Law Engine",
+  "actions": [
+    {
+      "type": "package_creation",
+      "content": "Generated archive and files",
+      "timestamp": "2025-11-06"
+    }
+  ]
+}

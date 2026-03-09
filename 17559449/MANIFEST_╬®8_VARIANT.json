@@ -1,0 +1,23 @@
+{
+  "doi": "10.5281/zenodo.17559249",
+  "engine_version": "Ω8",
+  "generated_at": "2025-11-08",
+  "files": [
+    {
+      "name": "variant_engine.py",
+      "sha512": "af53875dec2987430d9a309b2bca751ed67dfc14368153681a530b3abbd71a514a76c45d39f568c058537109ce223214e4c62f7ef3aea7f7fcc101b9fa162782"
+    },
+    {
+      "name": "ΔVARIANT_MANIFEST.json",
+      "sha512": "fb245715168c2543f54245eda28672db176936099672acbefed8c7b1efca09c76c826e2766c583a7ae300f142575f8386ca2eb0d7b08a395138f91d8d0c23af1"
+    },
+    {
+      "name": "WHITEPAPER_ΔVARIANT_ENGINE.md",
+      "sha512": "710eb8c4903ef957e8e33203e88e98f7e79f36dedfb702a9ca37e840083f7be475769204b2f2d469887d1503f40d8dc6891e69d5d9194e235a201d2d40b211d2"
+    },
+    {
+      "name": "ZENODO_METADATA_Ω8_VARIANT.yaml",
+      "sha512": "1c862a82164741a4cf152c8f6b4f3370f052fec2c2fbdffd4ff1866976cbe0727a394380b69ef2453d92163958e4d978e1532a47f9134d182c87767f5878cb54"
+    }
+  ]
+}

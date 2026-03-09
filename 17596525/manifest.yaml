@@ -1,0 +1,117 @@
+# Zoran Omega9 - Loi du Vivant
+# Manifest complet pour reproductibilité
+
+metadata:
+  title: "Loi du Vivant Ω⁹ : Cadre Théorique Cohérence Vivante"
+  author:
+    name: "Frédéric Tabary"
+    email: "Tabary01@gmail.com"
+    affiliation: "Institut🦋 IA Inc."
+  
+  version: "Ω9"
+  date: "2024-11-13"
+  doi: "10.5281/zenodo.[À ATTRIBUER]"
+  license: "Creative-Ethic BY v1.0"
+  
+  status: "Pre-publication, falsifiable, non démontré"
+
+theory:
+  core_equation: "Vivant ⟺ (S₀>seuil) ∧ (ΔC_mémoire>0) ∧ (ΔC_causale>0)"
+  
+  parameters:
+    S0_threshold:
+      default: 1.0
+      calibration_required: true
+      domain_specific: true
+    
+    min_memory_threshold:
+      default: 0.01
+      units: "bits (mutual information)"
+    
+    min_causal_threshold:
+      default: 0.01
+      units: "correlation coefficient"
+    
+    baseline_shuffles:
+      default: 100
+      range: [50, 500]
+      purpose: "Anti-noise baseline"
+
+computational_implementation:
+  language: "Python 3.8+"
+  
+  dependencies:
+    - numpy: ">=1.19.0"
+    - pandas: ">=1.2.0"
+    - scikit-learn: ">=0.24.0"
+    - scipy: ">=1.6.0"
+  
+  main_class: "ZoranOmega9Engine"
+  
+  functions:
+    - coherence_robust
+    - dispersion
+    - memory_coherence
+    - causal_coherence
+    - beta_proxy
+    - S0_score
+    - is_alive
+
+experimental_protocols:
+  protocol_1:
+    name: "Cultures Cellulaires"
+    n_samples: 500
+    duration: "72h"
+    metrics: ["viabilité", "prolifération", "récupération"]
+    status: "En préparation"
+  
+  protocol_2:
+    name: "Écosystèmes"
+    n_samples: 50
+    duration: "12 mois"
+    metrics: ["résilience", "biodiversité", "flux_énergétiques"]
+    status: "En préparation"
+  
+  protocol_3:
+    name: "Humains Burn-out"
+    n_samples: 200
+    duration: "6 mois"
+    metrics: ["HRV", "cortisol", "MBI_score", "récupération"]
+    status: "En préparation"
+
+falsifiability:
+  refutation_criteria:
+    - "Corrélation S₀/viabilité ≤ hasard après calibration"
+    - "Systèmes non-vivants consensus satisfont critère tripartite"
+    - "Systèmes vivants consensus échouent critère tripartite"
+    - "Variance inter-laboratoires >50%"
+
+limitations:
+  recognized:
+    - "N'explique pas origine de la vie"
+    - "Ne distingue pas conscience/non-conscience"
+    - "Nécessite données temporelles"
+    - "Seuil S₀ non universel (calibration requise)"
+    - "Zone grise virus/prions reste débattable"
+
+contact:
+  primary: "Tabary01@gmail.com"
+  institution: "Institut🦋 IA Inc."
+
+versioning:
+  current: "Ω9"
+  previous: ["Ω8", "Ω7"]
+  next:
+    minor: "Ω9.1 (corrections mineures)"
+    major: "Ω10 (révision suite validation empirique)"
+
+reproducibility:
+  code_available: true
+  data_available: "Synthétique oui, empirique en attente"
+  parameters_explicit: true
+  
+  FAIR_compliance:
+    findable: true
+    accessible: true
+    interoperable: true
+    reusable: true

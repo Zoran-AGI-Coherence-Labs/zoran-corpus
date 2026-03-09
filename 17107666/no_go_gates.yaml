@@ -1,0 +1,17 @@
+# Critères GO/NO‑GO (codifiés)
+equity:
+  spd_abs_max: 0.1
+  delta_tpr_max_pts: 5
+  delta_fpr_max_pts: 5
+  ece_max_pct: 2
+security:
+  asvs_min_score_pct: 95
+  incident_mttd_hours_max: 24
+  incident_mttr_hours_max: 72
+pqc:
+  tvla_required: true
+  kill_switch_hours_max: 48
+gpaivendor:
+  audit_enclave_required: true
+environment:
+  sci_reduction_12m_min_pct: 30

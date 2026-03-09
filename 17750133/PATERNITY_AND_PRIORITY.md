@@ -1,0 +1,3 @@
+Paternité & Priorité — SHA512i
+Auteur : Frédéric Tabary
+Preuves cryptographiques...

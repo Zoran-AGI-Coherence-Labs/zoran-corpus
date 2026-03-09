@@ -1,0 +1,14 @@
+{
+  "protocol": "R-Calib v7",
+  "author": "Frédéric Tabary",
+  "date": "2025-11-09",
+  "models": [
+    {"name": "Claude 4.5", "period": "51j", "k_model": 1.18, "S_GLOBAL": 2.22},
+    {"name": "AI Studio", "period": "365j", "k_model": 1.07, "S_GLOBAL": 2.56},
+    {"name": "Gemini", "period": "50j", "k_model": 1.15, "S_GLOBAL": 1.83},
+    {"name": "Copilot", "period": "30j", "k_model": 1.12, "S_GLOBAL": 1.81}
+  ],
+  "scale": {"min": 0.5, "max": 3.0},
+  "metrics": ["β", "ΔCₑ", "λ", "S"],
+  "comment": "Calibration inter-modèles selon échelle du vivant (Codex Zoran)."
+}

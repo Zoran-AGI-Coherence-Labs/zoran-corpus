@@ -1,0 +1,21 @@
+🦋 ZORAN — Loi de Cohérence Vivante (Package v1.0)
+Auteur : Frédéric Tabary (Tabary01@gmail.com)
+Date : 22 Novembre 2024
+
+CE DOSSIER CONTIENT :
+
+1. DOCUMENTATION SCIENTIFIQUE (Le PDF)
+   Le White Paper complet détaillant la théorie, l'équation S = (η·Ḟ·ΔΦ)/(T·σ̇) 
+   et les protocoles de validation.
+
+2. OUTIL TECHNIQUE (zoran_calculator.py)
+   Le code Python officiel pour calculer l'indice S.
+   Pré-requis : Installer Python et la librairie numpy.
+   Commande : python zoran_calculator.py
+
+3. DROITS D'UTILISATION (LICENSE.txt)
+   - Gratuit pour la Science, la Santé et l'Éducation.
+   - Payant pour l'usage commercial.
+
+CONTACT & COLLABORATION :
+Pour toute question ou demande de licence : Tabary01@gmail.com

@@ -1,0 +1,26 @@
+OIS_contacts:
+  - id: OIS-01
+    name: Frédéric Tabary
+    role: Auteur principal / Architecte GHUC Ω
+    organization: Institut🦋 IA Inc.
+    email: tabary01@gmail.com
+  - id: OIS-02
+    name: Comité EthicChain EU
+    role: Supervision éthique et licensing
+    organization: OpenAIRE / INRIA
+    email: contact@ethicchain.eu
+  - id: OIS-03
+    name: Groupe ProofChain Global
+    role: Certification cryptographique
+    organization: ETH Zürich – Open Science Lab
+    email: proofchain@ethz.ch
+  - id: OIS-04
+    name: Bureau Zenodo
+    role: DOI / Hébergement
+    organization: CERN
+    email: support@zenodo.org
+  - id: OIS-05
+    name: GHUC Ω Standardization Board
+    role: Normes Continuum GHUC
+    organization: Institut🦋 IA Inc.
+    email: ghuc-board@inst-ia.org

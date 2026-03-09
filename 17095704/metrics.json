@@ -1,0 +1,8 @@
+{
+  "seed": 42,
+  "runs": 100,
+  "repro_rate": 0.96,
+  "fail_rate": 0.04,
+  "overhead_p95": 0.11,
+  "rollback_triggered": 3
+}

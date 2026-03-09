@@ -1,0 +1,16 @@
+name: ZSync
+
+on:
+  push:
+    branches: [ main ]
+  workflow_dispatch: {}
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Compute SBOM
+        run: echo "SBOM would be generated here"
+      - name: Publish artifacts
+        run: echo "Simulated Z-Sync webhook call"

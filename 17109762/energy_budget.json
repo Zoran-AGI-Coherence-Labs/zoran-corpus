@@ -1,0 +1,5 @@
+{
+  "yearly_quota_kwh": 100000,
+  "p95_per_request_j": 50,
+  "notes": "Placeholders for demonstration; tune with real measurements."
+}

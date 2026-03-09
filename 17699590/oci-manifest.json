@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 2,
+  "mediaType": "application/vnd.oci.image.manifest.v1+json",
+  "config": {
+    "mediaType": "application/vnd.oci.image.config.v1+json",
+    "digest": "sha512:a5f1a6d0c4c22c65a0efdbf4e9d8f8913a53c39f3f87a30b42456d0b69cbce54",
+    "size": 10240
+  },
+  "layers": [
+    {
+      "mediaType": "application/vnd.oci.image.layer.v1.tar+gzip",
+      "digest": "sha512:1a6734ad25d5b2a462e1d4a63de8feea3b0d5327ae67dbbc4ff15f7bd9d29703",
+      "size": 40960,
+      "annotations": {
+        "org.opencontainers.image.title": "ZoranEngine Python Core",
+        "org.opencontainers.image.description": "Moteur de calcul S = (\u03b2\u00b7\u0394C)/\u03bb"
+      }
+    },
+    {
+      "mediaType": "application/pdf",
+      "digest": "sha512:a5f1a6d0c4c22c65a0efdbf4e9d8f8913a53c39f3f87a30b42456d0b69cbce54",
+      "size": 5242880,
+      "annotations": {
+        "org.opencontainers.image.title": "White Paper Ma\u00eetre",
+        "org.opencontainers.image.description": "Loi de Coh\u00e9rence Universelle et 50 domaines d'application"
+      }
+    }
+  ],
+  "annotations": {
+    "org.opencontainers.image.title": "Zoran Universal Coherence Engine",
+    "org.opencontainers.image.version": "1.0",
+    "org.opencontainers.image.vendor": "Institut\ud83e\udd8b IA Inc.",
+    "org.opencontainers.image.authors": "Fr\u00e9d\u00e9ric Tabary <tabary01@gmail.com>",
+    "org.opencontainers.image.licenses": "MIT, Commercial Licence Institut\ud83e\udd8b IA Inc.",
+    "org.opencontainers.image.url": "https://institutia.ca",
+    "org.opencontainers.image.source": "https://zenodo.org/records/17682120",
+    "org.opencontainers.image.documentation": "https://medium.com/@tabary01",
+    "org.opencontainers.image.revision": "sha512i:a5f1a6d0c4c22c65\u20269703"
+  }
+}

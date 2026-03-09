@@ -1,0 +1,13 @@
+{
+  "declination_id": "DEC-CQ-BIO",
+  "from": "codex",
+  "special_cases": [
+    "\u0394C\u03b5 = I_ATP_synth / \u03bb_mito"
+  ],
+  "scalings": [
+    "physics\u2192bioenergy"
+  ],
+  "generated_equations": [
+    "\u03b7_bio \u2248 \u03b7_Carnot + \u03ba * (I_ATP_synth / \u03bb_mito)"
+  ]
+}

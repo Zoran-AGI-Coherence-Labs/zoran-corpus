@@ -1,0 +1,4 @@
+# LICENCE — Creative-Ethic BY-PRO v1.1
+© 2025 Frédéric Tabary — Institut🦋 IA Inc.
+Usage éthique, scientifique et professionnel autorisés.
+Doit citer : DOI 10.5281/zenodo.17559007 — S = (β·ΔCₑ)/λ > 1 ⇒ regen

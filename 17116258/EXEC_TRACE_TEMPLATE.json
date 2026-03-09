@@ -1,0 +1,16 @@
+{
+  "exec_trace": {
+    "request_id": "<REQUEST_ID>",
+    "committed": true,
+    "deliverables": [],
+    "rollback": false,
+    "notes": "",
+    "timestamps": {
+      "started_at": "",
+      "finished_at": ""
+    },
+    "agent_id": "ZForge-Agent",
+    "engine_version": "v3.0",
+    "context_id": "CHAIN_EXECUTION_v3.0"
+  }
+}

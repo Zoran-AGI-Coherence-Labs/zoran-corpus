@@ -1,0 +1,12 @@
+{
+  "path": "support/CHANGELOG.md",
+  "leaf": "62216c408bd1154567c7f489cc75b184d36ad3eb613f7e9965b795218b81e9661a9423c0068b7d872cd8cd0367eed4b04d4941d19ffb20cc15788e004b76f51e",
+  "index": 0,
+  "proof": [
+    {
+      "sibling": "44f9f52f5a3208c65a6ca86460903d0e370158300775f5feb7f26b72a339b2df1a4d090cffc2ba440d6882e331e2d3068cda678414b857d13396ae8d0bc50142",
+      "orientation": "right"
+    }
+  ],
+  "root": "0533f4ecd8e705051bbc49acdbea6b2d93b4ac2ee19e39027636a8bb7cd0b5ab79c8d342bab31fcc65b9ffc02d023db2359b03fbf1d84962cb05a54b6b33fb06"
+}

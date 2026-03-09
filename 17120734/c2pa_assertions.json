@@ -1,0 +1,26 @@
+{
+  "assertions": [
+    {
+      "label": "ai.system",
+      "data": {
+        "name": "ZForge-Europe",
+        "version": "3.4"
+      }
+    },
+    {
+      "label": "sbom.cyclonedx",
+      "data": {
+        "href": "sbom.cdx.json",
+        "spec": "1.6"
+      }
+    },
+    {
+      "label": "build.slsa",
+      "data": {
+        "level": "v1.1",
+        "track": "build"
+      }
+    }
+  ],
+  "spec": "C2PA 2.2"
+}

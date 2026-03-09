@@ -1,0 +1,1 @@
+PENDING — compute SHA-512i after final freeze

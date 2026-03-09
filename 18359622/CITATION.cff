@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite it."
+title: "Operational Consciousness as a Global Rescue Controller"
+doi: "10.5281/zenodo.18359622"
+type: report
+authors:
+  - family-names: "Tabary"
+    given-names: "Frédéric"
+license: "CC-BY-4.0"

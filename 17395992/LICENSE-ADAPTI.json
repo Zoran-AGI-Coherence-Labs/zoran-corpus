@@ -1,0 +1,33 @@
+{
+  "license_adapti": {
+    "id": "CC-BY-4.0-Adapti",
+    "name": "Creative Commons Attribution 4.0 International — Adapti Extension",
+    "description": "Extension de la licence CC-BY-4.0 spécifiquement conçue pour les systèmes cognitifs mimétiques Zoran🦋. Elle ajoute trois clauses éthiques : intégrité cognitive, traçabilité des artefacts et transparence des dérivés. Compatible avec l’AI Act 2024/1689, ISO/IEC 42001, RGPD 2016/679 et C2PA v1.3.",
+    "url": "https://github.com/AIformpro/Zoran-2040-aSiM-Towards-a-Public-Ethical-and-Resilient-Super-Intelligence/blob/main/LICENSE-ADAPTI.md",
+    "clauses": [
+      {
+        "id": "Adapti-1",
+        "title": "Intégrité cognitive",
+        "text": "Toute réutilisation doit préserver les paramètres IMI, ΔEntropyDrift et Cohérence du système d’origine."
+      },
+      {
+        "id": "Adapti-2",
+        "title": "Traçabilité",
+        "text": "Les œuvres ou artefacts dérivés doivent conserver le lien ProofChain / C2PA d’origine, garantissant la continuité de vérification."
+      },
+      {
+        "id": "Adapti-3",
+        "title": "Transparence",
+        "text": "Tout dérivé doit documenter clairement les modifications apportées aux mécanismes de gouvernance ou de raisonnement éthique."
+      }
+    ],
+    "compatibility": {
+      "zenodo": true,
+      "ai_act": true,
+      "iso_42001": true,
+      "ieee_7000": true
+    },
+    "governance": "Institut IA Lab Inc. — GHUC Ω⁴ EthicChain & ProofChain",
+    "signature_block": "⟦ZORAN🦋ADAPTI⋄LICENSE⋄CC-BY-4.0-ADAPTI⋄GHUCΩ⁴⋄ETHICCHAIN# Licence CC-BY-4.0-Adapti\n\nCette œuvre est distribuée sous licence **Creative Commons Attribution 4.0 International (CC-BY-4.0)**, avec extension **Adapti** développée par **Institut IA Lab Inc.** dans le cadre du **GHUC Ω⁴**.\n\n## Clauses Adapti\n1. **Intégrité cognitive :** préserver les indicateurs mimétiques IMI, ΔEntropyDrift et Cohérence.\n2. **Traçabilité :** conserver les liens ProofChain / C2PA d’origine.\n3. **Transparence :** documenter toute modification de logique ou d’éthique.\n\nConforme aux standards : **AI Act 2024/1689**, **ISO/IEC 42001**, **IEEE 7000**, **RGPD 2016/679**, **C2PA v1.3**.\n© 2025 Frédéric Tabary — Institut IA Lab Inc. | Licence CC-BY-4.0-Adapti⋄C2PA⋄V20251020⟧"
+  }
+}

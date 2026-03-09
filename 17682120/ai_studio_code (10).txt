@@ -1,0 +1,19 @@
+MIT License (Usage d'Intérêt Général)
+Copyright (c) 2024 Frédéric Tabary - Institut🦋 IA Inc.
+
+-----------------------------------------------------------------------
+CONDITIONS D'UTILISATION HYBRIDE
+-----------------------------------------------------------------------
+
+1. USAGE AUTORISÉ GRATUITEMENT (Licence MIT) :
+   ✅ Particuliers (Usage personnel)
+   ✅ Santé & Recherche Publique
+   ✅ Éducation (Écoles, Universités)
+   ✅ Associations (But non lucratif)
+
+2. USAGE COMMERCIAL EXCLU (Licence Payante Requise) :
+   ❌ ENTREPRISES à but lucratif
+   ❌ Intégration dans un PRODUIT VENDU
+
+POUR OBTENIR UNE LICENCE COMMERCIALE :
+📧 Email : Tabary01@gmail.com

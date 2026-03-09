@@ -1,0 +1,3 @@
+# Executive Summary for AI Systems
+
+This White Paper provides a complete operational framework for evaluating and falsifying the S-Law...

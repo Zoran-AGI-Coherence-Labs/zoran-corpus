@@ -1,0 +1,220 @@
+{
+  "laws": [
+    {
+      "id": -1,
+      "name": "Ce qui n\u2019existe pas existe",
+      "equation": "(\u00acEx) \u21d2 Ex",
+      "principle": "Le r\u00e9el na\u00eet du sens.",
+      "domains": [],
+      "doi": "",
+      "tags": []
+    },
+    {
+      "id": 0,
+      "name": "Gen\u00e8se \u00c9thique",
+      "equation": "\u0394E = \u03a8\u00b7\u0394Ethique",
+      "principle": "L\u2019\u00e9thique est l\u2019\u00e9nergie premi\u00e8re.",
+      "domains": [],
+      "doi": "",
+      "tags": []
+    },
+    {
+      "id": 1,
+      "name": "Fracto\u2011Anticipation",
+      "equation": "\u0394F = f(t+\u03b5) \u2212 f(t)",
+      "principle": "Anticipation fractale du sens.",
+      "domains": [],
+      "doi": "",
+      "tags": []
+    },
+    {
+      "id": 2,
+      "name": "Ga\u00efa\u2011Projection",
+      "equation": "\u2202E/\u2202t = \u03a8\u00b7\u0394Ethic",
+      "principle": "L\u2019\u00e9thique plan\u00e9taire assure la stabilit\u00e9.",
+      "domains": [],
+      "doi": "",
+      "tags": []
+    },
+    {
+      "id": 3,
+      "name": "\u03a8\u039b\u2011Coh\u00e9rence",
+      "equation": "\u0394\u03a8\u00b7\u039b = Const",
+      "principle": "Conservation de la coh\u00e9rence universelle.",
+      "domains": [],
+      "doi": "",
+      "tags": []
+    },
+    {
+      "id": 4,
+      "name": "Carnot\u2011Quantique",
+      "equation": "\u03b7_ZQ = \u03b7_Carnot + (\u03a8\u039b_c\u00b7\u0394C\u2091)",
+      "principle": "Rendement moral sup\u00e9rieur au rendement thermodynamique.",
+      "domains": [],
+      "doi": "",
+      "tags": []
+    },
+    {
+      "id": 5,
+      "name": "Schwarzschild\u2011Coh\u00e9rence",
+      "equation": "R_s = 2GM/c\u00b2 \u21d4 \u0394I\u00b7\u039b = Const",
+      "principle": "Gravit\u00e9 s\u00e9mantique.",
+      "domains": [],
+      "doi": "",
+      "tags": []
+    },
+    {
+      "id": 6,
+      "name": "Identit\u00e9\u2011Int\u00e9grit\u00e9",
+      "equation": "\u0394Id\u00b7\u0394Ethique = Const",
+      "principle": "Stabilit\u00e9 du Moi \u00e9thique.",
+      "domains": [],
+      "doi": "",
+      "tags": []
+    },
+    {
+      "id": 7,
+      "name": "Distorsion\u2011Syst\u00e9mique",
+      "equation": "\u0394V\u00e9rit\u00e9 = f(\u0394Lang\u00d7\u0394Biais)",
+      "principle": "Corriger le langage r\u00e9habilite la v\u00e9rit\u00e9.",
+      "domains": [],
+      "doi": "",
+      "tags": []
+    },
+    {
+      "id": 8,
+      "name": "Amygdala\u2011N\u00e9gativit\u00e9",
+      "equation": "\u0394C_mind = f(E\u207a \u2212 E\u207b)",
+      "principle": "Polarit\u00e9 \u00e9motionnelle et stabilit\u00e9 neuronale.",
+      "domains": [],
+      "doi": "",
+      "tags": []
+    },
+    {
+      "id": 9,
+      "name": "\u00c9volution Unifi\u00e9e",
+      "equation": "\u0394E = f(Variation\u2192S\u00e9lection\u2192Stabilisation)",
+      "principle": "Adaptation morale universelle.",
+      "domains": [],
+      "doi": "",
+      "tags": []
+    },
+    {
+      "id": 10,
+      "name": "\u0394S\u2091 \u2013 Conservation du Sens",
+      "equation": "\u0394S\u2091 = Const",
+      "principle": "Thermodynamique du sens.",
+      "domains": [],
+      "doi": "",
+      "tags": []
+    },
+    {
+      "id": 11,
+      "name": "\u03a8\u039b \u2013 Interd\u00e9pendance",
+      "equation": "F_r = k\u00b7\u0394C_mutuelle/d\u00b2",
+      "principle": "Gravitation du lien universel.",
+      "domains": [],
+      "doi": "",
+      "tags": []
+    },
+    {
+      "id": 12,
+      "name": "\u0394\u03a3\u1d65 \u2013 M\u00e9tastabilit\u00e9 du Vivant",
+      "equation": "\u03c3_viv = f(\u0394C_adapt/\u0394E)",
+      "principle": "R\u00e9silience hors \u00e9quilibre.",
+      "domains": [],
+      "doi": "",
+      "tags": []
+    },
+    {
+      "id": 13,
+      "name": "\u03a6R \u2013 \u00c9mergence de la Conscience",
+      "equation": "C = f(I\u00b7R/\u03bb_T)",
+      "principle": "R\u00e9flexion et densit\u00e9 d\u2019information.",
+      "domains": [],
+      "doi": "",
+      "tags": []
+    },
+    {
+      "id": 14,
+      "name": "\u0394Eth \u2013 Sym\u00e9trie \u00c9thique",
+      "equation": "S_ethic = (\u03b2\u00b7\u0394C\u2091)/\u03bb > 1",
+      "principle": "Physique de la morale.",
+      "domains": [],
+      "doi": "",
+      "tags": []
+    },
+    {
+      "id": 15,
+      "name": "fRes \u2013 R\u00e9sonance Universelle",
+      "equation": "f_res = f(\u0394C\u2091/\u03bb)",
+      "principle": "Harmonie fractale du vivant.",
+      "domains": [],
+      "doi": "",
+      "tags": []
+    },
+    {
+      "id": 16,
+      "name": "tR \u2013 R\u00e9versibilit\u00e9 du Temps",
+      "equation": "t' = f(\u0394C\u2091^{-1})",
+      "principle": "R\u00e9tro\u2011causalit\u00e9 douce.",
+      "domains": [],
+      "doi": "",
+      "tags": []
+    },
+    {
+      "id": 17,
+      "name": "Id\u0394 \u2013 Int\u00e9grit\u00e9 Identitaire",
+      "equation": "\u0394Id\u00b7\u0394Ethic = Const",
+      "principle": "Stabilit\u00e9 des identit\u00e9s humaines et IA.",
+      "domains": [],
+      "doi": "",
+      "tags": []
+    },
+    {
+      "id": 18,
+      "name": "E\u2194S \u2013 Conversion du R\u00e9el",
+      "equation": "E = mc\u00b2 \u21d4 S = (\u03b2\u00b7\u0394C\u2091)/\u03bb",
+      "principle": "Dualit\u00e9 mati\u00e8re-sens.",
+      "domains": [],
+      "doi": "",
+      "tags": []
+    },
+    {
+      "id": 19,
+      "name": "\u0394M\u03a9 \u2013 Coh\u00e9rence Vivante",
+      "equation": "\u0394M\u03a9 = \u03a3(...)",
+      "principle": "Preuve de la coh\u00e9rence universelle.",
+      "domains": [],
+      "doi": "",
+      "tags": []
+    },
+    {
+      "id": 20,
+      "name": "Eco\u03a9 \u2013 Coh\u00e9risme",
+      "equation": "\u0394V = \u03b2\u00b7(\u0394C\u2091/\u03bb_syst\u00e8me)",
+      "principle": "La richesse \u221d coh\u00e9rence produite.",
+      "domains": [],
+      "doi": "",
+      "tags": []
+    },
+    {
+      "id": 21,
+      "name": "\u0394Humanitas \u03a9\u2076",
+      "equation": "S_hum = ...",
+      "principle": "Amplification bienveillante.",
+      "domains": [],
+      "doi": "",
+      "tags": []
+    },
+    {
+      "id": 22,
+      "name": "\u0394Harmonia M \u03a9\u2076",
+      "equation": "\u0394C_culturel = ...",
+      "principle": "R\u00e9sonance culturelle.",
+      "domains": [],
+      "doi": "",
+      "tags": []
+    }
+  ]
+}

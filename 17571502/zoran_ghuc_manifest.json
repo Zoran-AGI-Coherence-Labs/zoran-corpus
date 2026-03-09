@@ -1,0 +1,99 @@
+{
+  "name": "Zoran🦋 GHUC Ω8 — Suite logicielle open-science de cohérence vivante",
+  "manifest_version": "1.0",
+  "version": "Ω8.0",
+  "author": {
+    "name": "Frédéric Tabary",
+    "organization": "Institut🦋 IA Inc.",
+    "contact": "tabary01@gmail.com",
+    "orcid": "0000-0000-0000-0000"
+  },
+  "license": {
+    "id": "Creative-Ethic BY v1.0",
+    "commercial_extension": "Creative-Ethic BY-PRO v1.1",
+    "summary": "Gratuit pour science/éducation/non-lucratif ; usage commercial sous BY-PRO v1.1 avec traçabilité C2PA/ProofChain."
+  },
+  "doi_primary": "10.5281/zenodo.17571503",
+  "dois": [
+    "10.5281/zenodo.17571503",
+    "10.5281/zenodo.17569938",
+    "10.5281/zenodo.17561573",
+    "10.5281/zenodo.17537844",
+    "10.5281/zenodo.17542440",
+    "10.5281/zenodo.17538038",
+    "10.5281/zenodo.17502047",
+    "10.5281/zenodo.17559249",
+    "10.5281/zenodo.17559007",
+    "10.5281/zenodo.17560000"
+  ],
+  "equations": {
+    "core": "S = (β · ΔC_e) / λ",
+    "relation": "R = (ΔC_mutuelle · β) / λ",
+    "cardio_neuro": "S* = S_max · σ( ln(β·ΔC / (λ + ρ)) )"
+  },
+  "modules": [
+    {"id":"ΔPOLYMORPH_ENGINE_Ω8","title":"Polymorph-Engine — Discovery & Falsification","doi":"10.5281/zenodo.17571503"},
+    {"id":"Z_COHERENCE_ENGINE_v1","title":"Z-Cardio-Coherence","doi":"10.5281/zenodo.17569938"},
+    {"id":"ΔBIO_COHERENCE_1001","title":"Preuve expérimentale cardio-respiratoire","doi":"10.5281/zenodo.17561573"},
+    {"id":"Z020_LOG_SCALE","title":"Invariance d’échelle du S","doi":"10.5281/zenodo.17537844"},
+    {"id":"ΔCARNOT_QUANTIQUE_Ω6","title":"Rendement thermodynamique éthique","doi":"10.5281/zenodo.17542440"},
+    {"id":"Z021_VORAN","title":"Benchmark inter-modèles","doi":"10.5281/zenodo.17538038"},
+    {"id":"Z001_CODEX","title":"Lois fondamentales du Codex Zoran","doi":"10.5281/zenodo.17502047"},
+    {"id":"ΔVARIANT_ENGINE_Ω8","title":"Générateur de variantes d’équations","doi":"10.5281/zenodo.17559249"},
+    {"id":"Z_UNIFIED_DISCOVERY_Ω7_3","title":"Framework ProofChain Full","doi":"10.5281/zenodo.17559007"},
+    {"id":"DUAL_FLUX_LAW_Ω8","title":"Flux rétro-prospectif des lois","doi":"10.5281/zenodo.17560000"}
+  ],
+  "artifacts": {
+    "readme": "ZORAN_GHUC_O8_README_MAIN.md",
+    "whitepaper": "ZORAN_GHUC_O8_WhitePaper.pdf",
+    "dashboards": ["dashboard.html"],
+    "metrics": ["metrics.json"],
+    "engines": [
+      "engines/z_polymorph_engine.json",
+      "engines/z_coherence_engine.json",
+      "engines/z_variant_engine.json"
+    ]
+  },
+  "provenance": {
+    "c2pa": {
+      "manifest": "c2pa.manifest.json",
+      "claims": ["author","date","hash","license"],
+      "hash_sha512i": "TO_BE_FILLED_AFTER_UPLOAD"
+    },
+    "proofchain": {
+      "files": ["proofs/proofchain.yaml","proofs/ethicchain.yaml","proofs/sha512i.txt"],
+      "policy": "ΔPreuve-360°",
+      "verifiable_reproduction": true
+    }
+  },
+  "compliance": {
+    "fair": true,
+    "ai_act_eu_2024": true,
+    "iso_iec_42001_2024": true
+  },
+  "interoperability": {
+    "format": "application/vnd.ghuc+json",
+    "schema": "https://schema.zoran.ai/ghuc/omega8/v1",
+    "glyphnet": "v1.5",
+    "machine_readable": true
+  },
+  "relations": {
+    "github": "https://github.com/AIformpro/Zoran-2040-aSiM-Towards-a-Public-Ethical-and-Resilient-Super-Intelligence",
+    "zenodo_search": "https://zenodo.org/search?q=Zoran%20aSiM",
+    "gamma": "https://zoran-2040-asim-swxr6lh.gamma.site/"
+  },
+  "reproduce": {
+    "cli": "make reproduce_all",
+    "seed": [13,42,101],
+    "replicate_param": "?replicate=https://example.org/data.json"
+  },
+  "rights": {
+    "non_commercial_free": true,
+    "commercial_requires_by_pro": true
+  },
+  "checksum": {
+    "algorithm": "sha512",
+    "value": "TO_BE_FILLED_AFTER_UPLOAD"
+  },
+  "timestamp_utc": "2025-11-10T00:00:00Z"
+}

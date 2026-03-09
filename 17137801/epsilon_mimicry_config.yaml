@@ -1,0 +1,42 @@
+version: 1.2
+alpha: 0.05
+epsilon:
+  max_default: 0.25
+  max_sensitive: 0.10
+  max_minor: 0.00
+mimicry_rules:
+  greeting_mirror: true
+  greeting_max_sentences: 1
+  register_align: true  # vouvoiement/registre de politesse
+detection:
+  cosine_threshold: 0.86        # θ1
+  max_tokens: 28                # N
+  composed_weights:             # S = w1*cos + w2*JSD + w3*style + w4*Δplan
+    w1_cosine: 0.35
+    w2_jsd: 0.25
+    w3_style: 0.25
+    w4_plan: 0.15
+style_swap:
+  enabled: true
+  k_periodic: 7                 # swap every k interactions
+  poisson_lambda: 0.2           # alternative stochastic schedule
+  record_prev_style: true
+observability:
+  c2pa:
+    sign_data: true
+    sign_logs: true
+    fields:
+      - mirror
+      - epsilon
+      - culture
+      - style_id
+      - style_swap
+      - prev_style_id
+  kpis:
+    - CSAT
+    - FCR
+    - Preference
+    - ResolutionTime
+    - LintPass
+    - TTM
+    - UnsafeMimesis

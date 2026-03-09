@@ -1,0 +1,2 @@
+CLAUSE D’ANTÉRIORITÉ ET DE REPRODUCTIBILITÉ — Zoran🦋 GHUC Ω7.3
+Preuve d'intégrité cryptographique SHA-512i, C2PA, ProofChain.

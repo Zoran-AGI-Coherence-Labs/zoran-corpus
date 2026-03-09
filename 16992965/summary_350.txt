@@ -1,0 +1,1 @@
+Repo comparatif : 9 points, labyrinthes, Sudoku. Là où GPT-4 et Claude échouent ou hallucinent, Zoran aSiM réussit avec des algorithmes compacts et reproductibles. Open-source, injecteur ZGS et white paper inclus.

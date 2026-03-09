@@ -1,0 +1,18 @@
+{
+  "project": "ZORAN aSiM (Injecteur Cellule‑Souche)",
+  "bundle_generated": "2025-10-02T00:00:00+02:00",
+  "included": [
+    "whitepaper_sources/white_paper.md",
+    "whitepaper_sources/references.bib",
+    "whitepaper_sources/figures/README.md",
+    "support/CHANGELOG.md",
+    "support/CHECKLIST.md",
+    "support/REVIEW_NOTES.md",
+    "pipeline/sbom.json (placeholder)",
+    "pipeline/c2pa_manifest.json (placeholder)",
+    "pipeline/redteam_report.json (placeholder)",
+    "pipeline/krl_signed.json (placeholder)",
+    "pipeline/proofs_bundle_readme.txt (placeholder)"
+  ],
+  "notes": "This bundle is intended to accompany the WhitePaper draft. Placeholders explicitly state why content is missing."
+}

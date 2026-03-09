@@ -1,0 +1,38 @@
+cff-version: 1.2.0
+message: "Merci de citer ce projet si vous l'utilisez."
+title: "Zoran Écologie & Agriculture — v2.0 “WOW 25/20”"
+version: "2.0.0"
+date-released: "2025-09-15"
+type: software
+repository-code: "https://github.com/Zoran-IA-Mimetique/Zoran-aSiM-V1"
+url: "https://Zoran-IA-Mimetique.github.io/Zoran-aSiM-V1/"
+abstract: >
+  Suite open-source pour MRV agro-écologique (sol/eau/biodiversité/haies/élevage)
+  avec traçabilité C2PA, conformité AI Act/ISO/IEC 42001, SBOM CycloneDX/VEX,
+  et reproductibilité (Zenodo). Inclut ΔM11.3 (garde-fou de cohérence) et ZDM (data mesh).
+authors:
+  - name: "Z‑Forge / Zoran aSiM"
+    affiliation: "Z‑Forge"
+keywords:
+  - Agroecology
+  - MRV
+  - SOC
+  - Biodiversity
+  - eDNA
+  - Remote Sensing
+  - NDVI
+  - EVI
+  - Water Productivity
+  - Hedgerows
+  - C2PA
+  - CycloneDX
+  - VEX
+  - AI Act
+  - ISO/IEC 42001
+  - SBTi FLAG
+preferred-citation:
+  type: article
+  title: "Zoran Écologie & Agriculture — Plan 360° (White Paper v2.0)"
+  year: "2025"
+  authors:
+    - name: "Z‑Forge / Zoran aSiM"

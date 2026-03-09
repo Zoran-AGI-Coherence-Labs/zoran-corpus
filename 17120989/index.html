@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Zoran Éco‑Agri v2.0 — WOW 25/20</title>
+<meta name="description" content="Zoran Éco‑Agri v2.0 WOW — Livre blanc, dashboard, ROI haies.">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "SoftwareSourceCode", "name": "Zoran Écologie & Agriculture — v2.0 “WOW 25/20”", "description": "MRV agro-écologique science→opération→preuve, ΔM11.3, C2PA, AI Act/ISO 42001, SBOM/VEX, Sentinel-2/Landsat, eDNA.", "codeRepository": "https://github.com/Zoran-IA-Mimetique/Zoran-aSiM-V1", "url": "https://Zoran-IA-Mimetique.github.io/Zoran-aSiM-V1/", "license": "https://creativecommons.org/licenses/by/4.0/", "applicationCategory": "EnvironmentalMonitoringApplication", "keywords": ["Agroécologie", "MRV", "SOC", "Biodiversité", "eDNA", "Sentinel-2", "Landsat", "NDVI", "EVI", "Eau", "WaPOR", "Haies", "Agroforesterie", "AI Act", "ISO/IEC 42001", "C2PA", "SBOM", "CycloneDX", "VEX", "SBTi FLAG", "GHG Protocol LSR", "ΔM11.3", "ZDM"], "creator": {"@type": "Organization", "name": "Z‑Forge / Zoran aSiM"}}</script>
+<style>
+  :root { --bg:#0c1116; --fg:#e6edf3; --muted:#9da7b1; --accent:#58a6ff; --card:#111827; }
+  body { margin:0; font-family:system-ui,-apple-system,Segoe UI,Roboto,Ubuntu; background:var(--bg); color:var(--fg); }
+  header { padding:48px 24px; text-align:center; background:linear-gradient(135deg,#0b1220,#0b1f33); border-bottom:1px solid #17202a; }
+  header h1 { margin:0; font-size:2.2rem; }
+  .wrap { max-width:1100px; margin:0 auto; padding:24px; }
+  .grid { display:grid; gap:16px; grid-template-columns: repeat(auto-fit,minmax(280px,1fr)); }
+  .card { background:var(--card); border:1px solid #1f2937; border-radius:12px; padding:18px; }
+  .btns a { display:inline-block; margin:6px 8px 0 0; padding:10px 14px; border-radius:10px; border:1px solid #1f2937; text-decoration:none; color:var(--fg); }
+  .btns a.primary { background:var(--accent); color:#00131f; border-color:transparent; }
+  table { width:100%; border-collapse:collapse; margin:8px 0; }
+  th, td { border-bottom:1px solid #1f2937; padding:8px 10px; text-align:right; }
+  th:first-child, td:first-child { text-align:left; }
+  small.muted { color:var(--muted); }
+  footer { border-top:1px solid #1f2937; color:var(--muted); padding:24px; text-align:center; }
+  .pill { display:inline-block; padding:2px 8px; border-radius:999px; background:#102235; color:#b6d8ff; font-size:.85rem; margin-right:6px; }
+</style>
+</head>
+<body>
+<header>
+  <h1>Zoran Éco‑Agri v2.0 — <span class="pill">WOW 25/20</span></h1>
+  <p>Science → Opération → Preuve (C2PA) · AI Act / ISO 42001 · SBOM/VEX · ΔM11.3 · Farmer‑first</p>
+  <div class="btns" style="margin-top:12px">
+    <a class="primary" href="./White_Paper_v2.0_WOW_25-20.md" download>📘 Télécharger le Livre Blanc</a>
+    <a href="./dashboard_mvp_sim.md" target="_blank">📊 Ouvrir le Dashboard</a>
+    <a href="README.md" target="_blank">📄 Voir README</a>
+  </div>
+</header>
+
+<main class="wrap">
+  <section class="grid">
+    <div class="card">
+      <h2>KPIs démo (moyennes)</h2>
+      <p><b>NDVI</b>: 0.342 · <b>EVI</b>: 0.245</p>
+      <p><b>Biodiv (H')</b>: 1.000 · <b>Simpson</b>: 0.597</p>
+      <p><b>Eau</b>: 4.216 kg/m³ · <b>ΔSOC</b>: 0.033 tC/ha/an</p>
+      <p><b>Haies</b>: 59.3 m/ha · <b>Connectivité</b>: 0.33</p>
+      <small class="muted">Démo calculée sur 3 parcelles — valeurs tests, chaîne réelle.</small>
+    </div>
+    <div class="card">
+      <h2>ROI haies — 100 m nouveaux</h2>
+      <table>
+        <tr><th>CAPEX</th><td>600 €</td></tr>
+        <tr><th>Subvention/an</th><td>100 €</td></tr>
+        <tr><th>Carbone/an</th><td>25 €</td></tr>
+        <tr><th>Bonus rendement/an</th><td>33 €</td></tr>
+        <tr><th>OPEX/an</th><td>50 €</td></tr>
+        <tr><th><b>Net/an</b></th><td><b>108 €</b></td></tr>
+        <tr><th>Payback simple</th><td>5.56 ans</td></tr>
+      </table>
+      <small class="muted">Hypothèses éditables dans <code>dashboard_mvp_sim.json</code>.</small>
+    </div>
+  </section>
+
+  <section class="card" style="margin-top:16px">
+    <h2>Fichiers du pack</h2>
+    <ul>
+      <li><a href="./White_Paper_v2.0_WOW_25-20.md">White_Paper_v2.0_WOW_25-20.md</a></li>
+      <li><a href="./dashboard_mvp_sim.md">dashboard_mvp_sim.md</a> • <a href="./dashboard_mvp_sim.json">JSON</a></li>
+      <li><a href="./README.md">README.md</a> • <a href="./CITATION.cff">CITATION.cff</a></li>
+    </ul>
+  </section>
+</main>
+
+<footer><p>© 2025 — Z‑Forge / Zoran aSiM — CC BY 4.0 · C2PA‑ready</p></footer>
+</body>
+</html>

@@ -1,0 +1,8 @@
+name: zforge-ci-flat
+on: [push]
+jobs:
+  noop:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: echo 'Flat pack — CI placeholder'

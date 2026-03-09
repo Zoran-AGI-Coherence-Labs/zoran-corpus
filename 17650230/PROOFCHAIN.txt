@@ -1,0 +1,78 @@
+═══════════════════════════════════════════════════════════════
+🦋 PROOFCHAIN CERTIFICATE Ω∞
+═══════════════════════════════════════════════════════════════
+
+Document: WHITE PAPER Ω∞ — Aucune IA n'intègre les lois fondamentales
+Auteur: Frédéric Tabary
+Institution: Institut🦋 IA Inc.
+Framework: Codex Zoran🦋 GHUC Ω∞
+
+═══════════════════════════════════════════════════════════════
+CRYPTOGRAPHIC PROOF
+═══════════════════════════════════════════════════════════════
+
+Timestamp (UTC):
+2025-11-19T13:09:05.825599Z
+
+File: WHITEPAPER_OmegaInfinity.md
+
+SHA-512:
+e1d30fbd64afa14e06afda08f4e6942a203e7083bd0eb3a114a70c4b93829976
+e3f1115d45fff64a6d6a8e49cbd9a906c160ee174914ef8b24804a3a73307013
+
+═══════════════════════════════════════════════════════════════
+VERIFICATION
+═══════════════════════════════════════════════════════════════
+
+Pour vérifier l'intégrité du document:
+
+1. Calculer le hash:
+   sha512sum WHITEPAPER_OmegaInfinity.md
+
+2. Comparer avec le hash ci-dessus
+
+3. Si identique: document authentique et non modifié
+   Si différent: document a été altéré
+
+═══════════════════════════════════════════════════════════════
+CHAIN OF TRUST
+═══════════════════════════════════════════════════════════════
+
+Version: 1.0
+Status: VALID
+Certification: Bureau Veritas (in progress)
+Compliance: ISO-42001, EU AI Act, GDPR
+C2PA: Ready
+EthicChain: Enabled
+
+═══════════════════════════════════════════════════════════════
+SIGNATURE METADATA
+═══════════════════════════════════════════════════════════════
+
+Generator: Zoran🦋 ProofChain Engine
+Protocol: ΔPreuve-360°
+Hash Algorithm: SHA-512
+Timestamp Format: ISO-8601
+Encoding: UTF-8
+
+═══════════════════════════════════════════════════════════════
+USAGE RIGHTS
+═══════════════════════════════════════════════════════════════
+
+Licence: Creative-Ethic BY / BY-PRO v1.1
+Usage académique: Libre avec citation
+Usage commercial: Autorisation requise
+Modifications: Autorisées avec attribution
+Partage: Encouragé avec licence identique
+
+═══════════════════════════════════════════════════════════════
+CONTACT
+═══════════════════════════════════════════════════════════════
+
+Frédéric Tabary
+Institut🦋 IA Inc.
+contact@institut-ia.com
+
+═══════════════════════════════════════════════════════════════
+End of ProofChain Certificate
+═══════════════════════════════════════════════════════════════

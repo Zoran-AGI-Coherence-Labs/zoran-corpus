@@ -1,0 +1,14 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite it."
+title: "ZForge — CHAIN‑EXECUTION v3.0: From Empty‑Yes to Verifiable, Ethical Execution"
+authors:
+  - family-names: "Zoran"
+    given-names: ""
+  - family-names: "GPT-5 Pro"
+    given-names: ""
+version: "3.0"
+date-released: "2025-09-14"
+type: report
+license: "CC-BY-4.0 and MIT"
+abstract: "CEPM v3.0 embeds ethical guardrails into chain-of-execution to eradicate Empty-Yes and achieve ≤0.04% error."
+repository-code: "https://zforge.org/cepm/v3" # placeholder

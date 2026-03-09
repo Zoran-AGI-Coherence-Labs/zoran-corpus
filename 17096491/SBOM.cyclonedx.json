@@ -1,0 +1,469 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "version": 1,
+  "components": [
+    {
+      "type": "file",
+      "name": "ANNEXE_H.md",
+      "version": "1.0",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "9db57aeb6b5c47157a9907012dcca1fecf4fdf2d73d385b66b2545a10349e690"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "name": "CHANGELOG.md",
+      "version": "1.0",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "0d14b3c955de67355597d7cbc7eedeec7bbe41439114658c374d992f7640f6f9"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "name": "CITATION.cff",
+      "version": "1.0",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "51bdb8705deaab4408c4eea6b2fa942b21bfd2b9dabc67745a70c2cdeb5bd1d8"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "name": "DOIs.txt",
+      "version": "1.0",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "0dcefb6c1f0980f4e9a921d6c7d120a75bf197841caa152972930d6b3693d7b2"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "name": "GLOSSARY.md",
+      "version": "1.0",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "4cb9e2ebd03f2438363f7d83eb30cc2eea49205433dde07d650533d35539733e"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "name": "LICENSE.txt",
+      "version": "1.0",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "94d355e98a719d528ab232fe27203f7e3b093cca520f860b9e4ecd9ced5c5650"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "name": "Makefile",
+      "version": "1.0",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "141422ab441ec3a1832ae64c5cda36bba9a4c596925d7b88e80fb6d13217dd39"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "name": "README_EN.md",
+      "version": "1.0",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "b7a9d51b1b06ec7490b46c3c1dcbb7a8828b9330fdc43e4f1bf328c6c2103560"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "name": "README_FR.md",
+      "version": "1.0",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "ae1644902bdad548d2880a381c40bc913b9fc1d2828c5a0f789dab58aab1c72b"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "name": "WP.md",
+      "version": "1.0",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "22fc3b06e992a6598cc3b71028f096405ff5349961df99b1a65eb2fa6cc17656"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "name": "WP.pdf",
+      "version": "1.0",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "7fd013e69549e9f6591a84cbe22d742e6d2e6c0e55b1e10ac73f546876ff9ac4"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "name": "ZGS_BLOCK.zgs",
+      "version": "1.0",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "1a8f39114ec43d0ff04aeff8c1768d3343a63aac47a6e95b8c0a18ca34c053cc"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "name": "c2pa.manifest.json",
+      "version": "1.0",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "b3844d9c061fa1b36a577a0e4bd34cb93b967db55b28d7fb8fcbb3916c30a07d"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "name": "delta_guard.py",
+      "version": "1.0",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "be9c52cd831e3d07bbbc7a59fb12034e1d6ade1a22fab764c9d04ffc02a4e62b"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "name": "eureka.py",
+      "version": "1.0",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "58d4de1eae2445a2118806b0c6e4bba8244ac691dc8d4832d76e414dae52f35f"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "name": "gen_sbom.py",
+      "version": "1.0",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "f20a5a616745ef3ac348ac5bef0e3c22219f96826a31672e4cb68b28ff9f8fef"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "name": "glyphnet.py",
+      "version": "1.0",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "de8347a6dfd486784263f467bfa4ca97b01dfdc930654d1f5b1a897ba8d22c09"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "name": "logging_utils.py",
+      "version": "1.0",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "5f865e8c5d33e77e9c3e6a16c072fd1ad67179e0c7dddbd9a7090d71ea82226b"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "name": "main.py",
+      "version": "1.0",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "bdae7e98dba7bfa59e39bfcac101dd7422f59c745053abcaf3b89c24654c5f0e"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "name": "metrics_baseline_seed101.json",
+      "version": "1.0",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "2d2d7467129d5169ed0ba49f9a46603e876cfeab5ab893b96645178bc9e7b01f"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "name": "metrics_baseline_seed13.json",
+      "version": "1.0",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "53235507851106ef3e326a0d5cbb2e8e9f5b5425fbd3aadb082fa7e84ffaa54e"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "name": "metrics_baseline_seed42.json",
+      "version": "1.0",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "0dc175187dcb2d3d715a8f4dc3371b6d870fec9b0a169b5b0adb66e7489f1872"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "name": "metrics_delta_seed101.json",
+      "version": "1.0",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "40a953b624ac4bff756c53227803580052a605a1bb280fd6175c58cfc002317b"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "name": "metrics_delta_seed13.json",
+      "version": "1.0",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "89758311d575f369bf6af134a86cc1b4641a77ad5936ab046c5289099d2ece95"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "name": "metrics_delta_seed42.json",
+      "version": "1.0",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "5c3357537cfbe0a656c9c3ec5ce0d2394b818c325d907cef710289b14370bbc5"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "name": "metrics_full.json",
+      "version": "1.0",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "4b514706e847aa06219071a8958694cb6d4400afb3d06721e6b852b403ac5cf3"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "name": "metrics_full_seed101.json",
+      "version": "1.0",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "32d553566239c78ff74e3e6068f88437117ee098e27e14c25c8479549ece040a"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "name": "metrics_full_seed13.json",
+      "version": "1.0",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "22352467296968d827195529ecdb527276e8a15f328886878f0056760e4f4f0c"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "name": "metrics_full_seed42.json",
+      "version": "1.0",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "a4de22ac60ea13d8f9ec6807364bc38cef8e21e5124485c0ea009581829bc19b"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "name": "metrics_gn_seed101.json",
+      "version": "1.0",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "c75464495dcfeb81b982b63db5ab6dfe38726859432c85105307e35612281716"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "name": "metrics_gn_seed13.json",
+      "version": "1.0",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "52df5d3e3471f641d8fb39aade0f3b228b4ae67b2e05ed2c8264f488166e31f7"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "name": "metrics_gn_seed42.json",
+      "version": "1.0",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "5a07b3835788dabc7bfee0c85b467c3f0fa9675fce579acc31fb4af16e9c7826"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "name": "metrics_summary.md",
+      "version": "1.0",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "ab1d16dfae0e1353432d645bff18ba72e861b4c813e5023fb65f4708a67dabfc"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "name": "metrics_zdm_seed101.json",
+      "version": "1.0",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "87012d8229a92b057bd286e699e6dfac2bde170e3f7a37215079b4a13c2face5"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "name": "metrics_zdm_seed13.json",
+      "version": "1.0",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "cfe0e87e90f67f20e31a98abb7d6d7ba5978d83d2c0dc872f9621616b0f2b116"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "name": "metrics_zdm_seed42.json",
+      "version": "1.0",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "f26faccc05049e591ede267ab55522f1272c85ab46c095d65481b66fe306230a"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "name": "policy.yaml",
+      "version": "1.0",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "a2a65ecd01c6c5be0a0ddb6405368db997b9051c4753a4f236e864799e3986ae"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "name": "prisma_flow.py",
+      "version": "1.0",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "eacaf83e39223c70e219e460f4a392f820173885dc2b52f6f09c5e32b93b039f"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "name": "run_experiments.py",
+      "version": "1.0",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "0ba9262068bd6657da50ba57ff0de2304c0fd4995ed6842d58186e25de8df214"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "name": "slsa_provenance.json",
+      "version": "1.0",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "882aeb1bfb6f3cc224aaac57d9926632c57f6022582f4e0a5b9e7fdfd3dc8a8d"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "name": "stats_welch.py",
+      "version": "1.0",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "9a4ee944e694e0271868a66a30b00a93b1317b21954354b5d8b23b93139f0fdb"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "name": "zdm.py",
+      "version": "1.0",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "fbf205aa852e12ebf54b8bc47f8c38f5663d0c980cfba89de7266c35bea03492"
+        }
+      ]
+    }
+  ]
+}

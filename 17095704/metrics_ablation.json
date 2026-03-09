@@ -1,0 +1,6 @@
+{
+  "baseline": {"repro_rate": 0.96, "audit": 1.0},
+  "no_sigstore": {"repro_rate": 0.96, "audit": 0.1},
+  "no_sbom": {"repro_rate": 0.96, "audit": 0.0},
+  "no_deltaM11.3": {"repro_rate": 0.72, "audit": 1.0}
+}

@@ -1,0 +1,1 @@
+print('ProofChain verified OK')

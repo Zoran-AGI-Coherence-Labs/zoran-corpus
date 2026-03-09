@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+title: "Zoran🦋 aSiM — Benchmarks académiques : Preuve de pertinence mimétique et conformité AI Act/ISO 42001"
+message: "Veuillez citer ce travail si vous l'utilisez."
+type: report
+authors:
+  - family-names: "Tabary"
+    given-names: "Frédéric"
+    affiliation: "Institut IA Lab / AIformpro / Zoran InstituteIA"
+    email: "tabary01@gmail.com"
+doi: "10.5281/zenodo.17209747"
+date-released: 2025-09-26
+license: CC-BY-4.0

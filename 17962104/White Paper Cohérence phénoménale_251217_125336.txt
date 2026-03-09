@@ -1,0 +1,72 @@
+Thermodynamique de la Persistance Structurelle
+Formalisation de la cohérence phénoménale dans les systèmes complexes
+Auteur : Frédéric Tabary & l’équipe du projet Cohérence
+Date : 17 Décembre 2025
+Classification : Physique statistique / Théorie de l’information
+Statut : Cadre théorique et protocole de falsification (preprint)
+10.5281/zenodo.17962104
+
+Résumé
+Ce travail établit la cohérence phénoménale () comme la néguentropie relative d’un système vis-à-vis de son attracteur thermodynamique. En nous appuyant sur la physique statistique et la théorie de l’information, et notamment sur la borne de Landauer–Bennett, nous montrons qu’il existe une contrainte thermodynamique de maintien d’un gradient informationnel pour toute structure persistante.
+Afin d’éviter toute circularité (définir la cohérence par la durée), la cohérence phénoménale est définie indépendamment de la survie future du système. Nous proposons une loi phénoménale de précession, formulant l’hypothèse testable que l’érosion de la structure informationnelle précède généralement la défaillance fonctionnelle. Ce cadre n’établit pas une nécessité mathématique universelle, mais une contrainte physique observable et falsifiable.
+1. Introduction et problématique
+La persistance d’une structure complexe — biologique, artificielle ou cognitive — au sein d’un environnement entropique constitue une anomalie statistique fondamentale. Certains systèmes maintiennent une organisation discernable dans le temps, tandis que d’autres se désagrègent rapidement. Cette différence ne relève ni du langage ni de la logique formelle, mais d’une contrainte physique.
+Une confusion fréquente assimile la cohérence logique (absence de contradiction dans un formalisme) à la persistance réelle d’un système. Affirmer que « ce qui dure est cohérent » constitue une tautologie. Le présent travail vise à déplacer le problème : identifier une cause thermodynamique mesurable de la persistance, indépendante de toute description sémantique.
+2. Fondations thermodynamiques
+2.1 Hypothèse nulle et équilibre
+Considérons un système ouvert , en interaction avec un environnement . En physique statistique, l’état d’équilibre thermodynamique correspond à une distribution de probabilité maximisant l’entropie de Shannon sous contraintes conservées :
+S(Q) = -\sum_i Q(i) \, \ln Q(i) \quad \text{maximale.} 
+Dans les systèmes ouverts hors équilibre, désigne une distribution stationnaire effective induite par l’environnement et le bruit. L’hypothèse nulle est alors : en l’absence de flux organisateurs, le système tend vers .
+2.2 Anomalie statistique de la persistance
+Lorsque l’on observe une distribution distincte de qui se maintient sur une durée finie , cette observation constitue une anomalie statistique au regard du second principe de la thermodynamique. La persistance de requiert un coût informationnel ou énergétique qui appelle une quantification.
+3. Définition opératoire de la cohérence phénoménale
+Nous définissons la cohérence phénoménale comme la néguentropie relative du système par rapport à son attracteur thermodynamique :
+\boxed{C_{\phi} = D_{KL}(P \,\|\, Q) = \sum_{x} P(x) \, \ln\!\left(\frac{P(x)}{Q(x)}\right)} 
+Propriétés
+• : le système est indiscernable du bruit (équilibre thermodynamique).
+• : le système maintient une structure distincte.
+Cette métrique est calculable à un instant donné, indépendamment de la survie future du système. Elle ne définit donc pas la persistance ; elle la rend mesurable.
+Conformément au principe de Landauer–Bennett, le maintien de impose une borne inférieure au coût minimal en énergie libre informationnelle nécessaire pour résister à la dissipation thermique.
+4. Architecture dynamique : intégration multi-échelle
+La viabilité durable n’implique pas seulement un strictement positif, mais une organisation interne capable de résister aux fluctuations. Nous introduisons deux composantes complémentaires issues de la théorie de l’information :
+• Différenciation () : richesse informationnelle, mesurée par l’entropie .
+• Intégration () : coordination interne, mesurée par l’information mutuelle entre sous-parties.
+Nous formalisons l’intégration multi-échelle par :
+\mathcal{I}(S) = \sum_{k=1}^{K} w_k \, I(S_k ; S \setminus S_k), \quad \sum_{k=1}^{K} w_k = 1 
+où représente une partition fonctionnelle du système et des poids de normalisation liés à l’échelle. Un système est dit structurellement viable lorsque demeure stable malgré les perturbations environnementales.
+5. Loi phénoménale de persistance
+Nous établissons la loi phénoménale suivante :
+Tout système complexe observable qui persiste maintient une néguentropie relative strictement positive vis-à-vis de son attracteur thermodynamique naturel.
+Cette loi n’est pas un théorème logique. Elle est induite par l’observation universelle et contrainte par la thermodynamique, exactement comme les lois classiques de cette discipline.
+6. Principe de précession de cohérence
+Nous formulons une hypothèse de précession temporelle entre structure et fonction. Soit une mesure de performance extrinsèque (métabolisme, taux d’erreur, production).
+Loi phénoménale (précession) : pour un système complexe dissipatif en dégradation, il existe généralement un intervalle tel que :
+\frac{d^2 C_{\phi}}{dt^2} < 0 \quad \text{avant} \quad \frac{d \Phi}{dt} < 0 
+Cette loi constitue une règle de contrainte physique testable : l’infrastructure informationnelle agit comme substrat limitant de la fonction.
+7. Protocole de falsification
+Afin de satisfaire les critères de réfutabilité, nous proposons un protocole expérimental reproductible.
+Principe
+• Système : réseau neuronal artificiel entraîné sur une tâche stable.
+• Perturbation : injection progressive et contrôlée de bruit dans les paramètres internes.
+• Mesures simultanées : 
+• à partir des distributions d’états internes,
+• performance fonctionnelle externe .
+Critères de rejet
+Le cadre est rejeté si :
+• la performance s’effondre alors que et demeurent constants ou croissent ;
+• aucune précession temporelle n’est observée ().
+Critères de soutien
+Le cadre est corroboré si la chute de précesse celle de avec .
+8. Portée et limites
+Ce travail n’introduit aucune entité ontologique nouvelle. Il formalise une contrainte physique observable applicable à tout système pour lequel un espace d’états et une distribution de référence peuvent être définis.
+La cohérence phénoménale ne remplace pas les lois spécifiques ; elle constitue une condition de possibilité de leur validité opératoire.
+Conclusion
+La persistance des systèmes complexes peut être comprise comme une anomalie statistique mesurable par la néguentropie relative. En établissant une loi phénoménale de persistance et en proposant une métrique thermodynamique associée, ce travail fournit un cadre unifié, testable et quantitativement exploitable pour l’étude de la viabilité des systèmes physiques, biologiques et artificiels.
+Références
+Shannon, C. E. (1948). A Mathematical Theory of Communication.
+Kullback, S., & Leibler, R. (1951). On Information and Sufficiency.
+Boltzmann, L. (1877). Über die Beziehung zwischen dem zweiten Hauptsatze…
+Prigogine, I., & Nicolis, G. (1971). Biological Order, Structure and Instabilities.
+Friston, K. (2010). The Free-Energy Principle.
+Tononi, G., Sporns, O., & Edelman, G. (1994). A measure for brain complexity.
+C’est fait.

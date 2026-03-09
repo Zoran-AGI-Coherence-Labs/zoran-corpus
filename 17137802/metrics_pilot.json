@@ -1,0 +1,103 @@
+{
+  "meta": {
+    "addendum_version": "v1.2",
+    "author": "Zoran aSiM",
+    "date_iso": "2025-09-16",
+    "alpha": 0.05,
+    "notes": "Synthetic pilot figures as reproducible templates. Replace with field measurements from A/B, classroom trial, and PR bench."
+  },
+  "stat_plan": {
+    "alpha": 0.05,
+    "tests": {
+      "proportions": "Two-proportion z-test",
+      "means": "Welch t-test (unequal variances)",
+      "effect_sizes": [
+        "Cohen d",
+        "Hedges g",
+        "Delta pp",
+        "Odds Ratio"
+      ]
+    }
+  },
+  "kpis": {
+    "interaction": {
+      "name": "Preference (A/B)",
+      "type": "proportion",
+      "definition": "Share of users preferring ε‑mimicry variant vs neutral in paired comparison.",
+      "window": "pilot",
+      "alpha": 0.05,
+      "groups": {
+        "neutral_A": {
+          "n": 600,
+          "success": 348
+        },
+        "mimicry_B": {
+          "n": 600,
+          "success": 402
+        }
+      }
+    },
+    "education": {
+      "name": "Resolution time (min)",
+      "type": "mean",
+      "definition": "Time to complete worked-example task.",
+      "window": "pilot",
+      "alpha": 0.05,
+      "groups": {
+        "control": {
+          "n": 180,
+          "mean": 21.4,
+          "sd": 7.9
+        },
+        "mimetic": {
+          "n": 180,
+          "mean": 18.1,
+          "sd": 7.2
+        }
+      }
+    },
+    "engineering": {
+      "name": "Review cycles per PR",
+      "type": "mean",
+      "definition": "Number of review turns from open to merge.",
+      "window": "pilot",
+      "alpha": 0.05,
+      "groups": {
+        "baseline": {
+          "n": 240,
+          "mean": 2.6,
+          "sd": 1.1
+        },
+        "distilled": {
+          "n": 240,
+          "mean": 2.2,
+          "sd": 1.0
+        }
+      }
+    }
+  },
+  "observability": {
+    "c2pa": {
+      "sign_data": true,
+      "sign_logs": true,
+      "fields": [
+        "mirror",
+        "epsilon",
+        "culture",
+        "style_id",
+        "style_swap",
+        "prev_style_id"
+      ]
+    },
+    "sbom": "TBD",
+    "kpi_dash": [
+      "CSAT",
+      "FCR",
+      "Preference",
+      "ResolutionTime",
+      "LintPass",
+      "TTM",
+      "UnsafeMimesis"
+    ]
+  }
+}

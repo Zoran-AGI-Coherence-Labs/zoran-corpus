@@ -1,0 +1,3 @@
+Local Coherence DOI: 10.5281/zenodo.18298563
+Decision Coherence Framework (local): 10.5281/zenodo.18298563
+Global evaluation package (this record): 10.5281/zenodo.18297352

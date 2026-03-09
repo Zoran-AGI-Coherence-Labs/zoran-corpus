@@ -1,0 +1,8 @@
+[name]
+project = "Zoran aSiM"
+[ethic]
+care = true
+vigilance = true
+public_good = true
+[veto]
+enabled = true

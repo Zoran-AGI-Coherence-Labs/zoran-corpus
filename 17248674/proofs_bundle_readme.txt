@@ -1,0 +1,1 @@
+Proofs bundle placeholder. No cryptographic proofs were generated in this sandbox. In production, include signed proofs, timestamps, Rekor inclusion proofs, and TSA receipts.

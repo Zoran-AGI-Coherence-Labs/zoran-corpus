@@ -1,0 +1,21 @@
+meta:
+  name: Injector-Demandeur-Emploi
+  scope: ["demandeur_emploi"]
+sliders:
+  rag_intensity: 70
+  no_hallu: 85
+  cite_strict: 80
+  creativity: 50
+  self_check: 2
+  proactivity: 70
+  directive: 65
+  job_focus: 75
+  legal_strict: 85
+  privacy_ttl: 80
+  sensitive_guard: 80
+  personalization: 50
+  falc: 80
+  reading_level: "B1"
+  latency_budget: 55
+  token_budget: 60
+  tool_aggr: 55

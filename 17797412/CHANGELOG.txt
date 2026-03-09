@@ -1,0 +1,16 @@
+[1.0] – 2025-12-03
+Initial release of the Zoran AGI Sovereign Architecture public package.
+
+Added:
+- Public Technical Specification (PDF)
+- GlyphNet Specimen (JSON)
+- C2PA Sovereignty Manifest (JSON)
+- NFC Label (TXT)
+- License (MIT + Commercial Hybrid)
+- Readme (EN & FR versions)
+- Citation file (CITATION.cff)
+- Version file (VERSION.txt)
+- Threat Model (ThreatModel.md)
+- Architecture Overview (architecture_overview.md)
+- Zoran Manifesto (Zoran_Manifesto.txt)
+- Schema Diagram (ASCII)

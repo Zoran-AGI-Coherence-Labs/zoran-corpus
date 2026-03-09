@@ -1,0 +1,13 @@
+
+metric,value,unit,notes
+machines,10,count,parc initial
+sensors_per_machine,4,count,SES-10 par machine
+fail_rate_baseline,0.18,ratio,avant Zoran
+fail_rate_zoran,0.09,ratio,après ΔM11.3
+downtime_cost_per_hour,1200,EUR,coût moyen arrêt
+hours_saved_per_month,30,h,par machine
+c2pa_ci,12,EUR/mois,voir costs.yaml
+sbom_vex,8,EUR/mois,voir costs.yaml
+storage,6,EUR/mois,voir costs.yaml
+orchestration_compute,20,EUR/mois,voir costs.yaml
+observability,10,EUR/mois,voir costs.yaml

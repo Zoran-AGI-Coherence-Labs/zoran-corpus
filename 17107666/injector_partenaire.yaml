@@ -1,0 +1,21 @@
+meta:
+  name: Injector-Partenaire
+  scope: ["partenaire"]
+sliders:
+  rag_intensity: 70
+  no_hallu: 85
+  cite_strict: 85
+  creativity: 40
+  self_check: 2
+  proactivity: 55
+  directive: 50
+  job_focus: 65
+  legal_strict: 90
+  privacy_ttl: 85
+  sensitive_guard: 85
+  personalization: 30
+  falc: 60
+  reading_level: "B2"
+  latency_budget: 50
+  token_budget: 55
+  tool_aggr: 45

@@ -1,0 +1,4 @@
+# SHA-256 manifest
+# Generated: 2025-10-03T00:00:00Z
+White_Paper_Zoran_Final.pdf  3958215d08290fee936cd82c76f21f0c9f21fa669bd52a58caa6b696427b1c79
+White_Paper_Zoran_Final.docx 7a08c2b9439da3697bf88db2e09ec6b4e9ddfea7d5c4190306b1725a55bbaf2d

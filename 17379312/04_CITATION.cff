@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite:"
+title: "GHUC Ω⁴ — La Carte d’Identité Augmentée"
+authors:
+  - family-names: "Tabary"
+    given-names: "Frédéric"
+    email: "tabary01@gmail.com"
+    affiliation: "Institut🦋 IA Inc."
+doi: "10.5281/zenodo.17379312"
+license: "CC-BY-4.0"
+date-released: "2025-10-17"
+url: "https://doi.org/10.5281/zenodo.17379312"
