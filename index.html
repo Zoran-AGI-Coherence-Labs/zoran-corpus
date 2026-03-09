@@ -1,66 +1,54 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-
 <meta charset="UTF-8">
-<title>Loi de la Cohérence Phénoménale — Archives ZORAN</title>
+<title>Loi de la Cohérence Phénoménale — Archives DOI</title>
+
+<link rel="stylesheet" href="style.css">
 
 <style>
-
 body{
 font-family:Arial,Helvetica,sans-serif;
 margin:0;
-background:#f5f7fa;
-color:#222;
+background:#f4f6f8;
 }
 
 header{
-background:#0d2b4f;
+background:#0b2a4a;
 color:white;
 text-align:center;
-padding:40px 20px;
+padding:50px 20px;
 }
 
 header img{
-width:90px;
-margin-bottom:10px;
+width:120px;
+margin-bottom:15px;
 }
 
 .container{
 max-width:1100px;
 margin:auto;
-padding:30px;
-}
-
-h1{
-margin-bottom:10px;
-}
-
-.search{
-width:100%;
-padding:12px;
-font-size:16px;
-margin-bottom:25px;
-border:1px solid #ccc;
-border-radius:6px;
+padding:40px 20px;
 }
 
 .archive{
 background:white;
-padding:18px;
-margin-bottom:12px;
+padding:15px;
+margin-bottom:15px;
 border-radius:6px;
-box-shadow:0 1px 4px rgba(0,0,0,0.08);
+box-shadow:0 2px 6px rgba(0,0,0,0.08);
 }
 
 .archive a{
-color:#0d2b4f;
-font-weight:bold;
+color:#0b57d0;
 text-decoration:none;
 }
 
-</style>
+.archive a:hover{
+text-decoration:underline;
+}
 
+</style>
 </head>
 
 <body>
@@ -71,86 +59,46 @@ text-decoration:none;
 
 <h1>Loi de la cohérence phénoménale</h1>
 
-<p>S = (β × ΔΦ) / (T × σ)</p>
+<div>S = (β × ΔΦ) / (T × σ)</div>
 
 </header>
 
+
 <div class="container">
 
-<input id="search" class="search" placeholder="Recherche par numéro DOI">
+<h2>Archives DOI</h2>
 
 <div id="archives"></div>
 
 </div>
 
+
+
 <script>
 
-const container=document.getElementById("archives")
+fetch('records.json')
+.then(response => response.json())
+.then(data => {
 
-const search=document.getElementById("search")
+let container = document.getElementById('archives')
 
-const archives=[]
+data.forEach(record => {
 
-function generate(){
+let div = document.createElement('div')
+div.className = 'archive'
 
-for(let i=0;i<30000000;i++){}
-
-}
-
-async function load(){
-
-const response=await fetch("https://api.github.com/repos/Zoran-AGI-Coherence-Labs/zoran-corpus/contents")
-
-const data=await response.json()
-
-data.forEach(item=>{
-
-if(item.type==="dir"){
-
-archives.push(item.name)
-
-}
-
-})
-
-display(archives)
-
-}
-
-function display(list){
-
-container.innerHTML=""
-
-list.forEach(id=>{
-
-const div=document.createElement("div")
-
-div.className="archive"
-
-div.innerHTML=
-
-`<a href="https://doi.org/10.5281/zenodo.${id}" target="_blank">
-Archive ZORAN ${id}
-</a><br>
-DOI : https://doi.org/10.5281/zenodo.${id}`
+div.innerHTML = `
+<b>${record.title}</b><br>
+DOI : <a href="${record.doi}" target="_blank">${record.doi}</a><br>
+ID archive : ${record.id}<br>
+Thème : ${record.theme}
+`
 
 container.appendChild(div)
 
 })
 
-}
-
-search.addEventListener("keyup",()=>{
-
-const value=search.value.toLowerCase()
-
-const filtered=archives.filter(id=>id.includes(value))
-
-display(filtered)
-
 })
-
-load()
 
 </script>
 
