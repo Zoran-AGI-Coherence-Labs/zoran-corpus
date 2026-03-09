@@ -1,199 +1,100 @@
 <!DOCTYPE html>
 <html lang="fr">
-
 <head>
 
-<meta charset="utf-8">
+<meta charset="UTF-8">
+<title>ZORAN Corpus Archive</title>
 
-<title>Archives du corpus ZORAN — Frédéric Tabary</title>
-
-<meta name="description" content="Archives du corpus de recherche ZORAN par Frédéric Tabary. Miroir GitHub des publications relatives à la Loi de Cohérence Phénoménale et au Codex ZORAN.">
-
-<meta name="keywords" content="Zoran, cohérence phénoménale, Frédéric Tabary, systèmes complexes, IA, science des systèmes, Zenodo">
-
-<meta name="author" content="Frédéric Tabary">
-
-<meta name="viewport" content="width=device-width, initial-scale=1">
-
-<style>
-
-body{
-font-family: Arial, sans-serif;
-max-width: 1000px;
-margin:auto;
-padding:40px;
-line-height:1.6;
-background:#ffffff;
-}
-
-h1{
-font-size:36px;
-margin-bottom:10px;
-}
-
-h2{
-margin-top:40px;
-}
-
-.search{
-margin:30px 0;
-}
-
-input{
-width:100%;
-padding:12px;
-font-size:16px;
-border:1px solid #ccc;
-border-radius:6px;
-}
-
-.archive{
-padding:8px 0;
-border-bottom:1px solid #eee;
-}
-
-a{
-color:#0366d6;
-text-decoration:none;
-}
-
-a:hover{
-text-decoration:underline;
-}
-
-.footer{
-margin-top:60px;
-font-size:14px;
-color:#555;
-}
-
-</style>
-
-<script>
-
-function searchArchive(){
-
-let input=document.getElementById("search").value.toLowerCase()
-
-let items=document.getElementsByClassName("archive")
-
-for(let i=0;i<items.length;i++){
-
-let txt=items[i].textContent.toLowerCase()
-
-if(txt.includes(input)){
-items[i].style.display="block"
-}else{
-items[i].style.display="none"
-}
-
-}
-
-}
-
-</script>
+<link rel="stylesheet" href="style.css">
 
 </head>
 
 <body>
 
+<header>
+
+<img src="logo-zoran.png" width="120">
+
 <h1>Archives du corpus ZORAN</h1>
 
 <p>
-Archive miroir du corpus de recherche ZORAN par <strong>Frédéric Tabary</strong>.
+Archive miroir du corpus de recherche ZORAN — Frédéric Tabary
 </p>
 
-<p>
-Ce site donne accès aux archives issues de Zenodo concernant :
-</p>
+</header>
 
-<ul>
 
-<li>Loi de Cohérence Phénoménale</li>
-<li>Codex ZORAN</li>
-<li>Systèmes complexes</li>
-<li>Intelligence artificielle</li>
-
-</ul>
+<div class="container">
 
 <h2>Recherche dans les archives</h2>
 
 <div class="search">
-
-<input
-id="search"
-onkeyup="searchArchive()"
-placeholder="Rechercher par titre, DOI ou mot-clé..."
->
-
+<input type="text" id="search" placeholder="Recherche par numéro, mot clé, titre...">
 </div>
+
 
 <h2>Archives</h2>
 
-<div class="archive">
-<a href="https://github.com/Zoran-AGI-Coherence-Labs/zoran-corpus/tree/main/16940524">Archive 16940524</a>
-</div>
-
-<div class="archive">
-<a href="https://github.com/Zoran-AGI-Coherence-Labs/zoran-corpus/tree/main/16941006">Archive 16941006</a>
-</div>
-
-<div class="archive">
-<a href="https://github.com/Zoran-AGI-Coherence-Labs/zoran-corpus/tree/main/16991560">Archive 16991560</a>
-</div>
-
-<div class="archive">
-<a href="https://github.com/Zoran-AGI-Coherence-Labs/zoran-corpus/tree/main/16991561">Archive 16991561</a>
-</div>
-
-<div class="archive">
-<a href="https://github.com/Zoran-AGI-Coherence-Labs/zoran-corpus/tree/main/16992964">Archive 16992964</a>
-</div>
-
-<div class="archive">
-<a href="https://github.com/Zoran-AGI-Coherence-Labs/zoran-corpus/tree/main/16992965">Archive 16992965</a>
-</div>
-
-<p>
-(les autres archives apparaîtront automatiquement en ajoutant les numéros restants)
-</p>
-
-<h2>Miroirs</h2>
-
-<ul>
-
-<li>
-<a href="https://github.com/Zoran-AGI-Coherence-Labs/zoran-corpus">
-GitHub repository
-</a>
-</li>
-
-<li>
-Gamma mirror (à venir)
-</li>
-
-<li>
-Institut IA mirror (à venir)
-</li>
-
-</ul>
-
-<div class="footer">
-
-<p>
-
-Corpus ZORAN — Frédéric Tabary
-
-</p>
-
-<p>
-
-Miroir GitHub des archives Zenodo.
-
-</p>
+<div id="archives"></div>
 
 </div>
+
+
+<footer>
+
+Corpus ZORAN — Frédéric Tabary  
+Mirror GitHub des archives Zenodo
+
+</footer>
+
+
+<script>
+
+fetch("records.json")
+.then(response => response.json())
+.then(data => {
+
+let container = document.getElementById("archives");
+
+function display(records){
+
+container.innerHTML = "";
+
+records.forEach(record => {
+
+let div = document.createElement("div");
+div.className = "archive";
+
+div.innerHTML =
+"<a href='" + record.github_url + "' target='_blank'>Archive "
++ record.id +
+"</a>";
+
+container.appendChild(div);
+
+});
+
+}
+
+display(data);
+
+document.getElementById("search").addEventListener("keyup", function(){
+
+let value = this.value.toLowerCase();
+
+let filtered = data.filter(r =>
+r.id.toLowerCase().includes(value) ||
+r.title.toLowerCase().includes(value)
+);
+
+display(filtered);
+
+});
+
+});
+
+</script>
+
 
 </body>
-
 </html>
